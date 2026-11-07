@@ -1,7 +1,7 @@
 # Lease Hunter
 
 Finds the cheapest UK **personal** lease deals for a shortlist of cars:
-10,000 miles a year, 1 or 3 months upfront, whichever term (24/36/48) is cheapest,
+10,000 miles a year, 1, 3, 6, 9 or 12 months upfront (filterable in the dashboard), whichever term (24/36/48) is cheapest,
 ranked by **effective monthly** = (initial payment + remaining payments + broker fees) ÷ term.
 
 ## Run on your laptop
@@ -92,6 +92,6 @@ These modules are for your own use: they do what you would do by hand, at a pers
 
 - `config/models.json`: which models to collect (all derivatives are collected).
 - `config/cars.json`: the shortlist. Each spec picks derivatives with regex `match` / `exclude` and can list `options` with estimated list prices. You can also edit it in the dashboard (saved in your browser), then **Copy JSON** back into this file.
-- `config/settings.json`: mileage, upfront months, terms, disabled sources.
+- `config/settings.json`: mileage, upfront months (`initialMonths`, default 1/3/6/9/12), terms, disabled sources. More upfront options mean more page visits for the local-only sources (5 upfronts × 3 terms per derivative).
 
 Option add-ons are an estimate (default £25/month per £1,000 of list price, adjustable). Brokers quote standard spec, so get a requote with your options before signing.

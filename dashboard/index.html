@@ -156,6 +156,7 @@ details.editor summary { cursor: pointer; font-weight: 600; }
         <div class="seg" role="group" aria-label="Availability">
           <button data-stock="all" aria-pressed="true">All</button><button data-stock="factory" aria-pressed="false">Factory order</button><button data-stock="stock" aria-pressed="false">Stock</button>
         </div>
+        <div class="seg" role="group" aria-label="Months upfront" id="up-filter"></div>
         <label class="small muted"><input type="checkbox" id="opt-toggle" checked> include selected options</label>
       </div>
     </div>
@@ -261,13 +262,15 @@ const profile = d => `${d.upfront}+${d.term - 1}`;
 const availPill = d => d.stock === 'stock' ? '<span class="pill stock">In stock</span>' : d.stock === 'prereg' ? '<span class="pill prereg">Pre-reg</span>' : d.stock === 'factory' ? '<span class="pill factory">Factory order</span>' : '<span class="pill">Unknown</span>';
 const feeCell = d => d.feesKnown ? gbp(d.fees) : '<span class="pill warn" title="This source does not state its fees">not stated</span>';
 const srcName = d => esc(d.dealer ? `${d.dealer} via ${d.sourceName}` : d.sourceName);
-const pool = () => DATA.deals.filter(stockOk);
+const upOk = d => !state.ups || state.ups.has(d.upfront);
+const pool = () => DATA.deals.filter(d => stockOk(d) && upOk(d));
 
 async function boot() {
   try { DATA = await (await fetch('data.json', { cache: 'no-store' })).json(); }
   catch { $('#stamp').textContent = 'No data.json found next to this page. Run npm run scrape then npm run build.'; return; }
   SPECS = store.get('lh.specs', null) || structuredClone(DATA.specs);
   state.ladderModel = DATA.models[0]?.id; state.spec = SPECS[0]?.id;
+  state.ups = new Set(store.get('lh.ups', null) || DATA.settings.upfront);
   wire(); render();
 }
 
@@ -300,9 +303,15 @@ function render() {
   document.querySelectorAll('[data-stock]').forEach(b => b.setAttribute('aria-pressed', b.dataset.stock === state.stock));
   const s = DATA.settings;
   $('#criteria').innerHTML = [
-    ['Personal', 'lease'], [s.mileage.toLocaleString('en-GB'), 'miles a year'], [s.upfront.join(' or '), 'months upfront'],
+    ['Personal', 'lease'], [s.mileage.toLocaleString('en-GB'), 'miles a year'], [[...state.ups].sort((a, b) => a - b).join(' / ') || 'none', 'months upfront'],
     [s.terms.join(' / '), 'month terms, cheapest picked'], ['inc. VAT', ''],
   ].map(([b, t]) => `<span class="crit"><b>${b}</b> ${t}</span>`).join('');
+  $('#up-filter').innerHTML = DATA.settings.upfront.map(u => `<button data-up="${u}" aria-pressed="${state.ups.has(u)}" title="${u} month${u > 1 ? 's' : ''} upfront">${u}m</button>`).join('');
+  document.querySelectorAll('[data-up]').forEach(b => b.onclick = () => {
+    const u = +b.dataset.up; state.ups.has(u) ? state.ups.delete(u) : state.ups.add(u);
+    if (!state.ups.size) state.ups.add(u); // keep at least one
+    store.set('lh.ups', [...state.ups]); render();
+  });
   const live = DATA.sources.filter(x => x.kept > 0).length;
   $('#stamp').textContent = `Prices collected ${new Date(DATA.generatedAt).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' })}`;
   const makes = [...new Set(DATA.models.map(m => m.make))];
@@ -443,7 +452,7 @@ function renderTerm() {
   const shade = v => { const t = mx > mn ? (v - mn) / (mx - mn) : 0; const i = Math.min(3, Math.floor(t * 4)); return [`var(--seq-1)`, `var(--seq-2)`, `var(--seq-3)`, `var(--seq-4)`][i]; };
   const inkFor = v => { const t = mx > mn ? (v - mn) / (mx - mn) : 0; return t >= .5 ? 'var(--surface)' : 'var(--ink)'; };
   let h = `<div class="termgrid" style="--cols:${terms.length}"><div></div>${terms.map(t => `<div class="h" style="text-align:center">${t} months</div>`).join('')}`;
-  upfront.forEach(u => {
+  upfront.filter(u => state.ups.has(u)).forEach(u => {
     h += `<div class="h">${u} month${u > 1 ? 's' : ''} upfront</div>`;
     terms.forEach(t => { const d = cells[u + '|' + t]; h += d ? `<div class="cell" style="background:${shade(key(d))};color:${inkFor(key(d))}" title="${esc(d.derivative)}, ${esc(d.sourceName)}">${key(d) === mn ? `<span class="plate">${gbp(key(d) + add)}</span>` : gbp(key(d) + add)}<small>${profile(d)} · ${esc(d.dealer || d.sourceName)}</small></div>` : `<div class="cell empty">—<small>no offer</small></div>`; });
   });
