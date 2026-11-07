@@ -92,7 +92,7 @@ function parseCards(html) {
       initial: money((c.match(/deal-card__price-terms'>\s*£([\d,.]+)\s*Initial payment/) || [])[1]),
       fees: money((c.match(/additional fees \(£([\d,.]+)\)/) || [])[1]) ?? 0,
       total: money((c.match(/deal-card__total-cost'>\s*<div>\s*£([\d,.]+)/) || [])[1]),
-      dealer: clean((c.match(/class='deal-card__dealer-name'[^>]*>([\s\S]*?)<\/a>/) || [])[1]) || null,
+      dealer: clean((c.match(/class='deal-card__dealer-name'[^>]*>([\s\S]*?)<\/a>/) || [])[1]) || (/dealer-leasey|carwow_leasey/.test(c) ? 'Carwow Leasey' : null),
       dealerType: clean((c.match(/class='deal-card__distance'>([\s\S]*?)<\/div>/) || [])[1]) || null,
       dealershipId: (c.match(/data-dealership-id="([^"]+)"/) || [])[1] || null,
       dealScore: parseFloat((c.match(/data-deal-score="([\d.]+)"/) || [])[1]) || null,

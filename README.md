@@ -27,7 +27,7 @@ Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,vo
 | Source | Kind | Runs where | How it gets prices | Status (Nov 2026) |
 |---|---|---|---|---|
 | Vanarama | broker | anywhere | the site's own JSON/GraphQL API | ✅ no 3 Series Touring or C-Class listed |
-| Carwow | marketplace (many dealers and brokers) | anywhere | see `scrapers/carwow.mjs` header | ✅ |
+| Carwow | marketplace (many dealers and brokers) | anywhere | server-rendered deal cards, one offer per dealer | ✅ broker fees included; only C-Class source |
 | Leasing Options | broker | anywhere | the site's own JSON API | ✅ £399.99 processing fee |
 | Moneyshake | aggregator | anywhere | the site's own SvelteKit data + pricing endpoint | ✅ best offer per derivative only |
 | LeaseLoco | aggregator | laptop | API is behind AWS WAF; from a datacenter only featured deals load | ⚠️ partial; untested on a home connection |
@@ -37,7 +37,7 @@ Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,vo
 | Leasing.com (incl. Contract Hire and Leasing) | aggregator | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
 | Anything else | manual | laptop | `node capture.mjs <url>` or `config/manual-deals.json` | |
 
-No Mercedes C-Class Estate offers turned up on any automated source at the time of writing.
+Mercedes C-Class Estate offers are scarce: at the time of writing only Carwow listed any (C200 AMG Line). The local-only sources or manual quotes are the way to fill the gap.
 
 ### Local-only sources (Select, NVC, Leasing.com)
 
