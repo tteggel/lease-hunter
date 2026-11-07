@@ -6,19 +6,43 @@ ranked by **effective monthly** = (initial payment + remaining payments + broker
 
 ## Run on your laptop
 
-```bash
-npm install                      # installs Playwright
-npx playwright install chromium  # one-off browser download (skip if you use CHANNEL=chrome)
-npm run scrape                   # all automated sources -> data/raw/*.json (local-only ones are skipped unless HEADED=1)
-npm run build                    # merge + filter -> dashboard/data.json
-npm run serve                    # http://localhost:8080
-```
+### With Nix (recommended)
 
-Use a visible browser window and your installed Chrome:
+`flake.nix` gives you Node 22 and the Chromium that nixpkgs builds for Playwright, patched to run on NixOS. Playwright never downloads its own browsers.
 
 ```bash
-HEADED=1 CHANNEL=chrome PROFILE_DIR=.profile npm run scrape
+nix develop            # or: direnv allow  (an .envrc with `use flake` is included)
+npm install
+npm run scrape && npm run build && npm run serve   # http://localhost:8080
 ```
+
+Local-only brokers, in a visible window with a profile that remembers cookie choices:
+
+```bash
+HEADED=1 PROFILE_DIR=.profile node run.mjs selectcarleasing nationwide leasingcom
+```
+
+Commit the `flake.lock` that the first `nix develop` writes.
+
+**Keeping Playwright and nixpkgs in step.** The npm `playwright` package looks for one browser revision, and nixpkgs ships the one matching its own Playwright version: 1.64.1 / Chromium 1248 as of Nov 2026, which `package.json` pins. When you update nixpkgs, the shell prints the command to re-pin if the versions drift. Until you run it, `lib/pw.mjs` launches the Nix Chromium directly, which works across small version gaps.
+
+### Without Nix
+
+```bash
+npm install
+npx playwright install chromium   # one-off browser download
+npm run scrape && npm run build && npm run serve
+```
+
+### Choosing the browser
+
+| Setting | Uses |
+|---|---|
+| (nothing) | Playwright's Chromium, or the Nix shell's |
+| `CHANNEL=chrome` | your installed Google Chrome (not available on NixOS unless you install `google-chrome`) |
+| `CHROME_PATH=/path/to/binary` | any Chrome or Chromium binary |
+| `HEADED=1` | a visible window (needed for the local-only sources) |
+| `PROFILE_DIR=.profile` | a persistent profile, so cookie choices and logins are kept between runs |
 
 Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,volvo-xc60`.
 
