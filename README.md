@@ -9,7 +9,7 @@ ranked by **effective monthly** = (initial payment + remaining payments + broker
 ```bash
 npm install                      # installs Playwright
 npx playwright install chromium  # one-off browser download (skip if you use CHANNEL=chrome)
-npm run scrape                   # all automated sources -> data/raw/*.json
+npm run scrape                   # all automated sources -> data/raw/*.json (local-only ones are skipped unless HEADED=1)
 npm run build                    # merge + filter -> dashboard/data.json
 npm run serve                    # http://localhost:8080
 ```
@@ -24,11 +24,45 @@ Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,vo
 
 ## Sources
 
-| Source | Kind | How |
-|---|---|---|
-| see `scrapers/*.mjs` | broker / aggregator | each module documents its endpoints in its header |
-| Leasing.com, Select Car Leasing, Nationwide Vehicle Contracts, others | blocked to automation | `node capture.mjs <url>`: you browse; press Enter to record the page's deal |
-| anything else (email quotes, dealer quotes) | manual | add to `config/manual-deals.json` |
+| Source | Kind | Runs where | How it gets prices | Status (Nov 2026) |
+|---|---|---|---|---|
+| Vanarama | broker | anywhere | the site's own JSON/GraphQL API | ✅ no 3 Series Touring or C-Class listed |
+| Carwow | marketplace (many dealers and brokers) | anywhere | see `scrapers/carwow.mjs` header | ✅ |
+| Leasing Options | broker | anywhere | the site's own JSON API | ✅ £399.99 processing fee |
+| Moneyshake | aggregator | anywhere | the site's own SvelteKit data + pricing endpoint | ✅ best offer per derivative only |
+| LeaseLoco | aggregator | laptop | API is behind AWS WAF; from a datacenter only featured deals load | ⚠️ partial; untested on a home connection |
+| LeaseFetcher | aggregator | anywhere | the site's filtered-list JSON | ⚠️ site currently lists no offers |
+| Select Car Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
+| Nationwide Vehicle Contracts | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
+| Leasing.com (incl. Contract Hire and Leasing) | aggregator | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
+| Anything else | manual | laptop | `node capture.mjs <url>` or `config/manual-deals.json` | |
+
+No Mercedes C-Class Estate offers turned up on any automated source at the time of writing.
+
+### Local-only sources (Select, NVC, Leasing.com)
+
+These sites refuse traffic from cloud machines, so their modules only run with a visible browser on your own machine:
+
+```bash
+HEADED=1 CHANNEL=chrome PROFILE_DIR=.profile node run.mjs selectcarleasing nationwide leasingcom
+```
+
+The driver (`lib/sitedriver.mjs`, `lib/assist.mjs`) behaves like a person clicking:
+- It opens each model page, collects the derivative links and, by default, visits only the ones that could match your shortlist. Set `ALL_DERIVATIVES=1` to price every trim.
+- On each derivative page it opens the "Edit / Customise deal" panel if there is one. It sets mileage, term and months upfront by finding the controls that offer those values (dropdowns, button groups or sliders), whatever the site calls them.
+- It reads the most prominent "£x per month" figure and checks the page's own summary shows 10,000 miles and the right term before keeping the price.
+- If a site shows a verification check, it beeps and waits up to 5 minutes for you to complete it in the window.
+- It never hides that it is automated, spoofs a browser fingerprint or solves CAPTCHAs.
+
+The engine was validated on Leasing Options, where it matched the site's API prices to the penny. It has **not** been run against Select, NVC or Leasing.com, because they can't be reached from where it was built. If a run comes back empty or wrong, run it with discovery on:
+
+```bash
+DISCOVER=1 HEADED=1 CHANNEL=chrome PROFILE_DIR=.profile node run.mjs selectcarleasing --models=bmw-3-touring
+```
+
+This saves each page's HTML, the JSON it loaded and a screenshot to `data/discovery/<site>/`. Look through it before sharing, then share it so the parsers can be fixed.
+
+These modules are for your own use: they do what you would do by hand, at a person's pace. Check each site's terms, which may restrict automated access.
 
 ## Configure
 
