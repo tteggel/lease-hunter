@@ -1,0 +1,6 @@
+{
+  "annualMileage": 10000,
+  "initialMonths": [1, 3],
+  "terms": [24, 36, 48],
+  "disabledSources": []
+}

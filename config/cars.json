@@ -1,0 +1,470 @@
+[
+ {
+  "id": "3t-320i-sport",
+  "modelId": "bmw-3-touring",
+  "label": "320i Sport",
+  "fuel": "petrol",
+  "match": [
+   "\\b320i\\b",
+   "\\bSport\\b"
+  ],
+  "exclude": [
+   "M Sport",
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "3t-320i-msport",
+  "modelId": "bmw-3-touring",
+  "label": "320i M Sport",
+  "fuel": "petrol",
+  "match": [
+   "\\b320i\\b",
+   "M Sport"
+  ],
+  "exclude": [
+   "Pro",
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "3t-330e-sport",
+  "modelId": "bmw-3-touring",
+  "label": "330e Sport",
+  "fuel": "phev",
+  "match": [
+   "\\b330e\\b",
+   "\\bSport\\b"
+  ],
+  "exclude": [
+   "M Sport",
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "3t-330e-msport",
+  "modelId": "bmw-3-touring",
+  "label": "330e M Sport",
+  "fuel": "phev",
+  "match": [
+   "\\b330e\\b",
+   "M Sport"
+  ],
+  "exclude": [
+   "Pro",
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "3t-330e-msport-tech",
+  "modelId": "bmw-3-touring",
+  "label": "330e M Sport + Tech Pack",
+  "fuel": "phev",
+  "match": [
+   "\\b330e\\b",
+   "M Sport",
+   "\\[Tech"
+  ],
+  "exclude": [
+   "Pro"
+  ]
+ },
+ {
+  "id": "3t-330e-msport-pro",
+  "modelId": "bmw-3-touring",
+  "label": "330e M Sport Pro",
+  "fuel": "phev",
+  "match": [
+   "\\b330e\\b",
+   "M Sport Pro"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "3t-m340i",
+  "modelId": "bmw-3-touring",
+  "label": "M340i xDrive",
+  "fuel": "petrol",
+  "match": [
+   "M340i"
+  ],
+  "exclude": [
+   "Black",
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "x3-20-msport",
+  "modelId": "bmw-x3",
+  "label": "20 xDrive M Sport",
+  "fuel": "petrol",
+  "match": [
+   "(xDrive ?20(?!d)|\\b20 xDrive)",
+   "M Sport"
+  ],
+  "exclude": [
+   "Pro",
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "x3-20d-msport",
+  "modelId": "bmw-x3",
+  "label": "20d xDrive M Sport",
+  "fuel": "diesel",
+  "match": [
+   "(xDrive ?20d|\\b20d xDrive)",
+   "M Sport"
+  ],
+  "exclude": [
+   "Pro",
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "x3-30e-msport",
+  "modelId": "bmw-x3",
+  "label": "30e xDrive M Sport",
+  "fuel": "phev",
+  "match": [
+   "(xDrive ?30e|\\b30e xDrive)",
+   "M Sport"
+  ],
+  "exclude": [
+   "Pro",
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "x3-30e-msport-tech",
+  "modelId": "bmw-x3",
+  "label": "30e xDrive M Sport + Tech Pack",
+  "fuel": "phev",
+  "match": [
+   "(xDrive ?30e|\\b30e xDrive)",
+   "M Sport",
+   "\\[Tech"
+  ],
+  "exclude": [
+   "Pro"
+  ]
+ },
+ {
+  "id": "x3-30e-msport-pro",
+  "modelId": "bmw-x3",
+  "label": "30e xDrive M Sport Pro",
+  "fuel": "phev",
+  "match": [
+   "(xDrive ?30e|\\b30e xDrive)",
+   "M Sport Pro"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "x3-m50",
+  "modelId": "bmw-x3",
+  "label": "M50 xDrive",
+  "fuel": "petrol",
+  "match": [
+   "M50"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "c-200-amg",
+  "modelId": "merc-c-estate",
+  "label": "C200 AMG Line",
+  "fuel": "petrol",
+  "match": [
+   "C ?200\\b",
+   "AMG Line"
+  ],
+  "exclude": [
+   "Premium"
+  ]
+ },
+ {
+  "id": "c-220d-amg",
+  "modelId": "merc-c-estate",
+  "label": "C220d AMG Line",
+  "fuel": "diesel",
+  "match": [
+   "C ?220 ?d",
+   "AMG Line"
+  ],
+  "exclude": [
+   "Premium"
+  ]
+ },
+ {
+  "id": "c-300e-amg",
+  "modelId": "merc-c-estate",
+  "label": "C300e AMG Line",
+  "fuel": "phev",
+  "match": [
+   "C ?300 ?e",
+   "AMG Line"
+  ],
+  "exclude": [
+   "Premium"
+  ]
+ },
+ {
+  "id": "c-300e-premium",
+  "modelId": "merc-c-estate",
+  "label": "C300e AMG Line Premium",
+  "fuel": "phev",
+  "match": [
+   "C ?300 ?e",
+   "AMG Line Premium"
+  ],
+  "exclude": [
+   "Plus"
+  ]
+ },
+ {
+  "id": "c-43",
+  "modelId": "merc-c-estate",
+  "label": "AMG C43 4MATIC",
+  "fuel": "petrol",
+  "match": [
+   "C ?43"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "xc60-b5-core",
+  "modelId": "volvo-xc60",
+  "label": "B5 Core",
+  "fuel": "petrol",
+  "match": [
+   "\\bB5P?\\b",
+   "Core"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "xc60-b5-plus",
+  "modelId": "volvo-xc60",
+  "label": "B5 Plus",
+  "fuel": "petrol",
+  "match": [
+   "\\bB5P?\\b",
+   "Plus"
+  ],
+  "exclude": [
+   "Pro"
+  ]
+ },
+ {
+  "id": "xc60-t6-core",
+  "modelId": "volvo-xc60",
+  "label": "T6 Core",
+  "fuel": "phev",
+  "match": [
+   "\\bT6\\b",
+   "Core"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "xc60-t6-plus",
+  "modelId": "volvo-xc60",
+  "label": "T6 Plus",
+  "fuel": "phev",
+  "match": [
+   "\\bT6\\b",
+   "Plus"
+  ],
+  "exclude": [
+   "Pro"
+  ]
+ },
+ {
+  "id": "xc60-t6-pluspro",
+  "modelId": "volvo-xc60",
+  "label": "T6 Plus Pro",
+  "fuel": "phev",
+  "match": [
+   "\\bT6\\b",
+   "Plus Pro"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "xc60-t8-ultra",
+  "modelId": "volvo-xc60",
+  "label": "T8 Ultra",
+  "fuel": "phev",
+  "match": [
+   "\\bT8\\b",
+   "Ultra"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "a5-150-sport",
+  "modelId": "audi-a5-avant",
+  "label": "2.0 TFSI 150 Sport",
+  "fuel": "petrol",
+  "match": [
+   "TFSI 150",
+   "\\bSport\\b"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "a5-150-sline",
+  "modelId": "audi-a5-avant",
+  "label": "2.0 TFSI 150 S line",
+  "fuel": "petrol",
+  "match": [
+   "TFSI 150",
+   "S line"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "a5-204-sline",
+  "modelId": "audi-a5-avant",
+  "label": "2.0 TFSI 204 S line",
+  "fuel": "petrol",
+  "match": [
+   "TFSI 204",
+   "S line"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "a5-tdi-sline",
+  "modelId": "audi-a5-avant",
+  "label": "2.0 TDI 204 S line",
+  "fuel": "diesel",
+  "match": [
+   "TDI 204",
+   "S line"
+  ],
+  "exclude": [
+   "Quattro",
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "a5-tdi-q-sline",
+  "modelId": "audi-a5-avant",
+  "label": "2.0 TDI quattro 204 S line",
+  "fuel": "diesel",
+  "match": [
+   "TDI Quattro",
+   "S line"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "a5-phev-sline",
+  "modelId": "audi-a5-avant",
+  "label": "2.0 TFSI e 299 quattro S line",
+  "fuel": "phev",
+  "match": [
+   "TFSI 299 e",
+   "S line"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "a5-phev-black",
+  "modelId": "audi-a5-avant",
+  "label": "2.0 TFSI e 299 quattro Black Edition",
+  "fuel": "phev",
+  "match": [
+   "TFSI 299 e",
+   "Black Ed"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "s5-black",
+  "modelId": "audi-s5-avant",
+  "label": "S5 Black Edition",
+  "fuel": "petrol",
+  "match": [
+   "S5",
+   "Black Ed"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "s5-vorsprung",
+  "modelId": "audi-s5-avant",
+  "label": "S5 Vorsprung",
+  "fuel": "petrol",
+  "match": [
+   "S5",
+   "Vorsprung"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "rs5",
+  "modelId": "audi-rs5-avant",
+  "label": "RS5 TFSI e",
+  "fuel": "phev",
+  "match": [
+   "RS ?5"
+  ],
+  "exclude": [
+   "Carbon",
+   "Vorsprung",
+   "Launch",
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "rs5-carbon",
+  "modelId": "audi-rs5-avant",
+  "label": "RS5 Carbon Black",
+  "fuel": "phev",
+  "match": [
+   "RS ?5",
+   "Carbon Black"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ },
+ {
+  "id": "rs5-perf",
+  "modelId": "audi-rs5-avant",
+  "label": "RS5 Performance Vorsprung",
+  "fuel": "phev",
+  "match": [
+   "RS ?5",
+   "Perform"
+  ],
+  "exclude": [
+   "\\[|\\bTech\\b"
+  ]
+ }
+]

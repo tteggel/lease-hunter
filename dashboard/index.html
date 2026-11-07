@@ -1,0 +1,520 @@
+<title>Lease Hunter</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..800&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a broker's rate card. Criteria strip on top, the shortlist table as the hero,
+   then analysis panels (powertrain × model, trim ladder, term grid, broker spread), then the raw explorer. */
+:root {
+  --bg: #f4f6f8;          /* asphalt-light, cool bias */
+  --surface: #ffffff;
+  --surface-2: #eaeef2;
+  --ink: #111820;
+  --ink-2: #4a5562;
+  --ink-3: #7b8692;
+  --rule: #d5dbe1;
+  --accent: #1d4ed8;      /* interactive ink */
+  --plate: #f7c600;       /* UK rear number-plate yellow: marks the best deal only */
+  --plate-ink: #111111;
+  --fuel-petrol: #2a78d6; /* categorical slot 1 */
+  --fuel-diesel: #eb6834; /* slot 2 */
+  --fuel-phev:   #1baf7a; /* slot 3 */
+  --good: #0ca30c; --warning: #fab219; --critical: #d03b3b;
+  --seq-1: #cde2fb; --seq-2: #86b6ef; --seq-3: #3987e5; --seq-4: #1c5cab;
+  --f-display: 'Archivo', 'Arial Narrow', system-ui, sans-serif;
+  --f-body: 'Public Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --f-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --r: 6px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1418; --surface: #171d23; --surface-2: #212932; --ink: #e9eef2; --ink-2: #aab4be; --ink-3: #7c8894;
+  --rule: #2c3640; --accent: #7aa2ff; --plate: #f7c600; --plate-ink: #111111;
+  --fuel-petrol: #3987e5; --fuel-diesel: #d95926; --fuel-phev: #199e70;
+  --seq-1: #184f95; --seq-2: #256abf; --seq-3: #5598e7; --seq-4: #9ec5f4; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f1418; --surface: #171d23; --surface-2: #212932; --ink: #e9eef2; --ink-2: #aab4be; --ink-3: #7c8894;
+  --rule: #2c3640; --accent: #7aa2ff; --plate: #f7c600; --plate-ink: #111111;
+  --fuel-petrol: #3987e5; --fuel-diesel: #d95926; --fuel-phev: #199e70;
+  --seq-1: #184f95; --seq-2: #256abf; --seq-3: #5598e7; --seq-4: #9ec5f4; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--f-body); }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 64px; display: grid; gap: 28px; }
+h1, h2, h3 { font-family: var(--f-display); font-stretch: 112%; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h1 { font-size: clamp(28px, 4vw, 40px); font-weight: 800; }
+h2 { font-size: 20px; font-weight: 700; }
+h3 { font-size: 15px; font-weight: 700; }
+.eyebrow { font: 600 11px/1 var(--f-body); letter-spacing: .09em; text-transform: uppercase; color: var(--ink-3); }
+.muted { color: var(--ink-2); } .small { font-size: 13px; }
+.num, td.num, .mono { font-family: var(--f-mono); font-variant-numeric: tabular-nums; }
+a { color: var(--accent); }
+button, select, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+header.top { display: grid; gap: 14px; }
+.titlerow { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; }
+.criteria { display: flex; flex-wrap: wrap; gap: 8px; }
+.crit { border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 4px 12px; font-size: 13px; color: var(--ink-2); }
+.crit b { color: var(--ink); font-weight: 600; }
+
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.kpi { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--r); padding: 14px 16px; display: grid; gap: 4px; min-width: 0; }
+.kpi .v { font: 700 26px/1.1 var(--f-display); font-stretch: 100%; font-variant-numeric: tabular-nums; }
+.kpi .s { font-size: 12px; color: var(--ink-2); overflow-wrap: anywhere; }
+
+.panel { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--r); padding: 18px; display: grid; gap: 14px; min-width: 0; }
+.panel-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 10px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 520px), 1fr)); gap: 20px; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 999px; overflow: hidden; background: var(--surface); }
+.seg button { border: 0; background: none; padding: 5px 12px; font-size: 13px; cursor: pointer; color: var(--ink-2); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--surface); }
+.chip { border: 1px solid var(--rule); background: var(--surface); border-radius: 999px; padding: 4px 11px; font-size: 13px; cursor: pointer; color: var(--ink-2); }
+.chip[aria-pressed="true"] { border-color: var(--ink); color: var(--ink); background: var(--surface-2); font-weight: 600; }
+select, input[type="text"], input[type="number"], input[type="search"] { border: 1px solid var(--rule); background: var(--surface); border-radius: 6px; padding: 5px 9px; font-size: 13px; }
+.btn { border: 1px solid var(--ink); background: var(--ink); color: var(--surface); border-radius: 6px; padding: 6px 12px; font-size: 13px; cursor: pointer; }
+.btn.ghost { background: transparent; color: var(--ink); border-color: var(--rule); }
+
+.tablebox { overflow-x: auto; border: 1px solid var(--rule); border-radius: var(--r); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th { text-align: left; font: 600 11px/1.2 var(--f-body); letter-spacing: .07em; text-transform: uppercase; color: var(--ink-3); padding: 10px 12px; border-bottom: 1px solid var(--rule); background: var(--surface-2); white-space: nowrap; }
+th[data-sort] { cursor: pointer; } th[data-sort]:hover { color: var(--ink); }
+td { padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+tbody tr:hover { background: var(--surface-2); }
+.make { font-size: 12px; color: var(--ink-3); }
+.spec { font-weight: 600; }
+.deriv { font-size: 12px; color: var(--ink-2); max-width: 340px; }
+.price { font: 700 17px/1 var(--f-display); font-stretch: 100%; font-variant-numeric: tabular-nums; }
+.plate { display: inline-block; background: var(--plate); color: var(--plate-ink); font: 700 12px/1 var(--f-mono); padding: 4px 6px; border-radius: 3px; letter-spacing: .02em; }
+.profile { font-family: var(--f-mono); font-size: 13px; }
+.pill { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--rule); color: var(--ink-2); white-space: nowrap; }
+.pill.stock::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--good); }
+.pill.prereg::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--warning); }
+.pill.factory::before { content: ""; width: 7px; height: 7px; border-radius: 2px; background: var(--ink-3); }
+.pill.warn::before { content: "!"; font-weight: 800; color: var(--critical); }
+.fuel-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+.nomatch { color: var(--ink-3); font-style: italic; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; color: var(--ink-2); }
+svg text { fill: var(--ink-2); font: 12px var(--f-body); }
+svg .axis line, svg .grid line { stroke: var(--rule); }
+svg .lbl { fill: var(--ink); font-weight: 500; }
+.chartbox { position: relative; min-width: 0; }
+.tip { position: absolute; pointer-events: none; background: var(--ink); color: var(--surface); font-size: 12px; padding: 8px 10px; border-radius: 6px; max-width: 280px; z-index: 5; line-height: 1.4; box-shadow: 0 4px 16px rgb(0 0 0 / .2); }
+.tip b { font-family: var(--f-mono); }
+
+.termgrid { display: grid; grid-template-columns: 90px repeat(var(--cols), minmax(0, 1fr)); gap: 4px; }
+.termgrid .h { font-size: 12px; color: var(--ink-3); align-self: center; }
+.termgrid .cell { border-radius: 4px; padding: 10px 8px; text-align: center; font-family: var(--f-mono); font-size: 14px; display: grid; gap: 2px; }
+.termgrid .cell small { font-size: 11px; opacity: .85; }
+.termgrid .empty { background: var(--surface-2); color: var(--ink-3); }
+
+.sources { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.src { border: 1px solid var(--rule); border-radius: var(--r); padding: 10px 12px; display: grid; gap: 4px; font-size: 13px; }
+.src .row { display: flex; justify-content: space-between; gap: 8px; }
+
+details.editor summary { cursor: pointer; font-weight: 600; }
+.speclist { display: grid; gap: 8px; }
+.specrow { display: grid; grid-template-columns: 1.1fr 1.2fr 1.6fr 1.1fr auto; gap: 8px; align-items: center; }
+.specrow input, .specrow select { width: 100%; min-width: 0; }
+@media (max-width: 760px) { .specrow { grid-template-columns: 1fr 1fr; } }
+.optlist { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; }
+.optlist label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.note { font-size: 12px; color: var(--ink-3); max-width: 75ch; }
+.empty-state { padding: 30px; text-align: center; color: var(--ink-2); }
+@media (prefers-reduced-motion: no-preference) { .panel { transition: border-color .2s; } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="titlerow">
+      <div>
+        <div class="eyebrow">UK personal contract hire</div>
+        <h1>Lease Hunter</h1>
+      </div>
+      <div class="small muted" id="stamp">Loading deals…</div>
+    </div>
+    <div class="criteria" id="criteria"></div>
+  </header>
+
+  <section class="kpis" id="kpis" aria-label="Summary"></section>
+
+  <section class="panel" aria-labelledby="h-short">
+    <div class="panel-head">
+      <div>
+        <h2 id="h-short">Shortlist: best deal per spec</h2>
+        <div class="small muted">Ranked by <span id="rank-label">effective monthly</span>: (initial payment + remaining payments + broker fees) ÷ term. The term that minimises it is picked for you.</div>
+      </div>
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Rank by">
+          <button id="rank-eff" aria-pressed="true">Effective</button><button id="rank-head" aria-pressed="false">Headline</button>
+        </div>
+        <div class="seg" role="group" aria-label="Availability">
+          <button data-stock="all" aria-pressed="true">All</button><button data-stock="factory" aria-pressed="false">Factory order</button><button data-stock="stock" aria-pressed="false">Stock</button>
+        </div>
+        <label class="small muted"><input type="checkbox" id="opt-toggle" checked> include selected options</label>
+      </div>
+    </div>
+    <div class="controls" id="make-filter" aria-label="Filter by make"></div>
+    <div class="tablebox"><table id="shortlist"><thead><tr>
+      <th data-sort="model">Car</th><th>Best match</th><th class="num" data-sort="price">Effective</th><th class="num">Headline</th>
+      <th>Profile</th><th class="num">Initial</th><th class="num">Fees</th><th>Broker</th><th>Availability</th><th class="num" data-sort="n">Offers</th>
+    </tr></thead><tbody></tbody></table></div>
+    <div class="note" id="opt-note"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-pt">
+    <div class="panel-head">
+      <div><h2 id="h-pt">Powertrain and model compared</h2>
+      <div class="small muted">Cheapest effective monthly per powertrain for each model, across every trim found. Grey ticks are all the other trims.</div></div>
+      <div class="legend" id="fuel-legend"></div>
+    </div>
+    <div class="chartbox" id="dotplot"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-ladder">
+    <div class="panel-head">
+      <div><h2 id="h-ladder">Trim ladder</h2>
+      <div class="small muted">Every derivative found for one model, cheapest offer each. Shortlisted specs with options show an estimated options add-on.</div></div>
+      <div class="controls" id="ladder-models"></div>
+    </div>
+    <div class="chartbox" id="ladder"></div>
+  </section>
+
+  <div class="grid2">
+    <section class="panel" aria-labelledby="h-term">
+      <div class="panel-head"><div><h2 id="h-term">Term and upfront</h2><div class="small muted">Best effective monthly for one spec by contract length and initial payment.</div></div></div>
+      <select id="spec-pick" aria-label="Spec for term grid and broker spread"></select>
+      <div id="termgrid"></div>
+    </section>
+    <section class="panel" aria-labelledby="h-spread">
+      <div class="panel-head"><div><h2 id="h-spread">Broker spread</h2><div class="small muted">Same spec, cheapest offer from each source, at that source's best term.</div></div></div>
+      <div class="chartbox" id="spread"></div>
+    </section>
+  </div>
+
+  <section class="panel" aria-labelledby="h-edit">
+    <details class="editor" id="editor">
+      <summary><h2 id="h-edit" style="display:inline">Edit shortlist</h2> <span class="small muted">— trims, match rules and options. Saved in this browser.</span></summary>
+      <div style="display:grid;gap:14px;margin-top:14px">
+        <p class="note">Each spec matches scraped derivatives with regular expressions (case-insensitive). Every "must match" pattern has to appear, and no "exclude" pattern may. Option prices are list-price estimates; the monthly add-on uses the rate below. To make your edits the default for everyone, copy the JSON into <span class="mono">config/cars.json</span>.</p>
+        <div class="controls"><label class="small">Options rate: £<input type="number" id="opt-rate" min="0" step="1" style="width:70px"> per month per £1,000 of list price</label></div>
+        <div class="speclist" id="speclist"></div>
+        <div class="controls">
+          <button class="btn ghost" id="add-spec">Add spec</button>
+          <button class="btn ghost" id="copy-json">Copy JSON</button>
+          <button class="btn ghost" id="reset-specs">Reset to repo version</button>
+          <span class="small muted" id="edit-msg" role="status"></span>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="panel" aria-labelledby="h-all">
+    <div class="panel-head">
+      <div><h2 id="h-all">All offers</h2><div class="small muted" id="all-count"></div></div>
+      <div class="controls">
+        <input type="search" id="q" placeholder="Filter, e.g. 330e Touring" aria-label="Filter offers">
+        <select id="f-model" aria-label="Model"></select>
+        <select id="f-source" aria-label="Source"></select>
+      </div>
+    </div>
+    <div class="tablebox" style="max-height:620px;overflow:auto"><table id="alltable"><thead><tr>
+      <th>Car</th><th>Derivative</th><th class="num">Effective</th><th class="num">Monthly</th><th>Profile</th><th class="num">Fees</th><th>Source</th><th>Availability</th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="panel" aria-labelledby="h-src">
+    <h2 id="h-src">Sources</h2>
+    <div class="sources" id="sources"></div>
+    <p class="note">Sources marked "browse manually" don't permit automated collection. Add their quotes with <span class="mono">node capture.mjs</span>, which records the page you are looking at in your own browser, or type them into <span class="mono">config/manual-deals.json</span>.</p>
+  </section>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const FUELS = { petrol: { label: 'Petrol / mild hybrid', v: '--fuel-petrol' }, diesel: { label: 'Diesel', v: '--fuel-diesel' }, phev: { label: 'Plug-in hybrid', v: '--fuel-phev' } };
+const fuelGroup = f => (f === 'diesel' ? 'diesel' : (f === 'phev' || f === 'bev') ? 'phev' : 'petrol');
+const fuelColor = f => `var(${FUELS[fuelGroup(f)].v})`;
+const gbp = (n, dp = 0) => n == null ? '—' : '£' + n.toLocaleString('en-GB', { minimumFractionDigits: dp, maximumFractionDigits: dp });
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const store = { get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+
+let DATA, SPECS, state = { rank: 'effective', stock: 'all', makes: new Set(), withOpts: true, ladderModel: null, spec: null, sort: 'price', optRate: store.get('lh.optRate', 25) };
+
+const rx = (p) => { try { return new RegExp(p, 'i'); } catch { return /$^/; } };
+function matches(spec, d) {
+  if (d.modelId !== spec.modelId) return false;
+  const t = `${d.derivative} ${d.trim || ''}`;
+  return (spec.match || []).every(p => rx(p).test(t)) && !(spec.exclude || []).some(p => p && rx(p).test(t));
+}
+const stockOk = d => state.stock === 'all' || (state.stock === 'stock' ? (d.stock === 'stock' || d.stock === 'prereg') : d.stock !== 'stock' && d.stock !== 'prereg');
+const key = d => state.rank === 'effective' ? d.effective : d.monthly;
+const best = arr => arr.reduce((b, d) => (!b || key(d) < key(b) ? d : b), null);
+const optAdd = spec => state.withOpts ? (spec.options || []).filter(o => o.selected).reduce((s, o) => s + (+o.price || 0), 0) / 1000 * state.optRate : 0;
+const model = id => DATA.models.find(m => m.id === id) || { make: '', model: id };
+const profile = d => `${d.upfront}+${d.term - 1}`;
+const availPill = d => d.stock === 'stock' ? '<span class="pill stock">In stock</span>' : d.stock === 'prereg' ? '<span class="pill prereg">Pre-reg</span>' : d.stock === 'factory' ? '<span class="pill factory">Factory order</span>' : '<span class="pill">Unknown</span>';
+const feeCell = d => d.feesKnown ? gbp(d.fees) : '<span class="pill warn" title="This source does not state its fees">not stated</span>';
+const srcName = d => esc(d.dealer ? `${d.dealer} via ${d.sourceName}` : d.sourceName);
+const pool = () => DATA.deals.filter(stockOk);
+
+async function boot() {
+  try { DATA = await (await fetch('data.json', { cache: 'no-store' })).json(); }
+  catch { $('#stamp').textContent = 'No data.json found next to this page. Run npm run scrape then npm run build.'; return; }
+  SPECS = store.get('lh.specs', null) || structuredClone(DATA.specs);
+  state.ladderModel = DATA.models[0]?.id; state.spec = SPECS[0]?.id;
+  wire(); render();
+}
+
+function wire() {
+  $('#rank-eff').onclick = () => { state.rank = 'effective'; render(); };
+  $('#rank-head').onclick = () => { state.rank = 'headline'; render(); };
+  document.querySelectorAll('[data-stock]').forEach(b => b.onclick = () => { state.stock = b.dataset.stock; render(); });
+  $('#opt-toggle').onchange = e => { state.withOpts = e.target.checked; render(); };
+  document.querySelectorAll('#shortlist th[data-sort]').forEach(th => th.onclick = () => { state.sort = th.dataset.sort; renderShortlist(); });
+  $('#spec-pick').onchange = e => { state.spec = e.target.value; renderTerm(); renderSpread(); };
+  ['#q', '#f-model', '#f-source'].forEach(s => $(s).oninput = renderAll);
+  $('#opt-rate').value = state.optRate;
+  $('#opt-rate').oninput = e => { state.optRate = +e.target.value || 0; store.set('lh.optRate', state.optRate); render(); };
+  $('#add-spec').onclick = () => { SPECS.push({ id: 'spec-' + Date.now(), modelId: DATA.models[0].id, label: 'New spec', match: [''], exclude: [], options: [] }); saveSpecs(); };
+  $('#reset-specs').onclick = () => { SPECS = structuredClone(DATA.specs); try { localStorage.removeItem('lh.specs'); } catch {} render(); msg('Reset to the repo version.'); };
+  $('#copy-json').onclick = () => {
+    const txt = JSON.stringify(SPECS, null, 2);
+    navigator.clipboard?.writeText(txt).then(() => msg('Copied. Paste into config/cars.json.'), () => fallbackCopy(txt));
+    if (!navigator.clipboard) fallbackCopy(txt);
+  };
+  let t; addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => { renderDot(); renderLadder(); renderSpread(); }, 120); });
+}
+function fallbackCopy(txt) { const ta = document.createElement('textarea'); ta.value = txt; ta.rows = 8; ta.style.width = '100%'; $('#speclist').after(ta); ta.select(); msg('Select-all and copy the JSON shown.'); }
+function msg(s) { $('#edit-msg').textContent = s; setTimeout(() => { $('#edit-msg').textContent = ''; }, 4000); }
+function saveSpecs() { store.set('lh.specs', SPECS); render(); }
+
+function render() {
+  $('#rank-eff').setAttribute('aria-pressed', state.rank === 'effective'); $('#rank-head').setAttribute('aria-pressed', state.rank !== 'effective');
+  $('#rank-label').textContent = state.rank === 'effective' ? 'effective monthly' : 'headline monthly';
+  document.querySelectorAll('[data-stock]').forEach(b => b.setAttribute('aria-pressed', b.dataset.stock === state.stock));
+  const s = DATA.settings;
+  $('#criteria').innerHTML = [
+    ['Personal', 'lease'], [s.mileage.toLocaleString('en-GB'), 'miles a year'], [s.upfront.join(' or '), 'months upfront'],
+    [s.terms.join(' / '), 'month terms, cheapest picked'], ['inc. VAT', ''],
+  ].map(([b, t]) => `<span class="crit"><b>${b}</b> ${t}</span>`).join('');
+  const live = DATA.sources.filter(x => x.kept > 0).length;
+  $('#stamp').textContent = `Prices collected ${new Date(DATA.generatedAt).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' })}`;
+  const makes = [...new Set(DATA.models.map(m => m.make))];
+  $('#make-filter').innerHTML = makes.map(m => `<button class="chip" data-make="${esc(m)}" aria-pressed="${state.makes.has(m)}">${esc(m)}</button>`).join('');
+  document.querySelectorAll('[data-make]').forEach(b => b.onclick = () => { const m = b.dataset.make; state.makes.has(m) ? state.makes.delete(m) : state.makes.add(m); render(); });
+  renderKpis(live); renderShortlist(); renderDot(); renderLadder(); renderSpecPick(); renderTerm(); renderSpread(); renderEditor(); renderAll(); renderSources();
+}
+
+function shortlistRows() {
+  const p = pool();
+  return SPECS.filter(sp => !state.makes.size || state.makes.has(model(sp.modelId).make)).map(sp => {
+    const ms = p.filter(d => matches(sp, d)); const b = best(ms);
+    return { sp, b, n: ms.length, add: optAdd(sp), m: model(sp.modelId) };
+  });
+}
+function renderKpis(live) {
+  const rows = shortlistRows().filter(r => r.b);
+  const cheapest = rows.sort((a, b) => key(a.b) + a.add - key(b.b) - b.add)[0];
+  const byMake = {}; rows.forEach(r => { const v = key(r.b) + r.add; if (!(r.m.make in byMake) || v < byMake[r.m.make].v) byMake[r.m.make] = { v, r }; });
+  const phev = rows.filter(r => fuelGroup(r.sp.fuel || r.b.fuel) === 'phev').sort((a, b) => key(a.b) - key(b.b))[0];
+  $('#kpis').innerHTML = [
+    ['Cheapest on shortlist', cheapest ? gbp(key(cheapest.b) + cheapest.add) : '—', cheapest ? `${cheapest.m.make} ${cheapest.m.model} ${cheapest.sp.label}, ${profile(cheapest.b)}` : 'No matches yet'],
+    ['Cheapest plug-in hybrid', phev ? gbp(key(phev.b) + phev.add) : '—', phev ? `${phev.m.model} ${phev.sp.label}` : 'No plug-in hybrid matched'],
+    ['Cheapest make', Object.keys(byMake).length ? Object.entries(byMake).sort((a, b) => a[1].v - b[1].v)[0][0] : '—', Object.entries(byMake).sort((a, b) => a[1].v - b[1].v).map(([k, v]) => `${k} ${gbp(v.v)}`).join(' · ')],
+    ['Offers compared', DATA.deals.length.toLocaleString('en-GB'), `${live} of ${DATA.sources.length} sources returned prices`],
+  ].map(([l, v, s]) => `<div class="kpi"><div class="eyebrow">${l}</div><div class="v">${esc(v)}</div><div class="s">${esc(s)}</div></div>`).join('');
+}
+
+function renderShortlist() {
+  const rows = shortlistRows();
+  const val = r => r.b ? key(r.b) + r.add : Infinity;
+  rows.sort(state.sort === 'model' ? (a, b) => (a.m.make + a.m.model).localeCompare(b.m.make + b.m.model) || val(a) - val(b) : state.sort === 'n' ? (a, b) => b.n - a.n : (a, b) => val(a) - val(b));
+  const top = Math.min(...rows.map(val));
+  $('#shortlist tbody').innerHTML = rows.map(({ sp, b, n, add, m }) => {
+    const car = `<div class="make">${esc(m.make)} ${esc(m.model)}</div><div class="spec"><span class="fuel-dot" style="background:${fuelColor(sp.fuel || b?.fuel)}"></span>${esc(sp.label)}</div>`;
+    if (!b) return `<tr><td>${car}</td><td colspan="9" class="nomatch">No offer found matching this spec. Check the match rules under Edit shortlist.</td></tr>`;
+    const v = key(b) + add;
+    return `<tr>
+      <td>${car}</td>
+      <td><div class="deriv">${esc(b.derivative)}</div>${add ? `<div class="small muted">+ ${gbp(add)}/mo est. options</div>` : ''}</td>
+      <td class="num">${v === top ? `<span class="plate">${gbp(v, 2)}</span>` : `<span class="price">${gbp(v, 2)}</span>`}</td>
+      <td class="num">${gbp(b.monthly + add, 2)}</td>
+      <td><span class="profile">${profile(b)}</span><div class="small muted">${b.term} months</div></td>
+      <td class="num">${gbp(b.initial)}</td>
+      <td class="num">${feeCell(b)}</td>
+      <td><a href="${esc(b.url)}" target="_blank" rel="noopener">${srcName(b)}</a></td>
+      <td>${availPill(b)}${b.delivery ? `<div class="small muted">${esc(b.delivery)}</div>` : ''}</td>
+      <td class="num">${n}</td></tr>`;
+  }).join('');
+  const withOpts = SPECS.some(s => (s.options || []).some(o => o.selected));
+  $('#opt-note').textContent = withOpts && state.withOpts ? `Option add-ons are estimates at £${state.optRate}/month per £1,000 of list price. Brokers usually quote standard spec, so ask for a requote with your options before you commit.` : 'Option packs that brokers price as their own derivative (for example "+ Tech Pack") appear as separate specs, so their cost is real. For other options, add an "options" list to a spec in config/cars.json and tick it under Edit shortlist to see an estimated add-on.';
+}
+
+// Tooltip helper
+function tipper(box) {
+  let tip = box.querySelector('.tip'); if (!tip) { tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; box.appendChild(tip); }
+  return {
+    show(html, x, y) { tip.innerHTML = html; tip.hidden = false; const bw = box.clientWidth; const tw = tip.offsetWidth; tip.style.left = Math.max(0, Math.min(bw - tw, x + 12)) + 'px'; tip.style.top = (y + 14) + 'px'; },
+    hide() { tip.hidden = true; },
+  };
+}
+const dealTip = d => `${esc(model(d.modelId).model)} ${esc(d.derivative)}<br><b>${gbp(d.effective, 2)}</b> effective · ${gbp(d.monthly, 2)} headline<br>${profile(d)} (${d.term}m) · ${srcName(d)}`;
+function niceTicks(lo, hi, n = 5) { const span = hi - lo, step0 = span / n, mag = 10 ** Math.floor(Math.log10(step0)); const step = [1, 2, 2.5, 5, 10].map(k => k * mag).find(s => span / s <= n) || mag * 10; const t = []; for (let v = Math.ceil(lo / step) * step; v <= hi + 1e-9; v += step) t.push(v); return t; }
+
+function renderDot() {
+  const box = $('#dotplot'); const p = pool();
+  $('#fuel-legend').innerHTML = Object.entries(FUELS).map(([k, f]) => `<span><span class="fuel-dot" style="background:var(${f.v})"></span>${f.label}</span>`).join('') + `<span><span class="fuel-dot" style="background:var(--ink-3);opacity:.5"></span>Other trims</span>`;
+  const rows = DATA.models.map(m => {
+    const ds = p.filter(d => d.modelId === m.id);
+    const byDeriv = {}; ds.forEach(d => { const k = d.derivative; if (!byDeriv[k] || key(d) < key(byDeriv[k])) byDeriv[k] = d; });
+    const all = Object.values(byDeriv);
+    const byFuel = {}; all.forEach(d => { const g = fuelGroup(d.fuel); if (!byFuel[g] || key(d) < key(byFuel[g])) byFuel[g] = d; });
+    return { m, all, byFuel };
+  });
+  const vals = rows.flatMap(r => r.all.map(key));
+  if (!vals.length) { box.innerHTML = '<div class="empty-state">No offers yet.</div>'; return; }
+  const W = box.clientWidth || 800, L = Math.min(170, W * .32), R = 56, T = 24, rowH = 40, H = T + rows.length * rowH + 8;
+  const lo = Math.floor(Math.min(...vals) / 50) * 50, hi = Math.ceil(Math.max(...vals) / 50) * 50 || lo + 100;
+  const x = v => L + (v - lo) / (hi - lo || 1) * (W - L - R);
+  const ticks = niceTicks(lo, hi, W < 500 ? 3 : 6);
+  let s = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Cheapest effective monthly by model and powertrain">`;
+  s += `<g class="grid">${ticks.map(t => `<line x1="${x(t)}" x2="${x(t)}" y1="${T - 6}" y2="${H - 8}"/>`).join('')}</g>`;
+  s += ticks.map(t => `<text x="${x(t)}" y="${T - 10}" text-anchor="middle">${gbp(t)}</text>`).join('');
+  rows.forEach((r, i) => {
+    const y = T + i * rowH + rowH / 2;
+    s += `<text class="lbl" x="${L - 12}" y="${y + 4}" text-anchor="end">${esc(r.m.make.replace('Mercedes-Benz', 'Mercedes'))} ${esc(r.m.model)}</text>`;
+    s += r.all.map(d => `<line x1="${x(key(d))}" x2="${x(key(d))}" y1="${y - 7}" y2="${y + 7}" stroke="var(--ink-3)" stroke-opacity=".45" stroke-width="2" data-i="${DATA.deals.indexOf(d)}" style="cursor:pointer"/>`).join('');
+    const fuels = Object.entries(r.byFuel).sort((a, b) => key(b[1]) - key(a[1]));
+    s += fuels.map(([g, d]) => `<circle cx="${x(key(d))}" cy="${y}" r="7" fill="var(${FUELS[g].v})" stroke="var(--surface)" stroke-width="2" data-i="${DATA.deals.indexOf(d)}" style="cursor:pointer"/>`).join('');
+    if (fuels.length) { const mn = Math.min(...fuels.map(f => key(f[1]))); s += `<text x="${Math.min(W - 4, x(Math.max(...r.all.map(key))) + 10)}" y="${y + 4}" text-anchor="start" style="font-family:var(--f-mono)">${W > 520 ? gbp(mn) : ''}</text>`; }
+    if (!r.all.length) s += `<text x="${L + 6}" y="${y + 4}" font-style="italic">no offers</text>`;
+  });
+  box.innerHTML = s + '</svg>';
+  const tp = tipper(box);
+  box.querySelectorAll('[data-i]').forEach(el => { el.onmousemove = e => { const r = box.getBoundingClientRect(); tp.show(dealTip(DATA.deals[+el.dataset.i]), e.clientX - r.left, e.clientY - r.top); }; el.onmouseleave = tp.hide; });
+}
+
+function renderLadder() {
+  $('#ladder-models').innerHTML = DATA.models.map(m => `<button class="chip" data-lm="${m.id}" aria-pressed="${m.id === state.ladderModel}">${esc(m.model)}</button>`).join('');
+  document.querySelectorAll('[data-lm]').forEach(b => b.onclick = () => { state.ladderModel = b.dataset.lm; renderLadder(); });
+  const box = $('#ladder');
+  const ds = pool().filter(d => d.modelId === state.ladderModel);
+  const byDeriv = {}; ds.forEach(d => { if (!byDeriv[d.derivative] || key(d) < key(byDeriv[d.derivative])) byDeriv[d.derivative] = d; });
+  let items = Object.values(byDeriv).map(d => { const sp = SPECS.find(s => matches(s, d)); return { d, sp, add: sp ? optAdd(sp) : 0 }; }).sort((a, b) => key(a.d) - key(b.d));
+  if (!items.length) { box.innerHTML = '<div class="empty-state">No offers found for this model yet.</div>'; return; }
+  const total = items.length; const showAll = box.dataset.all === state.ladderModel; if (!showAll) items = items.slice(0, 24);
+  const W = box.clientWidth || 800, narrow = W < 560, L = narrow ? 0 : Math.min(360, W * .45), R = 70, barH = 14, gap = narrow ? 34 : 24, T = 8;
+  const H = T + items.length * gap + 22;
+  const max = Math.max(...items.map(i => key(i.d) + i.add));
+  const x = v => L + v / max * (W - L - R);
+  let s = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Cheapest effective monthly per derivative">`;
+  const ticks = niceTicks(0, max, narrow ? 3 : 5);
+  s += `<g class="grid">${ticks.map(t => `<line x1="${x(t)}" x2="${x(t)}" y1="${T}" y2="${H - 20}"/>`).join('')}</g>`;
+  s += ticks.map(t => `<text x="${x(t)}" y="${H - 6}" text-anchor="middle">${gbp(t)}</text>`).join('');
+  items.forEach((it, i) => {
+    const y = T + i * gap + (narrow ? 16 : 4), v = key(it.d), lbl = it.d.derivative.length > 58 ? it.d.derivative.slice(0, 56) + '…' : it.d.derivative;
+    s += narrow ? `<text class="lbl" x="0" y="${y - 4}" font-size="12">${esc(lbl)}${it.sp ? ' ★' : ''}</text>` : `<text class="lbl" x="${L - 10}" y="${y + 11}" text-anchor="end">${esc(lbl)}${it.sp ? ' ★' : ''}</text>`;
+    const w = Math.max(4, x(v) - L);
+    s += `<path d="M${L},${y} h${w - 4} a4,4 0 0 1 4,4 v${barH - 8} a4,4 0 0 1 -4,4 h-${w - 4} z" fill="${fuelColor(it.d.fuel)}" data-i="${DATA.deals.indexOf(it.d)}" style="cursor:pointer"/>`;
+    if (it.add) { const w2 = x(v + it.add) - x(v); s += `<rect x="${x(v) + 2}" y="${y}" width="${Math.max(2, w2 - 2)}" height="${barH}" rx="3" fill="${fuelColor(it.d.fuel)}" fill-opacity=".35" stroke="${fuelColor(it.d.fuel)}" stroke-dasharray="3 2"><title>Estimated options: ${gbp(it.add)}/month</title></rect>`; }
+    s += `<text x="${x(v + it.add) + 6}" y="${y + 11}" style="font-family:var(--f-mono)">${gbp(v + it.add)}</text>`;
+  });
+  box.innerHTML = s + '</svg>' + `<div class="small muted" style="margin-top:6px">★ on your shortlist${items.some(i => i.add) ? ' · dashed segment = estimated options' : ''}${total > 24 ? ` · <button class="chip" id="ladder-all">${showAll ? 'Show cheapest 24' : `Show all ${total}`}</button>` : ''}</div>`;
+  const tp = tipper(box);
+  box.querySelectorAll('[data-i]').forEach(el => { el.onmousemove = e => { const r = box.getBoundingClientRect(); tp.show(dealTip(DATA.deals[+el.dataset.i]), e.clientX - r.left, e.clientY - r.top); }; el.onmouseleave = tp.hide; });
+  const btn = $('#ladder-all'); if (btn) btn.onclick = () => { box.dataset.all = showAll ? '' : state.ladderModel; renderLadder(); };
+}
+
+function renderSpecPick() {
+  if (!SPECS.find(s => s.id === state.spec)) state.spec = SPECS[0]?.id;
+  $('#spec-pick').innerHTML = SPECS.map(s => `<option value="${s.id}" ${s.id === state.spec ? 'selected' : ''}>${esc(model(s.modelId).model)} ${esc(s.label)}</option>`).join('');
+}
+function renderTerm() {
+  const sp = SPECS.find(s => s.id === state.spec); const box = $('#termgrid'); if (!sp) { box.innerHTML = ''; return; }
+  const ms = pool().filter(d => matches(sp, d)); const { terms, upfront } = DATA.settings; const add = optAdd(sp);
+  const cells = {}; ms.forEach(d => { const k = d.upfront + '|' + d.term; if (!cells[k] || key(d) < key(cells[k])) cells[k] = d; });
+  const vals = Object.values(cells).map(key); const mn = Math.min(...vals), mx = Math.max(...vals);
+  const shade = v => { const t = mx > mn ? (v - mn) / (mx - mn) : 0; const i = Math.min(3, Math.floor(t * 4)); return [`var(--seq-1)`, `var(--seq-2)`, `var(--seq-3)`, `var(--seq-4)`][i]; };
+  const inkFor = v => { const t = mx > mn ? (v - mn) / (mx - mn) : 0; return t >= .5 ? 'var(--surface)' : 'var(--ink)'; };
+  let h = `<div class="termgrid" style="--cols:${terms.length}"><div></div>${terms.map(t => `<div class="h" style="text-align:center">${t} months</div>`).join('')}`;
+  upfront.forEach(u => {
+    h += `<div class="h">${u} month${u > 1 ? 's' : ''} upfront</div>`;
+    terms.forEach(t => { const d = cells[u + '|' + t]; h += d ? `<div class="cell" style="background:${shade(key(d))};color:${inkFor(key(d))}" title="${esc(d.derivative)}, ${esc(d.sourceName)}">${key(d) === mn ? `<span class="plate">${gbp(key(d) + add)}</span>` : gbp(key(d) + add)}<small>${profile(d)} · ${esc(d.dealer || d.sourceName)}</small></div>` : `<div class="cell empty">—<small>no offer</small></div>`; });
+  });
+  box.innerHTML = h + `</div><div class="note" style="margin-top:8px">${ms.length ? `Darker cells cost more each month. ${state.rank === 'effective' ? 'A longer term often lowers the monthly payment but adds months of commitment.' : ''}` : 'No offers match this spec yet.'}</div>`;
+}
+function renderSpread() {
+  const sp = SPECS.find(s => s.id === state.spec); const box = $('#spread'); if (!sp) { box.innerHTML = ''; return; }
+  const ms = pool().filter(d => matches(sp, d)); const by = {};
+  ms.forEach(d => { const k = d.dealer ? `${d.dealer} (${d.sourceName})` : d.sourceName; if (!by[k] || key(d) < key(by[k])) by[k] = d; });
+  const rows = Object.entries(by).sort((a, b) => key(a[1]) - key(b[1])).slice(0, 14);
+  if (!rows.length) { box.innerHTML = '<div class="empty-state">No offers match this spec yet.</div>'; return; }
+  const W = box.clientWidth || 500, L = Math.min(200, W * .42), R = 64, rh = 30, T = 22, H = T + rows.length * rh;
+  const vals = rows.map(r => key(r[1])); const lo = Math.floor(Math.min(...vals) / 25) * 25 - 25, hi = Math.ceil(Math.max(...vals) / 25) * 25 + 25;
+  const x = v => L + (v - lo) / (hi - lo) * (W - L - R); const ticks = niceTicks(lo, hi, W < 420 ? 2 : 4);
+  let s = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Cheapest offer per broker">`;
+  s += `<g class="grid">${ticks.map(t => `<line x1="${x(t)}" x2="${x(t)}" y1="${T - 4}" y2="${H}"/>`).join('')}</g>` + ticks.map(t => `<text x="${x(t)}" y="${T - 8}" text-anchor="middle">${gbp(t)}</text>`).join('');
+  rows.forEach(([k, d], i) => {
+    const y = T + i * rh + rh / 2; const nm = k.length > 30 ? k.slice(0, 29) + '…' : k;
+    s += `<text class="lbl" x="${L - 10}" y="${y + 4}" text-anchor="end">${esc(nm)}</text><line x1="${L}" x2="${x(key(d))}" y1="${y}" y2="${y}" stroke="var(--rule)" stroke-width="2"/>`;
+    s += `<circle cx="${x(key(d))}" cy="${y}" r="6" fill="${fuelColor(d.fuel)}" stroke="var(--surface)" stroke-width="2" data-i="${DATA.deals.indexOf(d)}" style="cursor:pointer"/><text x="${x(key(d)) + 12}" y="${y + 4}" style="font-family:var(--f-mono)">${gbp(key(d))}</text>`;
+  });
+  box.innerHTML = s + '</svg>';
+  const tp = tipper(box);
+  box.querySelectorAll('[data-i]').forEach(el => { el.onmousemove = e => { const r = box.getBoundingClientRect(); tp.show(dealTip(DATA.deals[+el.dataset.i]), e.clientX - r.left, e.clientY - r.top); }; el.onmouseleave = tp.hide; el.onclick = () => open(DATA.deals[+el.dataset.i].url, '_blank'); });
+}
+
+function renderEditor() {
+  const list = $('#speclist');
+  list.innerHTML = SPECS.map((sp, i) => {
+    const n = DATA.deals.filter(d => matches(sp, d)).length;
+    return `<div style="display:grid;gap:6px;padding:10px 0;border-bottom:1px solid var(--rule)">
+      <div class="specrow">
+        <select id="sm-${i}" aria-label="Model">${DATA.models.map(m => `<option value="${m.id}" ${m.id === sp.modelId ? 'selected' : ''}>${esc(m.model)}</option>`).join('')}</select>
+        <input type="text" id="sl-${i}" value="${esc(sp.label)}" aria-label="Label">
+        <input type="text" id="sx-${i}" value="${esc((sp.match || []).join(' && '))}" aria-label="Must match, separated by &&" title="Must match (separate with &&)">
+        <input type="text" id="se-${i}" value="${esc((sp.exclude || []).join(' && '))}" aria-label="Exclude, separated by &&" title="Exclude (separate with &&)" placeholder="exclude">
+        <div class="controls"><span class="small ${n ? 'muted' : ''}" style="${n ? '' : 'color:var(--critical)'}">${n} offers</span><button class="btn ghost" data-del="${i}" aria-label="Remove ${esc(sp.label)}">Remove</button></div>
+      </div>
+      ${(sp.options || []).length ? `<div class="optlist">${sp.options.map((o, j) => `<label><input type="checkbox" id="so-${i}-${j}" ${o.selected ? 'checked' : ''}> ${esc(o.name)} <span class="muted mono">${gbp(o.price)} est.</span></label>`).join('')}</div>` : ''}
+    </div>`;
+  }).join('');
+  SPECS.forEach((sp, i) => {
+    const upd = () => { sp.modelId = $('#sm-' + i).value; sp.label = $('#sl-' + i).value; sp.match = $('#sx-' + i).value.split('&&').map(s => s.trim()).filter(Boolean); sp.exclude = $('#se-' + i).value.split('&&').map(s => s.trim()).filter(Boolean); saveSpecs(); };
+    ['#sm-', '#sl-', '#sx-', '#se-'].forEach(p => $(p + i).onchange = upd);
+    (sp.options || []).forEach((o, j) => $(`#so-${i}-${j}`).onchange = e => { o.selected = e.target.checked; saveSpecs(); });
+  });
+  list.querySelectorAll('[data-del]').forEach(b => b.onclick = () => { SPECS.splice(+b.dataset.del, 1); saveSpecs(); });
+}
+
+function renderAll() {
+  const fm = $('#f-model'), fs = $('#f-source');
+  if (!fm.options.length) {
+    fm.innerHTML = '<option value="">All models</option>' + DATA.models.map(m => `<option value="${m.id}">${esc(m.model)}</option>`).join('');
+    fs.innerHTML = '<option value="">All sources</option>' + DATA.sources.map(s => `<option value="${s.id}">${esc(s.name)}</option>`).join('');
+  }
+  const q = $('#q').value.toLowerCase().split(/\s+/).filter(Boolean);
+  const rows = pool().filter(d => (!fm.value || d.modelId === fm.value) && (!fs.value || d.source === fs.value) && q.every(w => `${d.make} ${d.model} ${d.derivative} ${d.dealer || ''}`.toLowerCase().includes(w))).sort((a, b) => key(a) - key(b));
+  $('#all-count').textContent = `${rows.length.toLocaleString('en-GB')} offers, cheapest first${rows.length > 400 ? ' (first 400 shown)' : ''}`;
+  $('#alltable tbody').innerHTML = rows.slice(0, 400).map(d => `<tr>
+    <td><div class="make">${esc(d.make)}</div>${esc(d.model)}</td>
+    <td><span class="fuel-dot" style="background:${fuelColor(d.fuel)}"></span>${esc(d.derivative)}</td>
+    <td class="num"><span class="price" style="font-size:15px">${gbp(d.effective, 2)}</span></td><td class="num">${gbp(d.monthly, 2)}</td>
+    <td><span class="profile">${profile(d)}</span></td><td class="num">${feeCell(d)}</td>
+    <td><a href="${esc(d.url)}" target="_blank" rel="noopener">${srcName(d)}</a></td><td>${availPill(d)}</td></tr>`).join('');
+}
+
+function renderSources() {
+  $('#sources').innerHTML = DATA.sources.map(s => `<div class="src">
+    <div class="row"><b>${esc(s.name)}</b><span class="pill ${s.kept ? 'stock' : 'warn'}">${s.kept ? 'live' : 'no prices'}</span></div>
+    <div class="row muted"><span>${s.kept.toLocaleString('en-GB')} offers kept</span><span>${s.method === 'manual' ? 'browse manually' : esc(s.method || '')}</span></div>
+    <div class="small muted">${s.fetchedAt ? new Date(s.fetchedAt).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' }) : ''}${s.homeIpRecommended ? ' · run from home' : ''}</div></div>`).join('');
+}
+boot();
+</script>

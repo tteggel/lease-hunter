@@ -1,0 +1,11 @@
+{
+ "source": {
+  "id": "leasefetcher",
+  "name": "LeaseFetcher",
+  "url": "https://www.leasefetcher.co.uk",
+  "method": "api",
+  "homeIpRecommended": false
+ },
+ "fetchedAt": "2026-11-07T17:27:55.616Z",
+ "deals": []
+}

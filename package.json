@@ -1,0 +1,1 @@
+{ "type": "module", "name": "lease-hunter", "private": true, "scripts": { "scrape": "node run.mjs", "build": "node build.mjs", "serve": "npx http-server dashboard -p 8080 -c-1" }, "dependencies": { "playwright": "1.63.0" } }
