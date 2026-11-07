@@ -13,7 +13,7 @@ const file = 'config/manual-deals.json';
 const saved = JSON.parse(await fs.readFile(file, 'utf8').catch(() => '[]'));
 process.env.HEADED = '1';
 process.env.PROFILE_DIR ||= '.profile';
-const { context, close } = await launch({ headed: true, channel: process.env.CHANNEL || 'chrome' }).catch(() => launch({ headed: true }));
+const { context, close } = await launch({ headed: true });
 const page = context.pages()[0] || await context.newPage();
 await page.goto(process.argv[2] || 'https://leasing.com/', { waitUntil: 'domcontentloaded' }).catch(() => {});
 const rl = readline.createInterface({ input: stdin, output: stdout });

@@ -2,7 +2,7 @@
 // Usage: node run.mjs [sourceId ...] [--models=bmw-x3,volvo-xc60] [--force]
 //   local-only sources (selectcarleasing, nationwide, leasingcom) run only with HEADED=1
 //   DISCOVER=1 saves page HTML / JSON / screenshots to data/discovery/ for tuning; ALL_DERIVATIVES=1 prices every trim
-//   HEADED=1 CHANNEL=chrome PROFILE_DIR=.profile node run.mjs   (recommended on a laptop)
+//   HEADED=1 PROFILE_DIR=.profile node run.mjs   (recommended on a laptop)
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';

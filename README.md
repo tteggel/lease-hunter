@@ -68,7 +68,7 @@ Mercedes C-Class Estate offers are scarce: at the time of writing only Carwow li
 These sites refuse traffic from cloud machines, so their modules only run with a visible browser on your own machine:
 
 ```bash
-HEADED=1 CHANNEL=chrome PROFILE_DIR=.profile node run.mjs selectcarleasing nationwide leasingcom
+HEADED=1 PROFILE_DIR=.profile node run.mjs selectcarleasing nationwide leasingcom
 ```
 
 The driver (`lib/sitedriver.mjs`, `lib/assist.mjs`) behaves like a person clicking:
@@ -81,7 +81,7 @@ The driver (`lib/sitedriver.mjs`, `lib/assist.mjs`) behaves like a person clicki
 The engine was validated on Leasing Options, where it matched the site's API prices to the penny. It has **not** been run against Select, NVC or Leasing.com, because they can't be reached from where it was built. If a run comes back empty or wrong, run it with discovery on:
 
 ```bash
-DISCOVER=1 HEADED=1 CHANNEL=chrome PROFILE_DIR=.profile node run.mjs selectcarleasing --models=bmw-3-touring
+DISCOVER=1 HEADED=1 PROFILE_DIR=.profile node run.mjs selectcarleasing --models=bmw-3-touring
 ```
 
 This saves each page's HTML, the JSON it loaded and a screenshot to `data/discovery/<site>/`. Look through it before sharing, then share it so the parsers can be fixed.
