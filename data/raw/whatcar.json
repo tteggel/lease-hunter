@@ -1,0 +1,11 @@
+{
+ "source": {
+  "id": "whatcar",
+  "name": "What Car? Leasing",
+  "url": "https://www.whatcar.com/new-car-leasing-deals",
+  "method": "html",
+  "homeIpRecommended": false
+ },
+ "fetchedAt": "2026-11-08T20:27:11.968Z",
+ "deals": []
+}

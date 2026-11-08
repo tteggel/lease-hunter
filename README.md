@@ -55,6 +55,8 @@ Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,vo
 | Leasing Options | broker | anywhere | the site's own JSON API | ✅ £399.99 processing fee |
 | Moneyshake | aggregator | anywhere | the site's own SvelteKit data + pricing endpoint | ✅ best offer per derivative only |
 | LeaseLoco | aggregator | laptop | API is behind AWS WAF; from a datacenter only featured deals load | ⚠️ partial; untested on a home connection |
+| AA Leasing | broker | anywhere | the site's own JSON API (CarDataApi) | ✅ £299 admin fee; no 3 Series Touring, C-Class or RS5 listed |
+| What Car? | aggregator (prices from Auto Trader) | laptop | server-rendered HTML | ⛔ disabled: example deals only (5–6k miles, 12 upfront), never matches 10k / 1–3 |
 | LeaseFetcher | aggregator | anywhere | the site's filtered-list JSON | ⚠️ site currently lists no offers |
 | Select Car Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
 | Nationwide Vehicle Contracts | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
