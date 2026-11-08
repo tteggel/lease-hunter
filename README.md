@@ -1,7 +1,7 @@
 # Lease Hunter
 
 Finds the cheapest UK **personal** lease deals for a shortlist of cars:
-10,000 miles a year, 1, 3, 6, 9 or 12 months upfront (filterable in the dashboard), whichever term (24/36/48) is cheapest,
+10,000 miles a year, 1 or 3 months upfront, whichever term (24/36/48) is cheapest,
 ranked by **effective monthly** = (initial payment + remaining payments + broker fees) ÷ term.
 
 ## Run on your laptop
@@ -59,16 +59,20 @@ Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,vo
 | Select Car Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
 | Nationwide Vehicle Contracts | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
 | Leasing.com (incl. Contract Hire and Leasing) | aggregator | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
+| Pink Car Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
+| Gateway2Lease | broker (has C-Class Estate) | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
+| Synergy Car Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
+| Carparison Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
 | Anything else | manual | laptop | `node capture.mjs <url>` or `config/manual-deals.json` | |
 
 Mercedes C-Class Estate offers are scarce: at the time of writing only Carwow listed any (C200 AMG Line). The local-only sources or manual quotes are the way to fill the gap.
 
-### Local-only sources (Select, NVC, Leasing.com)
+### Local-only sources (Select, NVC, Leasing.com, Pink, Gateway2Lease, Synergy, Carparison)
 
 These sites refuse traffic from cloud machines, so their modules only run with a visible browser on your own machine:
 
 ```bash
-HEADED=1 PROFILE_DIR=.profile node run.mjs selectcarleasing nationwide leasingcom
+HEADED=1 PROFILE_DIR=.profile node run.mjs selectcarleasing nationwide leasingcom pink gateway2lease synergy carparison
 ```
 
 The driver (`lib/sitedriver.mjs`, `lib/assist.mjs`) behaves like a person clicking:
@@ -92,6 +96,6 @@ These modules are for your own use: they do what you would do by hand, at a pers
 
 - `config/models.json`: which models to collect (all derivatives are collected).
 - `config/cars.json`: the shortlist. Each spec picks derivatives with regex `match` / `exclude` and can list `options` with estimated list prices. You can also edit it in the dashboard (saved in your browser), then **Copy JSON** back into this file.
-- `config/settings.json`: mileage, upfront months (`initialMonths`, default 1/3/6/9/12), terms, disabled sources. More upfront options mean more page visits for the local-only sources (5 upfronts × 3 terms per derivative).
+- `config/settings.json`: mileage, upfront months (`initialMonths`, default 1 and 3; a test with 1–12 showed bigger upfronts barely change the effective monthly), terms, disabled sources.
 
 Option add-ons are an estimate (default £25/month per £1,000 of list price, adjustable). Brokers quote standard spec, so get a requote with your options before signing.
