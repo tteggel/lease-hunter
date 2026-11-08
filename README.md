@@ -55,6 +55,8 @@ Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,vo
 | Leasing Options | broker | anywhere | the site's own JSON API | ✅ £399.99 processing fee |
 | Moneyshake | aggregator | anywhere | the site's own SvelteKit data + pricing endpoint | ✅ best offer per derivative only |
 | LeaseLoco | aggregator | laptop | API is behind AWS WAF; from a datacenter only featured deals load | ⚠️ partial; untested on a home connection |
+| Rivervale | broker | anywhere | the site's public Algolia index + its own deal endpoint | ✅ £262.80 processing fee; big C-Class Estate range |
+| LeaseCar.UK | broker | anywhere | the site's own JSON API | ✅ £348 sourcing fee; C-Class Estate included |
 | AA Leasing | broker | anywhere | the site's own JSON API (CarDataApi) | ✅ £299 admin fee; no 3 Series Touring, C-Class or RS5 listed |
 | What Car? | aggregator (prices from Auto Trader) | laptop | server-rendered HTML | ⛔ disabled: example deals only (5–6k miles, 12 upfront), never matches 10k / 1–3 |
 | LeaseFetcher | aggregator | anywhere | the site's filtered-list JSON | ⚠️ site currently lists no offers |
@@ -67,7 +69,7 @@ Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,vo
 | Carparison Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
 | Anything else | manual | laptop | `node capture.mjs <url>` or `config/manual-deals.json` | |
 
-Mercedes C-Class Estate offers are scarce: at the time of writing only Carwow listed any (C200 AMG Line). The local-only sources or manual quotes are the way to fill the gap.
+Mercedes C-Class Estate offers come from Carwow (including Mercedes-Benz UK's own C200 deals), Rivervale and LeaseCar.UK. Broker prices for the C-Class are far higher than the manufacturer's own offers.
 
 ### Local-only sources (Select, NVC, Leasing.com, Pink, Gateway2Lease, Synergy, Carparison)
 

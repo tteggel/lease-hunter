@@ -63,7 +63,7 @@ function fuelOf(ft, d) {
   if (f.includes('plug-in') || /\bphev\b|\d+e\b|tfsi e\b|\bt[68]\b/i.test(d)) return 'phev';
   if (f === 'hybrid') return /mhev|mild/i.test(d) ? 'mhev' : 'hybrid';
   if (f === 'diesel') return 'diesel';
-  if (/mhev|mild hybrid|\bb[3-6]p?\b/i.test(d)) return 'mhev';
+  if (/\bmht\b|mhev|mild hybrid|\bb[3-6]p?\b/i.test(d)) return 'mhev';
   if (f === 'petrol') return 'petrol';
   return null;
 }

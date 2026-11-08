@@ -110,14 +110,16 @@ async function sourcingFee(slug, ctx) {
   } catch { return null; }
 }
 
-const FUEL = { 1: 'petrol', 2: 'diesel', 3: 'bev', 4: 'hybrid', 5: 'phev' };
+// fuel_type_id as observed: 1 petrol, 2 diesel, 7 plug-in hybrid (others mapped by name)
+const FUEL = { 1: 'petrol', 2: 'diesel', 7: 'phev' };
 function fuelOf(d) {
-  const s = d.derivative_name;
-  if (/\bphev\b|\d+e\b|tfsi e\b|\bt[68]\b|plug-in|e-hybrid|\d{3}de?\b/i.test(s) && !/\b\d{3}d\b/i.test(s)) return 'phev';
-  if (/\bmhev\b|mild|\bb[3-6]p?\b/i.test(s)) return 'mhev';
-  if (/electric|\bev\b|kwh/i.test(s) && !/phev/i.test(s)) return 'bev';
-  if (/\btdi\b|\b\d{3}d\b|\bd\b|diesel/i.test(s + ' ' + d.model_name)) return 'diesel';
-  return FUEL[d.fuel_type_id] || null;
+  const s = d.derivative_name, f = FUEL[d.fuel_type_id];
+  if (f === 'phev' || /\bphev\b|plug-in|tfsi e\b|\d{3}d?e\b|\bs e\b|\bt[68]\b|kwh/i.test(s) && !/\bev\b|electric/i.test(s)) return 'phev';
+  if (/\bmht\b|\bmhev\b|mild hybrid|\bb[3-6]p?\b/i.test(s)) return 'mhev';
+  if (f) return f;
+  if (/\btdi\b|\d{3}d\b|diesel/i.test(s + ' ' + d.model_name)) return 'diesel';
+  if (/electric|\bkw\b/i.test(s)) return 'bev';
+  return null;
 }
 const driveOf = s => /xdrive|quattro|qtro|awd|4matic/i.test(s) ? 'awd' : null;
 const engineOf = s => s.match(/\b(\d\.\d)\b/)?.[1] || null;
@@ -154,7 +156,8 @@ export async function scrape(ctx) {
           } catch (e) { log(`${m.id} ${t}m/${im}: ${e.message}`); continue; }
           await sleep(DELAY_MS);
           for (const x of Array.isArray(list) ? list : []) {
-            const d = byId.get(x.derivative_id);
+            // the API returns the whole range (all body styles); keep this model page's derivatives
+            const d = byId.get(x.derivative_id) || ((x.slug || '').startsWith(prefix) && (!rule.deriv || rule.deriv(x)) ? x : null);
             if (!d || !x.cheapest_price_personal) continue;
             // only keep prices quoted for exactly the requested terms
             if (x.cheapest_price_lease_length !== t / 12 || x.cheapest_price_lease_mileage !== mileage || x.initial_term !== im) continue;

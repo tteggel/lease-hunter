@@ -203,17 +203,15 @@
   ]
  },
  {
-  "id": "c-300e-amg",
+  "id": "c-300e-urban",
   "modelId": "merc-c-estate",
-  "label": "C300e AMG Line",
+  "label": "C300e Urban Edition",
   "fuel": "phev",
   "match": [
-   "C ?300 ?e",
-   "AMG Line"
+   "C ?300 ?e\\b",
+   "Urban"
   ],
-  "exclude": [
-   "Premium"
-  ]
+  "exclude": []
  },
  {
   "id": "c-300e-premium",
@@ -222,6 +220,19 @@
   "fuel": "phev",
   "match": [
    "C ?300 ?e",
+   "AMG Line Premium"
+  ],
+  "exclude": [
+   "Plus"
+  ]
+ },
+ {
+  "id": "c-300de-premium",
+  "modelId": "merc-c-estate",
+  "label": "C300de AMG Line Premium (diesel plug-in)",
+  "fuel": "phev",
+  "match": [
+   "C ?300 ?de\\b",
    "AMG Line Premium"
   ],
   "exclude": [
