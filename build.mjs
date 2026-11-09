@@ -13,7 +13,7 @@ const specs = await read('config/cars.json', '[]');
 const mileage = settings.annualMileage ?? 10000, ups = settings.initialMonths ?? [1, 3], terms = settings.terms ?? [24, 36, 48];
 
 const sources = [], deals = [];
-const rawFiles = (await fs.readdir(path.join(root, 'data/raw'))).filter(f => f.endsWith('.json'));
+const rawFiles = (await fs.readdir(path.join(root, 'data/raw'))).filter(f => f.endsWith('.json') && !(settings.disabledSources || []).includes(f.replace(/\.json$/, '')));
 const manual = await read('config/manual-deals.json', '[]');
 const batches = [];
 for (const f of rawFiles) batches.push(await read('data/raw/' + f, '{}'));
@@ -26,6 +26,7 @@ for (const b of batches) {
     const mdl = models.find(m => m.id === raw.modelId);
     const prefixes = mdl ? [...mdl.aliases.map(a => `${mdl.make} ${a}`), `${mdl.make.split('-')[0]} ${mdl.model}`, ...mdl.aliases] : [];
     const d = normalize({ ...raw, fetchedAt: raw.fetchedAt || b.fetchedAt }, { ...meta, aliasPrefixes: prefixes });
+    if (d && mdl?.fuel) d.fuel = mdl.fuel; // all-electric models: don't guess from the name
     if (!d || !models.find(m => m.id === d.modelId)) continue;
     if (d.mileage !== mileage || !ups.includes(d.upfront) || !terms.includes(d.term)) continue;
     const key = [d.source, d.dealer, d.derivative, d.term, d.upfront, d.monthly, d.stock].join('|');

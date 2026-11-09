@@ -20,6 +20,7 @@
   --fuel-petrol: #2a78d6; /* categorical slot 1 */
   --fuel-diesel: #eb6834; /* slot 2 */
   --fuel-phev:   #1baf7a; /* slot 3 */
+  --fuel-bev:    #eda100; /* slot 4; electric is also drawn as a diamond so it never relies on hue next to orange */
   --good: #0ca30c; --warning: #fab219; --critical: #d03b3b;
   --seq-1: #cde2fb; --seq-2: #86b6ef; --seq-3: #3987e5; --seq-4: #1c5cab;
   --f-display: 'Archivo', 'Arial Narrow', system-ui, sans-serif;
@@ -30,12 +31,12 @@
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0f1418; --surface: #171d23; --surface-2: #212932; --ink: #e9eef2; --ink-2: #aab4be; --ink-3: #7c8894;
   --rule: #2c3640; --accent: #7aa2ff; --plate: #f7c600; --plate-ink: #111111;
-  --fuel-petrol: #3987e5; --fuel-diesel: #d95926; --fuel-phev: #199e70;
+  --fuel-petrol: #3987e5; --fuel-diesel: #d95926; --fuel-phev: #199e70; --fuel-bev: #c98500;
   --seq-1: #184f95; --seq-2: #256abf; --seq-3: #5598e7; --seq-4: #9ec5f4; color-scheme: dark; } }
 :root[data-theme="dark"] {
   --bg: #0f1418; --surface: #171d23; --surface-2: #212932; --ink: #e9eef2; --ink-2: #aab4be; --ink-3: #7c8894;
   --rule: #2c3640; --accent: #7aa2ff; --plate: #f7c600; --plate-ink: #111111;
-  --fuel-petrol: #3987e5; --fuel-diesel: #d95926; --fuel-phev: #199e70;
+  --fuel-petrol: #3987e5; --fuel-diesel: #d95926; --fuel-phev: #199e70; --fuel-bev: #c98500;
   --seq-1: #184f95; --seq-2: #256abf; --seq-3: #5598e7; --seq-4: #9ec5f4; color-scheme: dark; }
 
 * { box-sizing: border-box; }
@@ -97,6 +98,7 @@ tbody tr:hover { background: var(--surface-2); }
 .pill.factory::before { content: ""; width: 7px; height: 7px; border-radius: 2px; background: var(--ink-3); }
 .pill.warn::before { content: "!"; font-weight: 800; color: var(--critical); }
 .fuel-dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: 1px; }
+.fuel-dot.bev { border-radius: 1px; transform: rotate(45deg) scale(.9); }
 .nomatch { color: var(--ink-3); font-style: italic; }
 
 .legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; color: var(--ink-2); }
@@ -238,8 +240,13 @@ details.editor summary { cursor: pointer; font-weight: 600; }
 
 <script>
 const $ = s => document.querySelector(s);
-const FUELS = { petrol: { label: 'Petrol / mild hybrid', v: '--fuel-petrol' }, diesel: { label: 'Diesel', v: '--fuel-diesel' }, phev: { label: 'Plug-in hybrid', v: '--fuel-phev' } };
-const fuelGroup = f => (f === 'diesel' ? 'diesel' : (f === 'phev' || f === 'bev') ? 'phev' : 'petrol');
+const FUELS = { petrol: { label: 'Petrol / mild hybrid', v: '--fuel-petrol' }, diesel: { label: 'Diesel', v: '--fuel-diesel' }, phev: { label: 'Plug-in hybrid', v: '--fuel-phev' }, bev: { label: 'Electric', v: '--fuel-bev' } };
+const fuelGroup = f => (f === 'diesel' ? 'diesel' : f === 'bev' ? 'bev' : f === 'phev' ? 'phev' : 'petrol');
+const dotClass = f => 'fuel-dot' + (fuelGroup(f) === 'bev' ? ' bev' : '');
+// SVG marker: circle, or a diamond for electric (shape carries the distinction, not just hue)
+const marker = (g, cx, cy, r, extra) => g === 'bev'
+  ? `<path d="M${cx},${cy - r * 1.3} L${cx + r * 1.3},${cy} L${cx},${cy + r * 1.3} L${cx - r * 1.3},${cy} Z" fill="var(${FUELS[g].v})" stroke="var(--surface)" stroke-width="2" ${extra}/>`
+  : `<circle cx="${cx}" cy="${cy}" r="${r}" fill="var(${FUELS[g].v})" stroke="var(--surface)" stroke-width="2" ${extra}/>`;
 const fuelColor = f => `var(${FUELS[fuelGroup(f)].v})`;
 const gbp = (n, dp = 0) => n == null ? '—' : '£' + n.toLocaleString('en-GB', { minimumFractionDigits: dp, maximumFractionDigits: dp });
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -332,9 +339,11 @@ function renderKpis(live) {
   const cheapest = rows.sort((a, b) => key(a.b) + a.add - key(b.b) - b.add)[0];
   const byMake = {}; rows.forEach(r => { const v = key(r.b) + r.add; if (!(r.m.make in byMake) || v < byMake[r.m.make].v) byMake[r.m.make] = { v, r }; });
   const phev = rows.filter(r => fuelGroup(r.sp.fuel || r.b.fuel) === 'phev').sort((a, b) => key(a.b) - key(b.b))[0];
+  const bev = rows.filter(r => fuelGroup(r.sp.fuel || r.b.fuel) === 'bev').sort((a, b) => key(a.b) + a.add - key(b.b) - b.add)[0];
   $('#kpis').innerHTML = [
     ['Cheapest on shortlist', cheapest ? gbp(key(cheapest.b) + cheapest.add) : '—', cheapest ? `${cheapest.m.make} ${cheapest.m.model} ${cheapest.sp.label}, ${profile(cheapest.b)}` : 'No matches yet'],
     ['Cheapest plug-in hybrid', phev ? gbp(key(phev.b) + phev.add) : '—', phev ? `${phev.m.model} ${phev.sp.label}` : 'No plug-in hybrid matched'],
+    ['Cheapest electric', bev ? gbp(key(bev.b) + bev.add) : '—', bev ? `${bev.m.make} ${bev.m.model} ${bev.sp.label}` : 'No electric car matched'],
     ['Cheapest make', Object.keys(byMake).length ? Object.entries(byMake).sort((a, b) => a[1].v - b[1].v)[0][0] : '—', Object.entries(byMake).sort((a, b) => a[1].v - b[1].v).map(([k, v]) => `${k} ${gbp(v.v)}`).join(' · ')],
     ['Offers compared', DATA.deals.length.toLocaleString('en-GB'), `${live} of ${DATA.sources.length} sources returned prices`],
   ].map(([l, v, s]) => `<div class="kpi"><div class="eyebrow">${l}</div><div class="v">${esc(v)}</div><div class="s">${esc(s)}</div></div>`).join('');
@@ -346,7 +355,7 @@ function renderShortlist() {
   rows.sort(state.sort === 'model' ? (a, b) => (a.m.make + a.m.model).localeCompare(b.m.make + b.m.model) || val(a) - val(b) : state.sort === 'n' ? (a, b) => b.n - a.n : (a, b) => val(a) - val(b));
   const top = Math.min(...rows.map(val));
   $('#shortlist tbody').innerHTML = rows.map(({ sp, b, n, add, m }) => {
-    const car = `<div class="make">${esc(m.make)} ${esc(m.model)}</div><div class="spec"><span class="fuel-dot" style="background:${fuelColor(sp.fuel || b?.fuel)}"></span>${esc(sp.label)}</div>`;
+    const car = `<div class="make">${esc(m.make)} ${esc(m.model)}</div><div class="spec"><span class="${dotClass(sp.fuel || b?.fuel)}" style="background:${fuelColor(sp.fuel || b?.fuel)}"></span>${esc(sp.label)}</div>`;
     if (!b) return `<tr><td>${car}</td><td colspan="9" class="nomatch">No offer found matching this spec. Check the match rules under Edit shortlist.</td></tr>`;
     const v = key(b) + add;
     return `<tr>
@@ -378,7 +387,7 @@ function niceTicks(lo, hi, n = 5) { const span = hi - lo, step0 = span / n, mag 
 
 function renderDot() {
   const box = $('#dotplot'); const p = pool();
-  $('#fuel-legend').innerHTML = Object.entries(FUELS).map(([k, f]) => `<span><span class="fuel-dot" style="background:var(${f.v})"></span>${f.label}</span>`).join('') + `<span><span class="fuel-dot" style="background:var(--ink-3);opacity:.5"></span>Other trims</span>`;
+  $('#fuel-legend').innerHTML = Object.entries(FUELS).map(([k, f]) => `<span><span class="${dotClass(k)}" style="background:var(${f.v})"></span>${f.label}</span>`).join('') + `<span><span class="fuel-dot" style="background:var(--ink-3);opacity:.5"></span>Other trims</span>`;
   const rows = DATA.models.map(m => {
     const ds = p.filter(d => d.modelId === m.id);
     const byDeriv = {}; ds.forEach(d => { const k = d.derivative; if (!byDeriv[k] || key(d) < key(byDeriv[k])) byDeriv[k] = d; });
@@ -400,7 +409,7 @@ function renderDot() {
     s += `<text class="lbl" x="${L - 12}" y="${y + 4}" text-anchor="end">${esc(r.m.make.replace('Mercedes-Benz', 'Mercedes'))} ${esc(r.m.model)}</text>`;
     s += r.all.map(d => `<line x1="${x(key(d))}" x2="${x(key(d))}" y1="${y - 7}" y2="${y + 7}" stroke="var(--ink-3)" stroke-opacity=".45" stroke-width="2" data-i="${DATA.deals.indexOf(d)}" style="cursor:pointer"/>`).join('');
     const fuels = Object.entries(r.byFuel).sort((a, b) => key(b[1]) - key(a[1]));
-    s += fuels.map(([g, d]) => `<circle cx="${x(key(d))}" cy="${y}" r="7" fill="var(${FUELS[g].v})" stroke="var(--surface)" stroke-width="2" data-i="${DATA.deals.indexOf(d)}" style="cursor:pointer"/>`).join('');
+    s += fuels.map(([g, d]) => marker(g, x(key(d)), y, 7, `data-i="${DATA.deals.indexOf(d)}" style="cursor:pointer"`)).join('');
     if (fuels.length) { const mn = Math.min(...fuels.map(f => key(f[1]))); s += `<text x="${Math.min(W - 4, x(Math.max(...r.all.map(key))) + 10)}" y="${y + 4}" text-anchor="start" style="font-family:var(--f-mono)">${W > 520 ? gbp(mn) : ''}</text>`; }
     if (!r.all.length) s += `<text x="${L + 6}" y="${y + 4}" font-style="italic">no offers</text>`;
   });
@@ -472,7 +481,7 @@ function renderSpread() {
   rows.forEach(([k, d], i) => {
     const y = T + i * rh + rh / 2; const nm = k.length > 30 ? k.slice(0, 29) + '…' : k;
     s += `<text class="lbl" x="${L - 10}" y="${y + 4}" text-anchor="end">${esc(nm)}</text><line x1="${L}" x2="${x(key(d))}" y1="${y}" y2="${y}" stroke="var(--rule)" stroke-width="2"/>`;
-    s += `<circle cx="${x(key(d))}" cy="${y}" r="6" fill="${fuelColor(d.fuel)}" stroke="var(--surface)" stroke-width="2" data-i="${DATA.deals.indexOf(d)}" style="cursor:pointer"/><text x="${x(key(d)) + 12}" y="${y + 4}" style="font-family:var(--f-mono)">${gbp(key(d))}</text>`;
+    s += marker(fuelGroup(d.fuel), x(key(d)), y, 6, `data-i="${DATA.deals.indexOf(d)}" style="cursor:pointer"`) + `<text x="${x(key(d)) + 12}" y="${y + 4}" style="font-family:var(--f-mono)">${gbp(key(d))}</text>`;
   });
   box.innerHTML = s + '</svg>';
   const tp = tipper(box);
@@ -513,7 +522,7 @@ function renderAll() {
   $('#all-count').textContent = `${rows.length.toLocaleString('en-GB')} offers, cheapest first${rows.length > 400 ? ' (first 400 shown)' : ''}`;
   $('#alltable tbody').innerHTML = rows.slice(0, 400).map(d => `<tr>
     <td><div class="make">${esc(d.make)}</div>${esc(d.model)}</td>
-    <td><span class="fuel-dot" style="background:${fuelColor(d.fuel)}"></span>${esc(d.derivative)}</td>
+    <td><span class="${dotClass(d.fuel)}" style="background:${fuelColor(d.fuel)}"></span>${esc(d.derivative)}</td>
     <td class="num"><span class="price" style="font-size:15px">${gbp(d.effective, 2)}</span></td><td class="num">${gbp(d.monthly, 2)}</td>
     <td><span class="profile">${profile(d)}</span></td><td class="num">${feeCell(d)}</td>
     <td><a href="${esc(d.url)}" target="_blank" rel="noopener">${srcName(d)}</a></td><td>${availPill(d)}</td></tr>`).join('');

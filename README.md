@@ -54,7 +54,7 @@ Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,vo
 | Carwow | marketplace (many dealers and brokers) | anywhere | server-rendered deal cards, one offer per dealer | ✅ broker fees included; only C-Class source |
 | Leasing Options | broker | anywhere | the site's own JSON API | ✅ £399.99 processing fee |
 | Moneyshake | aggregator | anywhere | the site's own SvelteKit data + pricing endpoint | ✅ best offer per derivative only |
-| LeaseLoco | aggregator | laptop | API is behind AWS WAF; from a datacenter only featured deals load | ⚠️ partial; untested on a home connection |
+| LeaseLoco | aggregator | laptop | API is behind AWS WAF; from a datacenter only featured deals load | ⛔ disabled: price API behind a bot firewall |
 | Rivervale | broker | anywhere | the site's public Algolia index + its own deal endpoint | ✅ £262.80 processing fee; big C-Class Estate range |
 | LeaseCar.UK | broker | anywhere | the site's own JSON API | ✅ £348 sourcing fee; C-Class Estate included |
 | VIPGateway | broker (Jacit platform) | anywhere | server-rendered listing pages with the site's own filter params | ✅ £384.99 arrangement fee |
@@ -64,18 +64,22 @@ Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,vo
 | AA Leasing | broker | anywhere | the site's own JSON API (CarDataApi) | ✅ £299 admin fee; no 3 Series Touring, C-Class or RS5 listed |
 | What Car? | aggregator (prices from Auto Trader) | laptop | server-rendered HTML | ⛔ disabled: example deals only (5–6k miles, 12 upfront), never matches 10k / 1–3 |
 | LeaseFetcher | aggregator | anywhere | the site's filtered-list JSON | ⚠️ site currently lists no offers |
-| Select Car Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
-| Nationwide Vehicle Contracts | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
-| Leasing.com (incl. Contract Hire and Leasing) | aggregator | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
-| Pink Car Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
-| Gateway2Lease | broker (has C-Class Estate) | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
-| Synergy Car Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
-| Carparison Leasing | broker | **laptop only** | drives the site in your visible browser | 🧪 untested on the live site |
+| Select Car Leasing | broker | **laptop only** | drives the site in your visible browser | ⛔ disabled: blocks automated visitors |
+| Nationwide Vehicle Contracts | broker | **laptop only** | drives the site in your visible browser | ⛔ disabled: blocks automated visitors |
+| Leasing.com (incl. Contract Hire and Leasing) | aggregator | **laptop only** | drives the site in your visible browser | ⛔ disabled: blocks automated visitors |
+| Pink Car Leasing | broker | **laptop only** | drives the site in your visible browser | ⛔ disabled: blocks automated visitors |
+| Gateway2Lease | broker (has C-Class Estate) | **laptop only** | drives the site in your visible browser | ⛔ disabled: blocks automated visitors |
+| Synergy Car Leasing | broker | **laptop only** | drives the site in your visible browser | ⛔ disabled: blocks automated visitors |
+| Carparison Leasing | broker | **laptop only** | drives the site in your visible browser | ⛔ disabled: blocks automated visitors |
 | Anything else | manual | laptop | `node capture.mjs <url>` or `config/manual-deals.json` | |
 
 Mercedes C-Class Estate offers come from Carwow (including Mercedes-Benz UK's own C200 deals), Rivervale, LeaseCar.UK, VIPGateway and Motorlet. Broker prices for the C-Class are far higher than the manufacturer's own offers.
 
-### Local-only sources (Select, NVC, Leasing.com, Pink, Gateway2Lease, Synergy, Carparison)
+### Local-only sources (disabled)
+
+Select, NVC, Leasing.com, Pink, Gateway2Lease, Synergy and Carparison block automated visitors, including from a home connection, so they are listed in `disabledSources` and skipped. The modules still work as a reference for the browser driver: run one by name to try it anyway.
+
+#### How the browser driver works
 
 These sites refuse traffic from cloud machines, so their modules only run with a visible browser on your own machine:
 

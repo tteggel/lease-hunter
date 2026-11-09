@@ -1,9 +1,11 @@
 [
-  { "id": "bmw-3-touring",  "make": "BMW",           "model": "3 Series Touring", "aliases": ["3 Series Touring", "3 Series Estate"] },
-  { "id": "bmw-x3",         "make": "BMW",           "model": "X3",               "aliases": ["X3"] },
-  { "id": "merc-c-estate",  "make": "Mercedes-Benz", "model": "C-Class Estate",   "aliases": ["C Class Estate", "C-Class Estate", "C Class Estate Special Edition"] },
-  { "id": "volvo-xc60",     "make": "Volvo",         "model": "XC60",             "aliases": ["XC60"] },
-  { "id": "audi-a5-avant",  "make": "Audi",          "model": "A5 Avant",         "aliases": ["A5 Avant", "A5 Estate"] },
-  { "id": "audi-s5-avant",  "make": "Audi",          "model": "S5 Avant",         "aliases": ["S5 Avant", "S5 Estate"] },
-  { "id": "audi-rs5-avant", "make": "Audi",          "model": "RS5 Avant",        "aliases": ["RS5 Avant", "RS 5 Avant", "RS5 Estate"] }
+  {"id": "bmw-3-touring", "make": "BMW", "model": "3 Series Touring", "aliases": ["3 Series Touring", "3 Series Estate"]},
+  {"id": "bmw-x3", "make": "BMW", "model": "X3", "aliases": ["X3"]},
+  {"id": "merc-c-estate", "make": "Mercedes-Benz", "model": "C-Class Estate", "aliases": ["C Class Estate", "C-Class Estate", "C Class Estate Special Edition"]},
+  {"id": "volvo-xc60", "make": "Volvo", "model": "XC60", "aliases": ["XC60"]},
+  {"id": "audi-a5-avant", "make": "Audi", "model": "A5 Avant", "aliases": ["A5 Avant", "A5 Estate"]},
+  {"id": "audi-s5-avant", "make": "Audi", "model": "S5 Avant", "aliases": ["S5 Avant", "S5 Estate"]},
+  {"id": "audi-rs5-avant", "make": "Audi", "model": "RS5 Avant", "aliases": ["RS5 Avant", "RS 5 Avant", "RS5 Estate"]},
+  {"id": "polestar-4", "make": "Polestar", "model": "4 SUV", "aliases": ["Polestar 4 SUV", "4 SUV"], "fuel": "bev", "note": "SUV body launched Sept 2026; excludes the Polestar 4 Coupe"},
+  {"id": "volvo-ex60", "make": "Volvo", "model": "EX60", "aliases": ["EX60", "EX60 SUV", "EX60 Estate"], "fuel": "bev"}
 ]
