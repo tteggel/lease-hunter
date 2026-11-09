@@ -43,6 +43,9 @@ const RULES = {
   'audi-a5-avant':  { make: 'Audi', mi: /^a5 avant\b/i, deriv: d => !/^S5\b/i.test(d) },
   'audi-s5-avant':  { make: 'Audi', mi: /^(a5|s5) avant\b/i, deriv: d => /^S5\b/i.test(d) },
   'audi-rs5-avant': { make: 'Audi', mi: /^rs ?5 avant\b/i },
+  // Polestar 4 SUV (Sep 2026) only; the original car is listed separately as "4 Coupe" and is excluded
+  'polestar-4':     { make: 'Polestar', mi: /^4 suv\b/i },
+  'volvo-ex60':     { make: 'Volvo', mi: /^ex60\b/i },
 };
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -67,7 +70,7 @@ function fuelOf(ft, d) {
   if (f === 'petrol') return 'petrol';
   return null;
 }
-const driveOf = d => /xdrive|quattro|qtro|awd|4matic/i.test(d) ? 'awd' : null;
+const driveOf = d => /xdrive|quattro|qtro|awd|4matic|dual motor/i.test(d) ? 'awd' : null;
 const engineOf = d => d.match(/\b(\d\.\d)\b/)?.[1] || null;
 const powerOf = d => {
   const m = d.match(/\[(\d{3})\]/) || d.match(/\b(?:TFSI|TDI|TSI|B5P?|T6|T8)\s+(?:e\s+)?(?:Quattro\s+)?(\d{3})\b/i) || d.match(/\b(\d{3})\s*(?:PS|hp|bhp)\b/i);

@@ -27,7 +27,7 @@ const DELAY_MS = 250;
 const PER_PAGE = 9; // fixed by the site
 const STATES = [['UNBUILT', 'factory'], ['UNREGISTERED', 'stock'], ['PREREGISTERED', 'prereg']];
 
-const BRAND = { bmw: 'bmw', 'mercedes-benz': 'mercedes', mercedes: 'mercedes', volvo: 'volvo', audi: 'audi' };
+const BRAND = { bmw: 'bmw', 'mercedes-benz': 'mercedes', mercedes: 'mercedes', volvo: 'volvo', audi: 'audi', polestar: 'polestar' };
 // carwow model path + known review slug fallback (resolved live from the model page when possible)
 const MODEL_MAP = {
   'bmw-3-touring':  { path: '3-series-touring', slug: '3-series-touring-2019' },
@@ -37,6 +37,8 @@ const MODEL_MAP = {
   'audi-a5-avant':  { path: 'a5-avant', slug: 'a5-avant-2024' },
   'audi-s5-avant':  { path: 's5-avant', slug: 's5-avant-2024' },
   'audi-rs5-avant': { path: 'rs5-avant', slug: 'rs5-avant-2026' },
+  'polestar-4':     { path: '4-suv', slug: '4-suv-2026' }, // SUV body only (the 4 Coupe is model_review_slug 4-2024)
+  'volvo-ex60':     { path: 'ex60', slug: 'ex60-2026' },
 };
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
