@@ -1,6 +1,6 @@
 # Lease Hunter
 
-Finds the cheapest UK **personal** lease deals for a shortlist of cars:
+Finds the cheapest UK **personal** lease deals for a shortlist of cars (BMW 3 Series Touring and X3, Mercedes C-Class Estate, Volvo XC60 and EX60, Audi A5/S5/RS5 Avant, Polestar 4 SUV):
 10,000 miles a year, 1 or 3 months upfront, whichever term (24/36/48) is cheapest,
 ranked by **effective monthly** = (initial payment + remaining payments + broker fees) ÷ term.
 
@@ -106,7 +106,7 @@ These modules are for your own use: they do what you would do by hand, at a pers
 
 ## Configure
 
-- `config/models.json`: which models to collect (all derivatives are collected).
+- `config/models.json`: which models to collect (all derivatives are collected). `"fuel": "bev"` marks all-electric models. `polestar-4` is the **4 SUV** only (launched Sept 2026); every scraper excludes the 4 Coupe, which uses the same derivative names, by range or model id. Adding a model means adding an entry to each scraper's per-model table.
 - `config/cars.json`: the shortlist. Each spec picks derivatives with regex `match` / `exclude` and can list `options` with estimated list prices. You can also edit it in the dashboard (saved in your browser), then **Copy JSON** back into this file.
 - `config/settings.json`: mileage, upfront months (`initialMonths`, default 1 and 3; a test with 1–12 showed bigger upfronts barely change the effective monthly), terms, disabled sources.
 

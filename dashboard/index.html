@@ -410,7 +410,7 @@ function renderDot() {
     s += r.all.map(d => `<line x1="${x(key(d))}" x2="${x(key(d))}" y1="${y - 7}" y2="${y + 7}" stroke="var(--ink-3)" stroke-opacity=".45" stroke-width="2" data-i="${DATA.deals.indexOf(d)}" style="cursor:pointer"/>`).join('');
     const fuels = Object.entries(r.byFuel).sort((a, b) => key(b[1]) - key(a[1]));
     s += fuels.map(([g, d]) => marker(g, x(key(d)), y, 7, `data-i="${DATA.deals.indexOf(d)}" style="cursor:pointer"`)).join('');
-    if (fuels.length) { const mn = Math.min(...fuels.map(f => key(f[1]))); s += `<text x="${Math.min(W - 4, x(Math.max(...r.all.map(key))) + 10)}" y="${y + 4}" text-anchor="start" style="font-family:var(--f-mono)">${W > 520 ? gbp(mn) : ''}</text>`; }
+    if (fuels.length) { const mn = Math.min(...fuels.map(f => key(f[1]))); s += `<text x="${Math.min(W - 4, x(Math.max(...r.all.map(key))) + 10)}" y="${y + 4}" text-anchor="start" style="font-family:var(--f-mono)">${W > 520 ? 'from ' + gbp(mn) : ''}</text>`; }
     if (!r.all.length) s += `<text x="${L + 6}" y="${y + 4}" font-style="italic">no offers</text>`;
   });
   box.innerHTML = s + '</svg>';
