@@ -19,7 +19,7 @@ const HEADERS = {
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 // Site make slugs + which site "models" (body/fuel splits) belong to each configured model.
-const MAKE_SLUG = { 'BMW': 'bmw', 'Mercedes-Benz': 'mercedes-benz', 'Volvo': 'volvo', 'Audi': 'audi' };
+const MAKE_SLUG = { 'BMW': 'bmw', 'Mercedes-Benz': 'mercedes-benz', 'Volvo': 'volvo', 'Audi': 'audi', 'Polestar': 'polestar' };
 const RULES = {
   'bmw-3-touring':  { models: /^3-series-(diesel-)?touring$/ },
   'bmw-x3':         { models: /^x3-(diesel-)?estate$/ },
@@ -29,6 +29,9 @@ const RULES = {
   'audi-a5-avant':  { models: /^a5-(diesel-)?avant$/, deriv: d => !/^S5\b/i.test(d) },
   'audi-s5-avant':  { models: /^(a5|s5)-(diesel-)?avant$/, deriv: d => /^S5\b/i.test(d) || /\bS5\b/.test(d) },
   'audi-rs5-avant': { models: /^rs-?5-avant$/ },
+  // "4 Estate" is the new (2026) 4 SUV body (CAP 111293+); "4 Coupe" is the original car and is excluded
+  'polestar-4':     { models: /^4-estate$/ },
+  'volvo-ex60':     { models: /^ex60-estate$/ },
 };
 const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 

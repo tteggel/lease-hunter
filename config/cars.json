@@ -477,5 +477,128 @@
   "exclude": [
    "\\[|\\bTech\\b"
   ]
+ },
+ {
+  "id": "p4-rear-business",
+  "modelId": "polestar-4",
+  "label": "Rear Motor Business",
+  "fuel": "bev",
+  "match": [
+   "Rear Motor",
+   "Business"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "p4-rear-prime",
+  "modelId": "polestar-4",
+  "label": "Rear Motor Prime",
+  "fuel": "bev",
+  "match": [
+   "Rear Motor",
+   "Prime"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "p4-dual-business",
+  "modelId": "polestar-4",
+  "label": "Dual Motor Business",
+  "fuel": "bev",
+  "match": [
+   "Dual Motor",
+   "Business"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "p4-dual-prime",
+  "modelId": "polestar-4",
+  "label": "Dual Motor Prime",
+  "fuel": "bev",
+  "match": [
+   "Dual Motor",
+   "Prime"
+  ],
+  "exclude": [
+   "Performance"
+  ]
+ },
+ {
+  "id": "p4-dual-perf",
+  "modelId": "polestar-4",
+  "label": "Dual Motor Performance Prime",
+  "fuel": "bev",
+  "match": [
+   "Dual Motor",
+   "Performance"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "ex60-p6-plus",
+  "modelId": "volvo-ex60",
+  "label": "P6 Plus",
+  "fuel": "bev",
+  "match": [
+   "\\bP6\\b",
+   "\\bPlus\\b"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "ex60-p6-ultra",
+  "modelId": "volvo-ex60",
+  "label": "P6 Ultra",
+  "fuel": "bev",
+  "match": [
+   "\\bP6\\b",
+   "\\bUltra\\b"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "ex60-p10-plus",
+  "modelId": "volvo-ex60",
+  "label": "P10 AWD Plus",
+  "fuel": "bev",
+  "match": [
+   "\\bP10\\b",
+   "\\bPlus\\b"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "ex60-p10-ultra",
+  "modelId": "volvo-ex60",
+  "label": "P10 AWD Ultra",
+  "fuel": "bev",
+  "match": [
+   "\\bP10\\b",
+   "\\bUltra\\b"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "ex60-p12-plus",
+  "modelId": "volvo-ex60",
+  "label": "P12 AWD Plus",
+  "fuel": "bev",
+  "match": [
+   "\\bP12\\b",
+   "\\bPlus\\b"
+  ],
+  "exclude": []
+ },
+ {
+  "id": "ex60-p12-ultra",
+  "modelId": "volvo-ex60",
+  "label": "P12 AWD Ultra",
+  "fuel": "bev",
+  "match": [
+   "\\bP12\\b",
+   "\\bUltra\\b"
+  ],
+  "exclude": []
  }
 ]

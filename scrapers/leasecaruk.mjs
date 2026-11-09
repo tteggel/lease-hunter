@@ -33,6 +33,10 @@ const RULES = {
   'audi-a5-avant':  { pages: ['audi/a5-estate'], deriv: d => !/^S5\b/i.test(d.derivative_name) },
   'audi-s5-avant':  { pages: ['audi/a5-estate'], deriv: d => /^S5\b/i.test(d.derivative_name) },
   'audi-rs5-avant': { pages: ['audi/rs5-estate'] },
+  // Polestar 4 SUV (Sept 2026) is the "4 Estate" on /polestar/4-4x4 (range 1614); the original car is the
+  // separate "4 Coupe" range on /polestar/4-coupe-4x4 and is excluded
+  'polestar-4':     { pages: ['polestar/4-4x4'], deriv: d => !/coupe/i.test(d.model_name || '') },
+  'volvo-ex60':     { pages: ['volvo/ex60-4x4'] },
 };
 
 async function req(url, { method = 'GET', body, token, json = true } = {}, ctx, tries = 3) {
@@ -110,10 +114,11 @@ async function sourcingFee(slug, ctx) {
   } catch { return null; }
 }
 
-// fuel_type_id as observed: 1 petrol, 2 diesel, 7 plug-in hybrid (others mapped by name)
-const FUEL = { 1: 'petrol', 2: 'diesel', 7: 'phev' };
+// fuel_type_id as observed: 1 petrol, 2 diesel, 3 electric, 7 plug-in hybrid (others mapped by name)
+const FUEL = { 1: 'petrol', 2: 'diesel', 3: 'bev', 7: 'phev' };
 function fuelOf(d) {
   const s = d.derivative_name, f = FUEL[d.fuel_type_id];
+  if (f === 'bev') return 'bev';
   if (f === 'phev' || /\bphev\b|plug-in|tfsi e\b|\d{3}d?e\b|\bs e\b|\bt[68]\b|kwh/i.test(s) && !/\bev\b|electric/i.test(s)) return 'phev';
   if (/\bmht\b|\bmhev\b|mild hybrid|\bb[3-6]p?\b/i.test(s)) return 'mhev';
   if (f) return f;
@@ -121,7 +126,7 @@ function fuelOf(d) {
   if (/electric|\bkw\b/i.test(s)) return 'bev';
   return null;
 }
-const driveOf = s => /xdrive|quattro|qtro|awd|4matic/i.test(s) ? 'awd' : null;
+const driveOf = s => /xdrive|quattro|qtro|awd|4matic|dual motor/i.test(s) ? 'awd' : null;
 const engineOf = s => s.match(/\b(\d\.\d)\b/)?.[1] || null;
 const powerOf = s => +((s.match(/\[(\d{3})\]/) || s.match(/\b(?:TFSI|TDI|B5P?|T6|T8)\s+(?:e\s+)?(?:Quattro\s+)?(\d{3})\b/i) || s.match(/\b(\d{3})\s*(?:PS|hp|bhp)\b/i) || [])[1]) || null;
 

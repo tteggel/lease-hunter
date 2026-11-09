@@ -8,7 +8,7 @@
 //        -> { totalMonthlyCost (PCH = inc VAT), upFrontCost, adminFee, ... }   (what the deal page's mileage/term/upfront radios call)
 // Deal page: /leasing/cars/{make-slug}/{range-slug}/{alias}  — opens at 5,000mi / 36m / 12 upfront; the visitor re-selects
 // mileage (5k/8k/10k/12k/15k), term (24/36/48) and upfront months (1/3/6/9/12) on the page.
-// Manufacturer ids come from the search page's filter checkboxes (Audi 4, BMW 7, Mercedes-Benz 34, Volvo 58).
+// Manufacturer ids come from the search page's filter checkboxes (Audi 4, BMW 7, Mercedes-Benz 34, Volvo 58, Polestar 104).
 
 export const meta = { id: 'aa', name: 'AA Lease', url: 'https://www.theaa.com/leasing', method: 'api', homeIpRecommended: false };
 
@@ -19,7 +19,7 @@ const HEADERS = {
   Accept: 'application/json, text/javascript, */*; q=0.01', 'X-Requested-With': 'XMLHttpRequest', Referer: SITE + '/leasing/cars/search',
 };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-const MAKE_ID = { 'Audi': 4, 'BMW': 7, 'Mercedes-Benz': 34, 'Volvo': 58 };
+const MAKE_ID = { 'Audi': 4, 'BMW': 7, 'Mercedes-Benz': 34, 'Volvo': 58, 'Polestar': 104 };
 
 // Which AA rows (range / model / derivative) belong to each configured model.
 const RULES = {
@@ -30,6 +30,10 @@ const RULES = {
   'audi-a5-avant':  v => /^A5$/i.test(v.range) && /avant|estate/i.test(v.model) && !/^S5\b/i.test(v.derivative),
   'audi-s5-avant':  v => (/^S5$/i.test(v.range) || (/^A5$/i.test(v.range) && /^S5\b/i.test(v.derivative))) && /avant|estate/i.test(v.model),
   'audi-rs5-avant': v => /^RS ?5$/i.test(v.range) && /avant|estate/i.test(v.model),
+  // Not listed on AA as of 2026-11 (Polestar rows are 2/3/5 only; no EX60 range). AA uses CAP model names
+  // ("3 ESTATE"), where the new 4 SUV is "4 Estate" and the original is "4 Coupe" (excluded).
+  'polestar-4':     v => /^4$/i.test(v.range) && /estate|suv/i.test(v.model) && !/coupe/i.test(v.model),
+  'volvo-ex60':     v => /^EX60$/i.test(v.range),
 };
 const slug = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 

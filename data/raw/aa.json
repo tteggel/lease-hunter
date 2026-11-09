@@ -6,7 +6,7 @@
   "method": "api",
   "homeIpRecommended": false
  },
- "fetchedAt": "2026-11-08T20:25:27.152Z",
+ "fetchedAt": "2026-11-09T19:36:47.174Z",
  "deals": [
   {
    "source": "aa",
@@ -34,7 +34,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-08T20:24:10.536Z"
+   "fetchedAt": "2026-11-09T19:35:43.218Z"
   },
   {
    "source": "aa",
@@ -62,7 +62,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-08T20:24:11.097Z"
+   "fetchedAt": "2026-11-09T19:35:43.579Z"
   },
   {
    "source": "aa",
@@ -90,7 +90,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-08T20:24:11.463Z"
+   "fetchedAt": "2026-11-09T19:35:43.936Z"
   },
   {
    "source": "aa",
@@ -118,7 +118,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-08T20:24:11.843Z"
+   "fetchedAt": "2026-11-09T19:35:44.282Z"
   },
   {
    "source": "aa",
@@ -146,7 +146,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-08T20:24:12.195Z"
+   "fetchedAt": "2026-11-09T19:35:44.624Z"
   },
   {
    "source": "aa",
@@ -174,7 +174,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-08T20:24:12.544Z"
+   "fetchedAt": "2026-11-09T19:35:44.972Z"
   },
   {
    "source": "aa",
@@ -204,7 +204,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:14.475Z"
+   "fetchedAt": "2026-11-09T19:35:46.282Z"
   },
   {
    "source": "aa",
@@ -232,7 +232,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:15.001Z"
+   "fetchedAt": "2026-11-09T19:35:46.570Z"
   },
   {
    "source": "aa",
@@ -262,7 +262,35 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:15.010Z"
+   "fetchedAt": "2026-11-09T19:35:46.625Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "volvo-xc60",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-plus-black-edition-5dr-awd-geartronic-107432",
+   "make": "Volvo",
+   "model": "XC60",
+   "derivative": "2.0 B5P Plus Black Edition 5dr AWD Geartronic",
+   "trim": null,
+   "siteModel": "Xc60 Estate",
+   "fuel": "mhev",
+   "engine": "2.0",
+   "powerHp": null,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 24,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 784.69,
+   "initialPaymentIncVat": 2354.08,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 26777,
+   "capCode": "VOX620PBE5EPTA4 4",
+   "fetchedAt": "2026-11-09T19:35:46.960Z"
   },
   {
    "source": "aa",
@@ -292,7 +320,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:15.387Z"
+   "fetchedAt": "2026-11-09T19:35:47.026Z"
   },
   {
    "source": "aa",
@@ -308,11 +336,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 3,
+   "termMonths": 36,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 784.69,
-   "initialPaymentIncVat": 2354.08,
+   "monthlyIncVat": 714.73,
+   "initialPaymentIncVat": 714.73,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -320,7 +348,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:15.489Z"
+   "fetchedAt": "2026-11-09T19:35:47.298Z"
   },
   {
    "source": "aa",
@@ -350,7 +378,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:15.738Z"
+   "fetchedAt": "2026-11-09T19:35:47.375Z"
   },
   {
    "source": "aa",
@@ -367,10 +395,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 714.73,
-   "initialPaymentIncVat": 714.73,
+   "monthlyIncVat": 677.11,
+   "initialPaymentIncVat": 2031.34,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -378,7 +406,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:15.835Z"
+   "fetchedAt": "2026-11-09T19:35:47.632Z"
   },
   {
    "source": "aa",
@@ -408,7 +436,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:16.100Z"
+   "fetchedAt": "2026-11-09T19:35:47.721Z"
   },
   {
    "source": "aa",
@@ -424,11 +452,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 3,
+   "termMonths": 48,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 677.11,
-   "initialPaymentIncVat": 2031.34,
+   "monthlyIncVat": 659.32,
+   "initialPaymentIncVat": 659.32,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -436,7 +464,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:16.203Z"
+   "fetchedAt": "2026-11-09T19:35:47.990Z"
   },
   {
    "source": "aa",
@@ -466,35 +494,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:16.460Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-plus-black-edition-5dr-awd-geartronic-107432",
-   "make": "Volvo",
-   "model": "XC60",
-   "derivative": "2.0 B5P Plus Black Edition 5dr AWD Geartronic",
-   "trim": null,
-   "siteModel": "Xc60 Estate",
-   "fuel": "mhev",
-   "engine": "2.0",
-   "powerHp": null,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 659.32,
-   "initialPaymentIncVat": 659.32,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 26777,
-   "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:16.565Z"
+   "fetchedAt": "2026-11-09T19:35:48.070Z"
   },
   {
    "source": "aa",
@@ -522,7 +522,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:16.909Z"
+   "fetchedAt": "2026-11-09T19:35:48.324Z"
   },
   {
    "source": "aa",
@@ -550,7 +550,7 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:16.949Z"
+   "fetchedAt": "2026-11-09T19:35:48.425Z"
   },
   {
    "source": "aa",
@@ -578,7 +578,7 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:17.475Z"
+   "fetchedAt": "2026-11-09T19:35:48.671Z"
   },
   {
    "source": "aa",
@@ -606,7 +606,35 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:17.515Z"
+   "fetchedAt": "2026-11-09T19:35:48.766Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "volvo-xc60",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-ultra-dark-5dr-awd-geartronic-107431",
+   "make": "Volvo",
+   "model": "XC60",
+   "derivative": "2.0 B5P Ultra Dark 5dr AWD Geartronic",
+   "trim": null,
+   "siteModel": "Xc60 Estate",
+   "fuel": "mhev",
+   "engine": "2.0",
+   "powerHp": null,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 24,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 905.28,
+   "initialPaymentIncVat": 2715.84,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 26878,
+   "capCode": "VOX620UTD5EPTA4 4",
+   "fetchedAt": "2026-11-09T19:35:49.019Z"
   },
   {
    "source": "aa",
@@ -634,63 +662,7 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:17.888Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-ultra-dark-5dr-awd-geartronic-107431",
-   "make": "Volvo",
-   "model": "XC60",
-   "derivative": "2.0 B5P Ultra Dark 5dr AWD Geartronic",
-   "trim": null,
-   "siteModel": "Xc60 Estate",
-   "fuel": "mhev",
-   "engine": "2.0",
-   "powerHp": null,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 905.28,
-   "initialPaymentIncVat": 2715.84,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 26878,
-   "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:18.046Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-plus-dark-5dr-awd-geartronic-107434",
-   "make": "Volvo",
-   "model": "XC60",
-   "derivative": "2.0 B5P Plus Dark 5dr AWD Geartronic",
-   "trim": null,
-   "siteModel": "Xc60 Estate",
-   "fuel": "mhev",
-   "engine": "2.0",
-   "powerHp": null,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 667.91,
-   "initialPaymentIncVat": 2003.72,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 26795,
-   "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:18.240Z"
+   "fetchedAt": "2026-11-09T19:35:49.102Z"
   },
   {
    "source": "aa",
@@ -718,7 +690,7 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:18.402Z"
+   "fetchedAt": "2026-11-09T19:35:49.352Z"
   },
   {
    "source": "aa",
@@ -734,11 +706,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 647.89,
-   "initialPaymentIncVat": 647.89,
+   "monthlyIncVat": 667.91,
+   "initialPaymentIncVat": 2003.72,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -746,7 +718,7 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:18.580Z"
+   "fetchedAt": "2026-11-09T19:35:49.440Z"
   },
   {
    "source": "aa",
@@ -774,7 +746,7 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:18.743Z"
+   "fetchedAt": "2026-11-09T19:35:49.691Z"
   },
   {
    "source": "aa",
@@ -791,10 +763,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 621.97,
-   "initialPaymentIncVat": 1865.92,
+   "monthlyIncVat": 647.89,
+   "initialPaymentIncVat": 647.89,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -802,7 +774,7 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:18.926Z"
+   "fetchedAt": "2026-11-09T19:35:49.849Z"
   },
   {
    "source": "aa",
@@ -830,15 +802,15 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:19.084Z"
+   "fetchedAt": "2026-11-09T19:35:50.026Z"
   },
   {
    "source": "aa",
    "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-core-5dr-awd-geartronic-107433",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-plus-dark-5dr-awd-geartronic-107434",
    "make": "Volvo",
    "model": "XC60",
-   "derivative": "2.0 B5P Core 5dr AWD Geartronic",
+   "derivative": "2.0 B5P Plus Dark 5dr AWD Geartronic",
    "trim": null,
    "siteModel": "Xc60 Estate",
    "fuel": "mhev",
@@ -846,19 +818,19 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 774.23,
-   "initialPaymentIncVat": 774.23,
+   "monthlyIncVat": 621.97,
+   "initialPaymentIncVat": 1865.92,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
    "options": [],
    "note": null,
-   "derivativeId": 26879,
-   "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:19.415Z"
+   "derivativeId": 26795,
+   "capCode": "VOX620PD 5EPTA4 4",
+   "fetchedAt": "2026-11-09T19:35:50.187Z"
   },
   {
    "source": "aa",
@@ -886,7 +858,7 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:19.432Z"
+   "fetchedAt": "2026-11-09T19:35:50.380Z"
   },
   {
    "source": "aa",
@@ -903,10 +875,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 714.67,
-   "initialPaymentIncVat": 2144.02,
+   "monthlyIncVat": 774.23,
+   "initialPaymentIncVat": 774.23,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -914,7 +886,7 @@
    "note": null,
    "derivativeId": 26879,
    "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:19.905Z"
+   "fetchedAt": "2026-11-09T19:35:50.533Z"
   },
   {
    "source": "aa",
@@ -942,7 +914,7 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:20.058Z"
+   "fetchedAt": "2026-11-09T19:35:50.723Z"
   },
   {
    "source": "aa",
@@ -958,11 +930,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 646.01,
-   "initialPaymentIncVat": 646.01,
+   "monthlyIncVat": 714.67,
+   "initialPaymentIncVat": 2144.02,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -970,7 +942,7 @@
    "note": null,
    "derivativeId": 26879,
    "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:20.253Z"
+   "fetchedAt": "2026-11-09T19:35:50.876Z"
   },
   {
    "source": "aa",
@@ -998,7 +970,7 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:20.544Z"
+   "fetchedAt": "2026-11-09T19:35:51.067Z"
   },
   {
    "source": "aa",
@@ -1015,10 +987,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 612.01,
-   "initialPaymentIncVat": 1836.04,
+   "monthlyIncVat": 646.01,
+   "initialPaymentIncVat": 646.01,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1026,7 +998,7 @@
    "note": null,
    "derivativeId": 26879,
    "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:20.617Z"
+   "fetchedAt": "2026-11-09T19:35:51.210Z"
   },
   {
    "source": "aa",
@@ -1054,7 +1026,7 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:20.889Z"
+   "fetchedAt": "2026-11-09T19:35:51.402Z"
   },
   {
    "source": "aa",
@@ -1070,11 +1042,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 592.3,
-   "initialPaymentIncVat": 592.3,
+   "monthlyIncVat": 612.01,
+   "initialPaymentIncVat": 1836.04,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1082,7 +1054,7 @@
    "note": null,
    "derivativeId": 26879,
    "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:20.969Z"
+   "fetchedAt": "2026-11-09T19:35:51.547Z"
   },
   {
    "source": "aa",
@@ -1110,7 +1082,7 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:21.245Z"
+   "fetchedAt": "2026-11-09T19:35:51.733Z"
   },
   {
    "source": "aa",
@@ -1127,10 +1099,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 568.61,
-   "initialPaymentIncVat": 1705.82,
+   "monthlyIncVat": 592.3,
+   "initialPaymentIncVat": 592.3,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1138,7 +1110,7 @@
    "note": null,
    "derivativeId": 26879,
    "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:21.314Z"
+   "fetchedAt": "2026-11-09T19:35:51.888Z"
   },
   {
    "source": "aa",
@@ -1166,15 +1138,15 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:21.591Z"
+   "fetchedAt": "2026-11-09T19:35:52.077Z"
   },
   {
    "source": "aa",
    "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-ultra-bright-5dr-awd-geartronic-107436",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-core-5dr-awd-geartronic-107433",
    "make": "Volvo",
    "model": "XC60",
-   "derivative": "2.0 B5P Ultra Bright 5dr AWD Geartronic",
+   "derivative": "2.0 B5P Core 5dr AWD Geartronic",
    "trim": null,
    "siteModel": "Xc60 Estate",
    "fuel": "mhev",
@@ -1182,19 +1154,19 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 980.72,
-   "initialPaymentIncVat": 980.72,
+   "monthlyIncVat": 568.61,
+   "initialPaymentIncVat": 1705.82,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
    "options": [],
    "note": null,
-   "derivativeId": 26881,
-   "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:21.834Z"
+   "derivativeId": 26879,
+   "capCode": "VOX620CRE5EPTA4 4",
+   "fetchedAt": "2026-11-09T19:35:52.225Z"
   },
   {
    "source": "aa",
@@ -1222,7 +1194,7 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:21.935Z"
+   "fetchedAt": "2026-11-09T19:35:52.435Z"
   },
   {
    "source": "aa",
@@ -1239,10 +1211,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 905.28,
-   "initialPaymentIncVat": 2715.84,
+   "monthlyIncVat": 980.72,
+   "initialPaymentIncVat": 980.72,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1250,7 +1222,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:22.370Z"
+   "fetchedAt": "2026-11-09T19:35:52.565Z"
   },
   {
    "source": "aa",
@@ -1280,7 +1252,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:22.463Z"
+   "fetchedAt": "2026-11-09T19:35:52.798Z"
   },
   {
    "source": "aa",
@@ -1296,11 +1268,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 815.11,
-   "initialPaymentIncVat": 815.11,
+   "monthlyIncVat": 905.28,
+   "initialPaymentIncVat": 2715.84,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1308,7 +1280,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:22.716Z"
+   "fetchedAt": "2026-11-09T19:35:52.923Z"
   },
   {
    "source": "aa",
@@ -1338,7 +1310,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:23.002Z"
+   "fetchedAt": "2026-11-09T19:35:53.140Z"
   },
   {
    "source": "aa",
@@ -1355,10 +1327,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 772.21,
-   "initialPaymentIncVat": 2316.64,
+   "monthlyIncVat": 815.11,
+   "initialPaymentIncVat": 815.11,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1366,7 +1338,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:23.063Z"
+   "fetchedAt": "2026-11-09T19:35:53.258Z"
   },
   {
    "source": "aa",
@@ -1396,7 +1368,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:23.350Z"
+   "fetchedAt": "2026-11-09T19:35:53.474Z"
   },
   {
    "source": "aa",
@@ -1412,11 +1384,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 745.78,
-   "initialPaymentIncVat": 745.78,
+   "monthlyIncVat": 772.21,
+   "initialPaymentIncVat": 2316.64,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1424,7 +1396,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:23.407Z"
+   "fetchedAt": "2026-11-09T19:35:53.595Z"
   },
   {
    "source": "aa",
@@ -1454,7 +1426,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:23.695Z"
+   "fetchedAt": "2026-11-09T19:35:53.806Z"
   },
   {
    "source": "aa",
@@ -1471,10 +1443,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 715.94,
-   "initialPaymentIncVat": 2147.83,
+   "monthlyIncVat": 745.78,
+   "initialPaymentIncVat": 745.78,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1482,7 +1454,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:23.752Z"
+   "fetchedAt": "2026-11-09T19:35:53.948Z"
   },
   {
    "source": "aa",
@@ -1512,37 +1484,35 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:24.046Z"
+   "fetchedAt": "2026-11-09T19:35:54.145Z"
   },
   {
    "source": "aa",
    "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t6-350-phev-plus-dark-5dr-awd-geartronic-107438",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-ultra-bright-5dr-awd-geartronic-107436",
    "make": "Volvo",
    "model": "XC60",
-   "derivative": "2.0 T6 [350] PHEV Plus Dark 5dr AWD Geartronic",
+   "derivative": "2.0 B5P Ultra Bright 5dr AWD Geartronic",
    "trim": null,
    "siteModel": "Xc60 Estate",
-   "fuel": "phev",
+   "fuel": "mhev",
    "engine": "2.0",
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1912.69,
-   "initialPaymentIncVat": 1912.69,
+   "monthlyIncVat": 715.94,
+   "initialPaymentIncVat": 2147.83,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
-   "options": [
-    "350"
-   ],
+   "options": [],
    "note": null,
-   "derivativeId": 26883,
-   "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:24.257Z"
+   "derivativeId": 26881,
+   "capCode": "VOX620UTB5EPTA4 4",
+   "fetchedAt": "2026-11-09T19:35:54.315Z"
   },
   {
    "source": "aa",
@@ -1572,7 +1542,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:24.396Z"
+   "fetchedAt": "2026-11-09T19:35:54.487Z"
   },
   {
    "source": "aa",
@@ -1589,10 +1559,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1714.14,
-   "initialPaymentIncVat": 5142.42,
+   "monthlyIncVat": 1912.69,
+   "initialPaymentIncVat": 1912.69,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1602,7 +1572,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:24.794Z"
+   "fetchedAt": "2026-11-09T19:35:54.663Z"
   },
   {
    "source": "aa",
@@ -1632,7 +1602,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:24.873Z"
+   "fetchedAt": "2026-11-09T19:35:54.875Z"
   },
   {
    "source": "aa",
@@ -1648,11 +1618,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1447.63,
-   "initialPaymentIncVat": 1447.63,
+   "monthlyIncVat": 1714.14,
+   "initialPaymentIncVat": 5142.42,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1662,7 +1632,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:25.143Z"
+   "fetchedAt": "2026-11-09T19:35:55.007Z"
   },
   {
    "source": "aa",
@@ -1692,7 +1662,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:25.340Z"
+   "fetchedAt": "2026-11-09T19:35:55.232Z"
   },
   {
    "source": "aa",
@@ -1709,10 +1679,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1331.5,
-   "initialPaymentIncVat": 3994.49,
+   "monthlyIncVat": 1447.63,
+   "initialPaymentIncVat": 1447.63,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1722,7 +1692,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:25.489Z"
+   "fetchedAt": "2026-11-09T19:35:55.352Z"
   },
   {
    "source": "aa",
@@ -1752,7 +1722,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:25.688Z"
+   "fetchedAt": "2026-11-09T19:35:55.574Z"
   },
   {
    "source": "aa",
@@ -1768,11 +1738,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1265.81,
-   "initialPaymentIncVat": 1265.81,
+   "monthlyIncVat": 1331.5,
+   "initialPaymentIncVat": 3994.49,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1782,7 +1752,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:25.837Z"
+   "fetchedAt": "2026-11-09T19:35:55.695Z"
   },
   {
    "source": "aa",
@@ -1812,7 +1782,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:26.029Z"
+   "fetchedAt": "2026-11-09T19:35:55.913Z"
   },
   {
    "source": "aa",
@@ -1829,10 +1799,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1179.78,
-   "initialPaymentIncVat": 3539.34,
+   "monthlyIncVat": 1265.81,
+   "initialPaymentIncVat": 1265.81,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1842,7 +1812,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:26.182Z"
+   "fetchedAt": "2026-11-09T19:35:56.039Z"
   },
   {
    "source": "aa",
@@ -1872,15 +1842,15 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:26.391Z"
+   "fetchedAt": "2026-11-09T19:35:56.267Z"
   },
   {
    "source": "aa",
    "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t8-455-phev-ultra-dark-5dr-awd-geartronic-107440",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t6-350-phev-plus-dark-5dr-awd-geartronic-107438",
    "make": "Volvo",
    "model": "XC60",
-   "derivative": "2.0 T8 [455] PHEV Ultra Dark 5dr AWD Geartronic",
+   "derivative": "2.0 T6 [350] PHEV Plus Dark 5dr AWD Geartronic",
    "trim": null,
    "siteModel": "Xc60 Estate",
    "fuel": "phev",
@@ -1888,21 +1858,21 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 2160.05,
-   "initialPaymentIncVat": 2160.05,
+   "monthlyIncVat": 1179.78,
+   "initialPaymentIncVat": 3539.34,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
    "options": [
-    "455"
+    "350"
    ],
    "note": null,
-   "derivativeId": 26885,
-   "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:26.704Z"
+   "derivativeId": 26883,
+   "capCode": "VOX620PD 5EXTA4 4",
+   "fetchedAt": "2026-11-09T19:35:56.373Z"
   },
   {
    "source": "aa",
@@ -1932,7 +1902,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:26.745Z"
+   "fetchedAt": "2026-11-09T19:35:56.614Z"
   },
   {
    "source": "aa",
@@ -1949,10 +1919,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1935.82,
-   "initialPaymentIncVat": 5807.45,
+   "monthlyIncVat": 2160.05,
+   "initialPaymentIncVat": 2160.05,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1962,7 +1932,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:27.261Z"
+   "fetchedAt": "2026-11-09T19:35:56.715Z"
   },
   {
    "source": "aa",
@@ -1992,7 +1962,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:27.288Z"
+   "fetchedAt": "2026-11-09T19:35:56.953Z"
   },
   {
    "source": "aa",
@@ -2008,11 +1978,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1638.9,
-   "initialPaymentIncVat": 1638.9,
+   "monthlyIncVat": 1935.82,
+   "initialPaymentIncVat": 5807.45,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2022,7 +1992,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:27.612Z"
+   "fetchedAt": "2026-11-09T19:35:57.056Z"
   },
   {
    "source": "aa",
@@ -2052,7 +2022,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:27.794Z"
+   "fetchedAt": "2026-11-09T19:35:57.307Z"
   },
   {
    "source": "aa",
@@ -2069,10 +2039,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1507.42,
-   "initialPaymentIncVat": 4522.25,
+   "monthlyIncVat": 1638.9,
+   "initialPaymentIncVat": 1638.9,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2082,7 +2052,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:27.960Z"
+   "fetchedAt": "2026-11-09T19:35:57.391Z"
   },
   {
    "source": "aa",
@@ -2112,7 +2082,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:28.145Z"
+   "fetchedAt": "2026-11-09T19:35:57.665Z"
   },
   {
    "source": "aa",
@@ -2128,11 +2098,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1438.64,
-   "initialPaymentIncVat": 1438.64,
+   "monthlyIncVat": 1507.42,
+   "initialPaymentIncVat": 4522.25,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2142,7 +2112,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:28.320Z"
+   "fetchedAt": "2026-11-09T19:35:57.732Z"
   },
   {
    "source": "aa",
@@ -2172,7 +2142,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:28.492Z"
+   "fetchedAt": "2026-11-09T19:35:58.009Z"
   },
   {
    "source": "aa",
@@ -2189,10 +2159,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1340.87,
-   "initialPaymentIncVat": 4022.6,
+   "monthlyIncVat": 1438.64,
+   "initialPaymentIncVat": 1438.64,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2202,7 +2172,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:28.678Z"
+   "fetchedAt": "2026-11-09T19:35:58.084Z"
   },
   {
    "source": "aa",
@@ -2232,15 +2202,15 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:28.837Z"
+   "fetchedAt": "2026-11-09T19:35:58.344Z"
   },
   {
    "source": "aa",
    "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t8-455-phev-ultra-black-ed-5dr-awd-geartronic-107442",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t8-455-phev-ultra-dark-5dr-awd-geartronic-107440",
    "make": "Volvo",
    "model": "XC60",
-   "derivative": "2.0 T8 455 PHEV Ultra Black Ed 5dr AWD Geartronic",
+   "derivative": "2.0 T8 [455] PHEV Ultra Dark 5dr AWD Geartronic",
    "trim": null,
    "siteModel": "Xc60 Estate",
    "fuel": "phev",
@@ -2248,19 +2218,21 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 2196.46,
-   "initialPaymentIncVat": 2196.46,
+   "monthlyIncVat": 1340.87,
+   "initialPaymentIncVat": 4022.6,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
-   "options": [],
+   "options": [
+    "455"
+   ],
    "note": null,
-   "derivativeId": 26887,
-   "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:29.157Z"
+   "derivativeId": 26885,
+   "capCode": "VOX620UTD5EXTA4 4",
+   "fetchedAt": "2026-11-09T19:35:58.419Z"
   },
   {
    "source": "aa",
@@ -2290,7 +2262,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:29.184Z"
+   "fetchedAt": "2026-11-09T19:35:58.685Z"
   },
   {
    "source": "aa",
@@ -2307,10 +2279,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1968.44,
-   "initialPaymentIncVat": 5905.33,
+   "monthlyIncVat": 2196.46,
+   "initialPaymentIncVat": 2196.46,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2318,7 +2290,7 @@
    "note": null,
    "derivativeId": 26887,
    "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:29.641Z"
+   "fetchedAt": "2026-11-09T19:35:58.764Z"
   },
   {
    "source": "aa",
@@ -2346,7 +2318,7 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:29.762Z"
+   "fetchedAt": "2026-11-09T19:35:59.031Z"
   },
   {
    "source": "aa",
@@ -2362,11 +2334,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1665.4,
-   "initialPaymentIncVat": 1665.4,
+   "monthlyIncVat": 1968.44,
+   "initialPaymentIncVat": 5905.33,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2374,7 +2346,7 @@
    "note": null,
    "derivativeId": 26887,
    "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:29.985Z"
+   "fetchedAt": "2026-11-09T19:35:59.112Z"
   },
   {
    "source": "aa",
@@ -2402,7 +2374,7 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:30.248Z"
+   "fetchedAt": "2026-11-09T19:35:59.377Z"
   },
   {
    "source": "aa",
@@ -2419,10 +2391,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1531.79,
-   "initialPaymentIncVat": 4595.36,
+   "monthlyIncVat": 1665.4,
+   "initialPaymentIncVat": 1665.4,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2430,7 +2402,7 @@
    "note": null,
    "derivativeId": 26887,
    "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:30.344Z"
+   "fetchedAt": "2026-11-09T19:35:59.450Z"
   },
   {
    "source": "aa",
@@ -2458,7 +2430,7 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:30.592Z"
+   "fetchedAt": "2026-11-09T19:35:59.713Z"
   },
   {
    "source": "aa",
@@ -2474,11 +2446,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1460.17,
-   "initialPaymentIncVat": 1460.17,
+   "monthlyIncVat": 1531.79,
+   "initialPaymentIncVat": 4595.36,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2486,7 +2458,7 @@
    "note": null,
    "derivativeId": 26887,
    "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:30.688Z"
+   "fetchedAt": "2026-11-09T19:35:59.782Z"
   },
   {
    "source": "aa",
@@ -2514,7 +2486,7 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:30.936Z"
+   "fetchedAt": "2026-11-09T19:36:00.045Z"
   },
   {
    "source": "aa",
@@ -2531,10 +2503,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1360.93,
-   "initialPaymentIncVat": 4082.8,
+   "monthlyIncVat": 1460.17,
+   "initialPaymentIncVat": 1460.17,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2542,7 +2514,7 @@
    "note": null,
    "derivativeId": 26887,
    "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:31.042Z"
+   "fetchedAt": "2026-11-09T19:36:00.116Z"
   },
   {
    "source": "aa",
@@ -2570,35 +2542,35 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:31.283Z"
+   "fetchedAt": "2026-11-09T19:36:00.398Z"
   },
   {
    "source": "aa",
    "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-plus-pro-dark-5dr-awd-geartronic",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t8-455-phev-ultra-black-ed-5dr-awd-geartronic-107442",
    "make": "Volvo",
    "model": "XC60",
-   "derivative": "2.0 B5P Plus Pro Dark 5dr AWD Geartronic",
+   "derivative": "2.0 T8 455 PHEV Ultra Black Ed 5dr AWD Geartronic",
    "trim": null,
    "siteModel": "Xc60 Estate",
-   "fuel": "mhev",
+   "fuel": "phev",
    "engine": "2.0",
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 936.04,
-   "initialPaymentIncVat": 936.04,
+   "monthlyIncVat": 1360.93,
+   "initialPaymentIncVat": 4082.8,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
    "options": [],
    "note": null,
-   "derivativeId": 26983,
-   "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:31.540Z"
+   "derivativeId": 26887,
+   "capCode": "VOX620BEU5EXTA4 4",
+   "fetchedAt": "2026-11-09T19:36:00.451Z"
   },
   {
    "source": "aa",
@@ -2626,7 +2598,7 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:31.631Z"
+   "fetchedAt": "2026-11-09T19:36:00.739Z"
   },
   {
    "source": "aa",
@@ -2643,10 +2615,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 864.04,
-   "initialPaymentIncVat": 2592.11,
+   "monthlyIncVat": 936.04,
+   "initialPaymentIncVat": 936.04,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2654,7 +2626,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:32.056Z"
+   "fetchedAt": "2026-11-09T19:36:00.803Z"
   },
   {
    "source": "aa",
@@ -2684,7 +2656,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:32.144Z"
+   "fetchedAt": "2026-11-09T19:36:01.082Z"
   },
   {
    "source": "aa",
@@ -2700,11 +2672,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 772.93,
-   "initialPaymentIncVat": 772.93,
+   "monthlyIncVat": 864.04,
+   "initialPaymentIncVat": 2592.11,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2712,7 +2684,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:32.407Z"
+   "fetchedAt": "2026-11-09T19:36:01.161Z"
   },
   {
    "source": "aa",
@@ -2742,7 +2714,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:32.646Z"
+   "fetchedAt": "2026-11-09T19:36:01.426Z"
   },
   {
    "source": "aa",
@@ -2759,10 +2731,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 732.25,
-   "initialPaymentIncVat": 2196.76,
+   "monthlyIncVat": 772.93,
+   "initialPaymentIncVat": 772.93,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2770,7 +2742,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:32.753Z"
+   "fetchedAt": "2026-11-09T19:36:01.495Z"
   },
   {
    "source": "aa",
@@ -2800,7 +2772,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:33.002Z"
+   "fetchedAt": "2026-11-09T19:36:01.756Z"
   },
   {
    "source": "aa",
@@ -2816,11 +2788,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 703.58,
-   "initialPaymentIncVat": 703.58,
+   "monthlyIncVat": 732.25,
+   "initialPaymentIncVat": 2196.76,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2828,7 +2800,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:33.101Z"
+   "fetchedAt": "2026-11-09T19:36:01.883Z"
   },
   {
    "source": "aa",
@@ -2858,7 +2830,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:33.348Z"
+   "fetchedAt": "2026-11-09T19:36:02.092Z"
   },
   {
    "source": "aa",
@@ -2875,10 +2847,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 675.43,
-   "initialPaymentIncVat": 2026.3,
+   "monthlyIncVat": 703.58,
+   "initialPaymentIncVat": 703.58,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2886,7 +2858,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-08T20:24:33.446Z"
+   "fetchedAt": "2026-11-09T19:36:02.217Z"
   },
   {
    "source": "aa",
@@ -2916,37 +2888,35 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:33.691Z"
+   "fetchedAt": "2026-11-09T19:36:02.430Z"
   },
   {
    "source": "aa",
    "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t6-335-phev-plus-black-ed-5dr-awd-geartronic",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-plus-pro-dark-5dr-awd-geartronic",
    "make": "Volvo",
    "model": "XC60",
-   "derivative": "2.0 T6 [335] PHEV Plus Black Ed 5dr AWD Geartronic",
+   "derivative": "2.0 B5P Plus Pro Dark 5dr AWD Geartronic",
    "trim": null,
    "siteModel": "Xc60 Estate",
-   "fuel": "phev",
+   "fuel": "mhev",
    "engine": "2.0",
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 974.34,
-   "initialPaymentIncVat": 974.34,
+   "monthlyIncVat": 675.43,
+   "initialPaymentIncVat": 2026.3,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
-   "options": [
-    "335"
-   ],
+   "options": [],
    "note": null,
-   "derivativeId": 28752,
-   "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:33.955Z"
+   "derivativeId": 26983,
+   "capCode": "VOX620PPD5EPTA4 4",
+   "fetchedAt": "2026-11-09T19:36:02.549Z"
   },
   {
    "source": "aa",
@@ -2976,7 +2946,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:34.035Z"
+   "fetchedAt": "2026-11-09T19:36:02.762Z"
   },
   {
    "source": "aa",
@@ -2993,10 +2963,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 899.39,
-   "initialPaymentIncVat": 2698.16,
+   "monthlyIncVat": 974.34,
+   "initialPaymentIncVat": 974.34,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3006,7 +2976,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:34.474Z"
+   "fetchedAt": "2026-11-09T19:36:02.892Z"
   },
   {
    "source": "aa",
@@ -3036,7 +3006,7 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:34.586Z"
+   "fetchedAt": "2026-11-09T19:36:03.110Z"
   },
   {
    "source": "aa",
@@ -3052,11 +3022,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 806.81,
-   "initialPaymentIncVat": 806.81,
+   "monthlyIncVat": 899.39,
+   "initialPaymentIncVat": 2698.16,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3066,7 +3036,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:34.834Z"
+   "fetchedAt": "2026-11-09T19:36:03.236Z"
   },
   {
    "source": "aa",
@@ -3096,7 +3066,7 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:35.097Z"
+   "fetchedAt": "2026-11-09T19:36:03.454Z"
   },
   {
    "source": "aa",
@@ -3113,10 +3083,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 764.35,
-   "initialPaymentIncVat": 2293.06,
+   "monthlyIncVat": 806.81,
+   "initialPaymentIncVat": 806.81,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3126,7 +3096,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:35.176Z"
+   "fetchedAt": "2026-11-09T19:36:03.576Z"
   },
   {
    "source": "aa",
@@ -3156,7 +3126,7 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:35.438Z"
+   "fetchedAt": "2026-11-09T19:36:03.793Z"
   },
   {
    "source": "aa",
@@ -3172,11 +3142,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 734.26,
-   "initialPaymentIncVat": 734.26,
+   "monthlyIncVat": 764.35,
+   "initialPaymentIncVat": 2293.06,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3186,7 +3156,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:35.522Z"
+   "fetchedAt": "2026-11-09T19:36:03.913Z"
   },
   {
    "source": "aa",
@@ -3216,7 +3186,7 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:35.785Z"
+   "fetchedAt": "2026-11-09T19:36:04.127Z"
   },
   {
    "source": "aa",
@@ -3233,10 +3203,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 704.88,
-   "initialPaymentIncVat": 2114.64,
+   "monthlyIncVat": 734.26,
+   "initialPaymentIncVat": 734.26,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3246,7 +3216,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:35.868Z"
+   "fetchedAt": "2026-11-09T19:36:04.259Z"
   },
   {
    "source": "aa",
@@ -3276,15 +3246,15 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:36.134Z"
+   "fetchedAt": "2026-11-09T19:36:04.467Z"
   },
   {
    "source": "aa",
    "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t6-335-phev-plus-pro-black-ed-5dr-awd-gtron",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t6-335-phev-plus-black-ed-5dr-awd-geartronic",
    "make": "Volvo",
    "model": "XC60",
-   "derivative": "2.0 T6 [335] PHEV Plus Pro Black Ed 5dr AWD Gtron",
+   "derivative": "2.0 T6 [335] PHEV Plus Black Ed 5dr AWD Geartronic",
    "trim": null,
    "siteModel": "Xc60 Estate",
    "fuel": "phev",
@@ -3292,11 +3262,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1035.48,
-   "initialPaymentIncVat": 1035.48,
+   "monthlyIncVat": 704.88,
+   "initialPaymentIncVat": 2114.64,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3304,9 +3274,9 @@
     "335"
    ],
    "note": null,
-   "derivativeId": 28754,
-   "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:36.349Z"
+   "derivativeId": 28752,
+   "capCode": "VOX620PB35EXTA4 4",
+   "fetchedAt": "2026-11-09T19:36:04.594Z"
   },
   {
    "source": "aa",
@@ -3336,7 +3306,65 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:36.483Z"
+   "fetchedAt": "2026-11-09T19:36:04.816Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "volvo-xc60",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t6-335-phev-plus-pro-black-ed-5dr-awd-gtron",
+   "make": "Volvo",
+   "model": "XC60",
+   "derivative": "2.0 T6 [335] PHEV Plus Pro Black Ed 5dr AWD Gtron",
+   "trim": null,
+   "siteModel": "Xc60 Estate",
+   "fuel": "phev",
+   "engine": "2.0",
+   "powerHp": null,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 24,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 1035.48,
+   "initialPaymentIncVat": 1035.48,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [
+    "335"
+   ],
+   "note": null,
+   "derivativeId": 28754,
+   "capCode": "VOX620PR35EXTA4 4",
+   "fetchedAt": "2026-11-09T19:36:04.937Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "volvo-xc60",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t8-406-phev-ultra-black-ed-5dr-awd-geartronic",
+   "make": "Volvo",
+   "model": "XC60",
+   "derivative": "2.0 T8 406 PHEV Ultra Black Ed 5dr AWD Geartronic",
+   "trim": null,
+   "siteModel": "Xc60 Estate",
+   "fuel": "phev",
+   "engine": "2.0",
+   "powerHp": null,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 24,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 1102.39,
+   "initialPaymentIncVat": 1102.39,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 28755,
+   "capCode": "VOX620UB65EXTA4 4",
+   "fetchedAt": "2026-11-09T19:36:05.161Z"
   },
   {
    "source": "aa",
@@ -3366,7 +3394,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:36.824Z"
+   "fetchedAt": "2026-11-09T19:36:05.278Z"
   },
   {
    "source": "aa",
@@ -3383,10 +3411,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1102.39,
-   "initialPaymentIncVat": 1102.39,
+   "monthlyIncVat": 1017.59,
+   "initialPaymentIncVat": 3052.76,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3394,7 +3422,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:36.971Z"
+   "fetchedAt": "2026-11-09T19:36:05.504Z"
   },
   {
    "source": "aa",
@@ -3424,7 +3452,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:37.168Z"
+   "fetchedAt": "2026-11-09T19:36:05.616Z"
   },
   {
    "source": "aa",
@@ -3440,11 +3468,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 3,
+   "termMonths": 36,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1017.59,
-   "initialPaymentIncVat": 3052.76,
+   "monthlyIncVat": 910.57,
+   "initialPaymentIncVat": 910.57,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3452,7 +3480,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:37.444Z"
+   "fetchedAt": "2026-11-09T19:36:05.834Z"
   },
   {
    "source": "aa",
@@ -3482,7 +3510,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:37.512Z"
+   "fetchedAt": "2026-11-09T19:36:05.950Z"
   },
   {
    "source": "aa",
@@ -3499,10 +3527,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 910.57,
-   "initialPaymentIncVat": 910.57,
+   "monthlyIncVat": 862.64,
+   "initialPaymentIncVat": 2587.93,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3510,7 +3538,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:37.789Z"
+   "fetchedAt": "2026-11-09T19:36:06.175Z"
   },
   {
    "source": "aa",
@@ -3540,7 +3568,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:37.854Z"
+   "fetchedAt": "2026-11-09T19:36:06.293Z"
   },
   {
    "source": "aa",
@@ -3556,11 +3584,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 3,
+   "termMonths": 48,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 862.64,
-   "initialPaymentIncVat": 2587.93,
+   "monthlyIncVat": 827.4,
+   "initialPaymentIncVat": 827.4,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3568,7 +3596,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:38.129Z"
+   "fetchedAt": "2026-11-09T19:36:06.515Z"
   },
   {
    "source": "aa",
@@ -3598,65 +3626,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:38.201Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t8-406-phev-ultra-black-ed-5dr-awd-geartronic",
-   "make": "Volvo",
-   "model": "XC60",
-   "derivative": "2.0 T8 406 PHEV Ultra Black Ed 5dr AWD Geartronic",
-   "trim": null,
-   "siteModel": "Xc60 Estate",
-   "fuel": "phev",
-   "engine": "2.0",
-   "powerHp": null,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 827.4,
-   "initialPaymentIncVat": 827.4,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 28755,
-   "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:38.472Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t8-406-phev-ultra-dark-5dr-awd-geartronic",
-   "make": "Volvo",
-   "model": "XC60",
-   "derivative": "2.0 T8 [406] PHEV Ultra Dark 5dr AWD Geartronic",
-   "trim": null,
-   "siteModel": "Xc60 Estate",
-   "fuel": "phev",
-   "engine": "2.0",
-   "powerHp": null,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 1086.68,
-   "initialPaymentIncVat": 1086.68,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [
-    "406"
-   ],
-   "note": null,
-   "derivativeId": 28757,
-   "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:38.761Z"
+   "fetchedAt": "2026-11-09T19:36:06.633Z"
   },
   {
    "source": "aa",
@@ -3684,7 +3654,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:38.829Z"
+   "fetchedAt": "2026-11-09T19:36:06.845Z"
   },
   {
    "source": "aa",
@@ -3701,10 +3671,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1003.09,
-   "initialPaymentIncVat": 3009.28,
+   "monthlyIncVat": 1086.68,
+   "initialPaymentIncVat": 1086.68,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3714,7 +3684,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:39.331Z"
+   "fetchedAt": "2026-11-09T19:36:06.977Z"
   },
   {
    "source": "aa",
@@ -3744,7 +3714,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:39.352Z"
+   "fetchedAt": "2026-11-09T19:36:07.180Z"
   },
   {
    "source": "aa",
@@ -3760,11 +3730,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 898.12,
-   "initialPaymentIncVat": 898.12,
+   "monthlyIncVat": 1003.09,
+   "initialPaymentIncVat": 3009.28,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3774,7 +3744,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:39.678Z"
+   "fetchedAt": "2026-11-09T19:36:07.330Z"
   },
   {
    "source": "aa",
@@ -3804,7 +3774,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:39.892Z"
+   "fetchedAt": "2026-11-09T19:36:07.525Z"
   },
   {
    "source": "aa",
@@ -3821,10 +3791,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 850.85,
-   "initialPaymentIncVat": 2552.54,
+   "monthlyIncVat": 898.12,
+   "initialPaymentIncVat": 898.12,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3834,7 +3804,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:40.022Z"
+   "fetchedAt": "2026-11-09T19:36:07.665Z"
   },
   {
    "source": "aa",
@@ -3864,7 +3834,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:40.234Z"
+   "fetchedAt": "2026-11-09T19:36:07.857Z"
   },
   {
    "source": "aa",
@@ -3880,11 +3850,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 816.41,
-   "initialPaymentIncVat": 816.41,
+   "monthlyIncVat": 850.85,
+   "initialPaymentIncVat": 2552.54,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3894,7 +3864,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:40.367Z"
+   "fetchedAt": "2026-11-09T19:36:07.998Z"
   },
   {
    "source": "aa",
@@ -3924,7 +3894,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:40.581Z"
+   "fetchedAt": "2026-11-09T19:36:08.191Z"
   },
   {
    "source": "aa",
@@ -3941,10 +3911,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 783.76,
-   "initialPaymentIncVat": 2351.27,
+   "monthlyIncVat": 816.41,
+   "initialPaymentIncVat": 816.41,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -3954,7 +3924,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:40.712Z"
+   "fetchedAt": "2026-11-09T19:36:08.335Z"
   },
   {
    "source": "aa",
@@ -3984,7 +3954,37 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:40.929Z"
+   "fetchedAt": "2026-11-09T19:36:08.527Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "volvo-xc60",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t8-406-phev-ultra-dark-5dr-awd-geartronic",
+   "make": "Volvo",
+   "model": "XC60",
+   "derivative": "2.0 T8 [406] PHEV Ultra Dark 5dr AWD Geartronic",
+   "trim": null,
+   "siteModel": "Xc60 Estate",
+   "fuel": "phev",
+   "engine": "2.0",
+   "powerHp": null,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 783.76,
+   "initialPaymentIncVat": 2351.27,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [
+    "406"
+   ],
+   "note": null,
+   "derivativeId": 28757,
+   "capCode": "VOX620UD45EXTA4 4",
+   "fetchedAt": "2026-11-09T19:36:08.669Z"
   },
   {
    "source": "aa",
@@ -4014,7 +4014,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-08T20:24:41.275Z"
+   "fetchedAt": "2026-11-09T19:36:08.862Z"
   },
   {
    "source": "aa",
@@ -4042,7 +4042,7 @@
    "note": null,
    "derivativeId": 25790,
    "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-08T20:24:45.286Z"
+   "fetchedAt": "2026-11-09T19:36:12.351Z"
   },
   {
    "source": "aa",
@@ -4070,7 +4070,7 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-08T20:24:45.529Z"
+   "fetchedAt": "2026-11-09T19:36:12.676Z"
   },
   {
    "source": "aa",
@@ -4098,35 +4098,7 @@
    "note": null,
    "derivativeId": 25790,
    "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-08T20:24:45.630Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-s-line-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 150 S line 5dr S Tronic",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "petrol",
-   "engine": "2.0",
-   "powerHp": 150,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 36,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 506.26,
-   "initialPaymentIncVat": 506.26,
-   "fees": 299,
-   "stock": "stock",
-   "delivery": "2-4 weeks delivery",
-   "options": [],
-   "note": null,
-   "derivativeId": 25790,
-   "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-08T20:24:46.062Z"
+   "fetchedAt": "2026-11-09T19:36:12.695Z"
   },
   {
    "source": "aa",
@@ -4154,7 +4126,7 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-08T20:24:46.137Z"
+   "fetchedAt": "2026-11-09T19:36:13.016Z"
   },
   {
    "source": "aa",
@@ -4171,10 +4143,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 477.06,
-   "initialPaymentIncVat": 1431.18,
+   "monthlyIncVat": 506.26,
+   "initialPaymentIncVat": 506.26,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4182,7 +4154,7 @@
    "note": null,
    "derivativeId": 25790,
    "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-08T20:24:46.417Z"
+   "fetchedAt": "2026-11-09T19:36:13.039Z"
   },
   {
    "source": "aa",
@@ -4210,7 +4182,7 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-08T20:24:46.506Z"
+   "fetchedAt": "2026-11-09T19:36:13.352Z"
   },
   {
    "source": "aa",
@@ -4226,11 +4198,11 @@
    "powerHp": 150,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 481.91,
-   "initialPaymentIncVat": 481.91,
+   "monthlyIncVat": 477.06,
+   "initialPaymentIncVat": 1431.18,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4238,7 +4210,7 @@
    "note": null,
    "derivativeId": 25790,
    "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-08T20:24:46.774Z"
+   "fetchedAt": "2026-11-09T19:36:13.379Z"
   },
   {
    "source": "aa",
@@ -4266,7 +4238,7 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-08T20:24:46.860Z"
+   "fetchedAt": "2026-11-09T19:36:13.684Z"
   },
   {
    "source": "aa",
@@ -4283,10 +4255,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 460.13,
-   "initialPaymentIncVat": 1380.38,
+   "monthlyIncVat": 481.91,
+   "initialPaymentIncVat": 481.91,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4294,7 +4266,7 @@
    "note": null,
    "derivativeId": 25790,
    "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-08T20:24:47.121Z"
+   "fetchedAt": "2026-11-09T19:36:13.756Z"
   },
   {
    "source": "aa",
@@ -4322,35 +4294,35 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-08T20:24:47.295Z"
+   "fetchedAt": "2026-11-09T19:36:14.027Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-204-s-line-5dr-s-tronic",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-s-line-5dr-s-tronic",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TFSI 204 S line 5dr S Tronic",
+   "derivative": "2.0 TFSI 150 S line 5dr S Tronic",
    "trim": null,
    "siteModel": "A5 AVANT",
    "fuel": "petrol",
    "engine": "2.0",
-   "powerHp": 204,
+   "powerHp": 150,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 635.56,
-   "initialPaymentIncVat": 635.56,
+   "monthlyIncVat": 460.13,
+   "initialPaymentIncVat": 1380.38,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
    "options": [],
    "note": null,
-   "derivativeId": 25783,
-   "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-08T20:24:47.634Z"
+   "derivativeId": 25790,
+   "capCode": "AUA5201SL5EPTA",
+   "fetchedAt": "2026-11-09T19:36:14.117Z"
   },
   {
    "source": "aa",
@@ -4378,7 +4350,7 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-08T20:24:47.702Z"
+   "fetchedAt": "2026-11-09T19:36:14.362Z"
   },
   {
    "source": "aa",
@@ -4395,10 +4367,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 583.6,
-   "initialPaymentIncVat": 1750.79,
+   "monthlyIncVat": 635.56,
+   "initialPaymentIncVat": 635.56,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4406,7 +4378,7 @@
    "note": null,
    "derivativeId": 25783,
    "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-08T20:24:48.154Z"
+   "fetchedAt": "2026-11-09T19:36:14.515Z"
   },
   {
    "source": "aa",
@@ -4434,7 +4406,7 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-08T20:24:48.450Z"
+   "fetchedAt": "2026-11-09T19:36:14.704Z"
   },
   {
    "source": "aa",
@@ -4450,39 +4422,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 36,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 551.75,
-   "initialPaymentIncVat": 551.75,
-   "fees": 299,
-   "stock": "stock",
-   "delivery": "2-4 weeks delivery",
-   "options": [],
-   "note": null,
-   "derivativeId": 25783,
-   "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-08T20:24:48.503Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-204-s-line-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 204 S line 5dr S Tronic",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "petrol",
-   "engine": "2.0",
-   "powerHp": 204,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 36,
+   "termMonths": 24,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 519.91,
-   "initialPaymentIncVat": 1559.74,
+   "monthlyIncVat": 583.6,
+   "initialPaymentIncVat": 1750.79,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4490,7 +4434,7 @@
    "note": null,
    "derivativeId": 25783,
    "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-08T20:24:48.873Z"
+   "fetchedAt": "2026-11-09T19:36:14.857Z"
   },
   {
    "source": "aa",
@@ -4518,7 +4462,7 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-08T20:24:48.964Z"
+   "fetchedAt": "2026-11-09T19:36:15.059Z"
   },
   {
    "source": "aa",
@@ -4534,11 +4478,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 519.31,
-   "initialPaymentIncVat": 519.31,
+   "monthlyIncVat": 551.75,
+   "initialPaymentIncVat": 551.75,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4546,7 +4490,7 @@
    "note": null,
    "derivativeId": 25783,
    "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-08T20:24:49.216Z"
+   "fetchedAt": "2026-11-09T19:36:15.191Z"
   },
   {
    "source": "aa",
@@ -4574,7 +4518,7 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-08T20:24:49.331Z"
+   "fetchedAt": "2026-11-09T19:36:15.406Z"
   },
   {
    "source": "aa",
@@ -4590,11 +4534,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 495.82,
-   "initialPaymentIncVat": 1487.45,
+   "monthlyIncVat": 519.91,
+   "initialPaymentIncVat": 1559.74,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4602,7 +4546,7 @@
    "note": null,
    "derivativeId": 25783,
    "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-08T20:24:49.567Z"
+   "fetchedAt": "2026-11-09T19:36:15.556Z"
   },
   {
    "source": "aa",
@@ -4630,7 +4574,35 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-08T20:24:49.678Z"
+   "fetchedAt": "2026-11-09T19:36:15.741Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-204-s-line-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TFSI 204 S line 5dr S Tronic",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "petrol",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 519.31,
+   "initialPaymentIncVat": 519.31,
+   "fees": 299,
+   "stock": "stock",
+   "delivery": "2-4 weeks delivery",
+   "options": [],
+   "note": null,
+   "derivativeId": 25783,
+   "capCode": "AUA5202LS5EPTA",
+   "fetchedAt": "2026-11-09T19:36:15.896Z"
   },
   {
    "source": "aa",
@@ -4658,7 +4630,63 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-08T20:24:50.030Z"
+   "fetchedAt": "2026-11-09T19:36:16.070Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-204-s-line-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TFSI 204 S line 5dr S Tronic",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "petrol",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 495.82,
+   "initialPaymentIncVat": 1487.45,
+   "fees": 299,
+   "stock": "stock",
+   "delivery": "2-4 weeks delivery",
+   "options": [],
+   "note": null,
+   "derivativeId": 25783,
+   "capCode": "AUA5202LS5EPTA",
+   "fetchedAt": "2026-11-09T19:36:16.278Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-204-black-edition-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TFSI 204 Black Edition 5dr S tronic",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "petrol",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 523.4,
+   "initialPaymentIncVat": 1570.21,
+   "fees": 299,
+   "stock": "stock",
+   "delivery": "2-4 weeks delivery",
+   "options": [],
+   "note": null,
+   "derivativeId": 28380,
+   "capCode": "AUA520BL25EPTA",
+   "fetchedAt": "2026-11-09T19:36:16.406Z"
   },
   {
    "source": "aa",
@@ -4688,15 +4716,15 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-08T20:24:50.130Z"
+   "fetchedAt": "2026-11-09T19:36:16.625Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-204-black-edition-5dr-s-tronic",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-204-sport-5dr-s-tronic",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TFSI 204 Black Edition 5dr S tronic",
+   "derivative": "2.0 TFSI 204 Sport 5dr S Tronic",
    "trim": null,
    "siteModel": "A5 AVANT",
    "fuel": "petrol",
@@ -4704,19 +4732,19 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
-   "initialMonths": 3,
+   "termMonths": 24,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 523.4,
-   "initialPaymentIncVat": 1570.21,
+   "monthlyIncVat": 919.73,
+   "initialPaymentIncVat": 919.73,
    "fees": 299,
-   "stock": "stock",
-   "delivery": "2-4 weeks delivery",
+   "stock": "factory",
+   "delivery": null,
    "options": [],
    "note": null,
-   "derivativeId": 28380,
-   "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-08T20:24:50.376Z"
+   "derivativeId": 25782,
+   "capCode": "AUA5202S 5EPTA",
+   "fetchedAt": "2026-11-09T19:36:16.774Z"
   },
   {
    "source": "aa",
@@ -4746,7 +4774,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-08T20:24:50.714Z"
+   "fetchedAt": "2026-11-09T19:36:16.972Z"
   },
   {
    "source": "aa",
@@ -4763,10 +4791,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 24,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 919.73,
-   "initialPaymentIncVat": 919.73,
+   "monthlyIncVat": 848.98,
+   "initialPaymentIncVat": 2546.93,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -4774,7 +4802,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:50.726Z"
+   "fetchedAt": "2026-11-09T19:36:17.115Z"
   },
   {
    "source": "aa",
@@ -4804,7 +4832,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-08T20:24:51.059Z"
+   "fetchedAt": "2026-11-09T19:36:17.304Z"
   },
   {
    "source": "aa",
@@ -4820,11 +4848,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 24,
-   "initialMonths": 3,
+   "termMonths": 36,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 848.98,
-   "initialPaymentIncVat": 2546.93,
+   "monthlyIncVat": 740.41,
+   "initialPaymentIncVat": 740.41,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -4832,7 +4860,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:51.260Z"
+   "fetchedAt": "2026-11-09T19:36:17.451Z"
   },
   {
    "source": "aa",
@@ -4862,7 +4890,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-08T20:24:51.411Z"
+   "fetchedAt": "2026-11-09T19:36:17.636Z"
   },
   {
    "source": "aa",
@@ -4879,10 +4907,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 36,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 740.41,
-   "initialPaymentIncVat": 740.41,
+   "monthlyIncVat": 701.45,
+   "initialPaymentIncVat": 2104.34,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -4890,7 +4918,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:51.604Z"
+   "fetchedAt": "2026-11-09T19:36:17.781Z"
   },
   {
    "source": "aa",
@@ -4920,7 +4948,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-08T20:24:51.756Z"
+   "fetchedAt": "2026-11-09T19:36:17.973Z"
   },
   {
    "source": "aa",
@@ -4936,11 +4964,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 36,
-   "initialMonths": 3,
+   "termMonths": 48,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 701.45,
-   "initialPaymentIncVat": 2104.34,
+   "monthlyIncVat": 659.75,
+   "initialPaymentIncVat": 659.75,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -4948,7 +4976,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:51.959Z"
+   "fetchedAt": "2026-11-09T19:36:18.115Z"
   },
   {
    "source": "aa",
@@ -4978,7 +5006,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-08T20:24:52.100Z"
+   "fetchedAt": "2026-11-09T19:36:18.311Z"
   },
   {
    "source": "aa",
@@ -4995,10 +5023,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 48,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 659.75,
-   "initialPaymentIncVat": 659.75,
+   "monthlyIncVat": 633.36,
+   "initialPaymentIncVat": 1900.08,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5006,7 +5034,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:52.302Z"
+   "fetchedAt": "2026-11-09T19:36:18.447Z"
   },
   {
    "source": "aa",
@@ -5036,35 +5064,35 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-08T20:24:52.633Z"
+   "fetchedAt": "2026-11-09T19:36:18.658Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-204-sport-5dr-s-tronic",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-sport-5dr-s-tronic",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TFSI 204 Sport 5dr S Tronic",
+   "derivative": "2.0 TFSI 150 Sport 5dr S Tronic",
    "trim": null,
    "siteModel": "A5 AVANT",
    "fuel": "petrol",
    "engine": "2.0",
-   "powerHp": 204,
+   "powerHp": 150,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
-   "initialMonths": 3,
+   "termMonths": 24,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 633.36,
-   "initialPaymentIncVat": 1900.08,
+   "monthlyIncVat": 862.37,
+   "initialPaymentIncVat": 862.37,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
    "options": [],
    "note": null,
-   "derivativeId": 25782,
-   "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:52.692Z"
+   "derivativeId": 25788,
+   "capCode": "AUA5201S 5EPTA",
+   "fetchedAt": "2026-11-09T19:36:18.870Z"
   },
   {
    "source": "aa",
@@ -5094,7 +5122,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-08T20:24:53.211Z"
+   "fetchedAt": "2026-11-09T19:36:19.003Z"
   },
   {
    "source": "aa",
@@ -5111,10 +5139,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 24,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 862.37,
-   "initialPaymentIncVat": 862.37,
+   "monthlyIncVat": 796.03,
+   "initialPaymentIncVat": 2388.1,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5122,7 +5150,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:53.264Z"
+   "fetchedAt": "2026-11-09T19:36:19.211Z"
   },
   {
    "source": "aa",
@@ -5152,7 +5180,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-08T20:24:53.554Z"
+   "fetchedAt": "2026-11-09T19:36:19.340Z"
   },
   {
    "source": "aa",
@@ -5168,11 +5196,11 @@
    "powerHp": 150,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 24,
-   "initialMonths": 3,
+   "termMonths": 36,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 796.03,
-   "initialPaymentIncVat": 2388.1,
+   "monthlyIncVat": 698.34,
+   "initialPaymentIncVat": 698.34,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5180,7 +5208,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:53.833Z"
+   "fetchedAt": "2026-11-09T19:36:19.547Z"
   },
   {
    "source": "aa",
@@ -5210,7 +5238,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-08T20:24:53.904Z"
+   "fetchedAt": "2026-11-09T19:36:19.679Z"
   },
   {
    "source": "aa",
@@ -5227,10 +5255,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 36,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 698.34,
-   "initialPaymentIncVat": 698.34,
+   "monthlyIncVat": 661.58,
+   "initialPaymentIncVat": 1984.75,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5238,7 +5266,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:54.176Z"
+   "fetchedAt": "2026-11-09T19:36:19.884Z"
   },
   {
    "source": "aa",
@@ -5268,7 +5296,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-08T20:24:54.248Z"
+   "fetchedAt": "2026-11-09T19:36:20.023Z"
   },
   {
    "source": "aa",
@@ -5284,11 +5312,11 @@
    "powerHp": 150,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 36,
-   "initialMonths": 3,
+   "termMonths": 48,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 661.58,
-   "initialPaymentIncVat": 1984.75,
+   "monthlyIncVat": 625.04,
+   "initialPaymentIncVat": 625.04,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5296,7 +5324,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:54.527Z"
+   "fetchedAt": "2026-11-09T19:36:20.222Z"
   },
   {
    "source": "aa",
@@ -5326,63 +5354,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-08T20:24:54.630Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-sport-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 150 Sport 5dr S Tronic",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "petrol",
-   "engine": "2.0",
-   "powerHp": 150,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 48,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 625.04,
-   "initialPaymentIncVat": 625.04,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 25788,
-   "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:54.872Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-sport-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TDI 204 Sport 5dr S Tronic",
-   "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
-   "engine": "2.0",
-   "powerHp": 204,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 24,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 929.2,
-   "initialPaymentIncVat": 929.2,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 25794,
-   "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-08T20:24:55.133Z"
+   "fetchedAt": "2026-11-09T19:36:20.358Z"
   },
   {
    "source": "aa",
@@ -5410,7 +5382,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-08T20:24:55.216Z"
+   "fetchedAt": "2026-11-09T19:36:20.564Z"
   },
   {
    "source": "aa",
@@ -5427,10 +5399,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 857.72,
-   "initialPaymentIncVat": 2573.17,
+   "monthlyIncVat": 929.2,
+   "initialPaymentIncVat": 929.2,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5438,7 +5410,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-08T20:24:55.748Z"
+   "fetchedAt": "2026-11-09T19:36:20.706Z"
   },
   {
    "source": "aa",
@@ -5466,7 +5438,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-08T20:24:55.774Z"
+   "fetchedAt": "2026-11-09T19:36:20.913Z"
   },
   {
    "source": "aa",
@@ -5482,11 +5454,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 745.99,
-   "initialPaymentIncVat": 745.99,
+   "monthlyIncVat": 857.72,
+   "initialPaymentIncVat": 2573.17,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5494,7 +5466,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-08T20:24:56.089Z"
+   "fetchedAt": "2026-11-09T19:36:21.049Z"
   },
   {
    "source": "aa",
@@ -5522,7 +5494,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-08T20:24:56.415Z"
+   "fetchedAt": "2026-11-09T19:36:21.265Z"
   },
   {
    "source": "aa",
@@ -5539,10 +5511,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 706.73,
-   "initialPaymentIncVat": 2120.18,
+   "monthlyIncVat": 745.99,
+   "initialPaymentIncVat": 745.99,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5550,7 +5522,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-08T20:24:56.428Z"
+   "fetchedAt": "2026-11-09T19:36:21.385Z"
   },
   {
    "source": "aa",
@@ -5578,7 +5550,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-08T20:24:56.758Z"
+   "fetchedAt": "2026-11-09T19:36:21.602Z"
   },
   {
    "source": "aa",
@@ -5594,11 +5566,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 665.59,
-   "initialPaymentIncVat": 665.59,
+   "monthlyIncVat": 706.73,
+   "initialPaymentIncVat": 2120.18,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5606,7 +5578,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-08T20:24:56.775Z"
+   "fetchedAt": "2026-11-09T19:36:21.751Z"
   },
   {
    "source": "aa",
@@ -5634,7 +5606,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-08T20:24:57.098Z"
+   "fetchedAt": "2026-11-09T19:36:21.936Z"
   },
   {
    "source": "aa",
@@ -5651,10 +5623,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 638.96,
-   "initialPaymentIncVat": 1916.89,
+   "monthlyIncVat": 665.59,
+   "initialPaymentIncVat": 665.59,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5662,7 +5634,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-08T20:24:57.117Z"
+   "fetchedAt": "2026-11-09T19:36:22.097Z"
   },
   {
    "source": "aa",
@@ -5690,35 +5662,35 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-08T20:24:57.443Z"
+   "fetchedAt": "2026-11-09T19:36:22.275Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-s-line-5dr-s-tronic",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-sport-5dr-s-tronic",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TDI Quattro 204 S line 5dr S Tronic",
+   "derivative": "2.0 TDI 204 Sport 5dr S Tronic",
    "trim": null,
    "siteModel": "A5 DIESEL AVANT",
    "fuel": "diesel",
    "engine": "2.0",
    "powerHp": 204,
    "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 994.19,
-   "initialPaymentIncVat": 994.19,
+   "monthlyIncVat": 638.96,
+   "initialPaymentIncVat": 1916.89,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
    "options": [],
    "note": null,
-   "derivativeId": 25797,
-   "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-08T20:24:57.660Z"
+   "derivativeId": 25794,
+   "capCode": "AUA5202S 5EDTA",
+   "fetchedAt": "2026-11-09T19:36:22.427Z"
   },
   {
    "source": "aa",
@@ -5746,7 +5718,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-08T20:24:57.788Z"
+   "fetchedAt": "2026-11-09T19:36:22.618Z"
   },
   {
    "source": "aa",
@@ -5763,10 +5735,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 907.92,
-   "initialPaymentIncVat": 2723.76,
+   "monthlyIncVat": 994.19,
+   "initialPaymentIncVat": 994.19,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5774,7 +5746,7 @@
    "note": null,
    "derivativeId": 25797,
    "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-08T20:24:58.229Z"
+   "fetchedAt": "2026-11-09T19:36:22.774Z"
   },
   {
    "source": "aa",
@@ -5802,7 +5774,7 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-08T20:24:58.360Z"
+   "fetchedAt": "2026-11-09T19:36:22.969Z"
   },
   {
    "source": "aa",
@@ -5818,11 +5790,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 798.76,
-   "initialPaymentIncVat": 798.76,
+   "monthlyIncVat": 907.92,
+   "initialPaymentIncVat": 2723.76,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5830,7 +5802,7 @@
    "note": null,
    "derivativeId": 25797,
    "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-08T20:24:58.573Z"
+   "fetchedAt": "2026-11-09T19:36:23.124Z"
   },
   {
    "source": "aa",
@@ -5858,7 +5830,7 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-08T20:24:58.912Z"
+   "fetchedAt": "2026-11-09T19:36:23.317Z"
   },
   {
    "source": "aa",
@@ -5875,38 +5847,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 756.72,
-   "initialPaymentIncVat": 2270.16,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 25797,
-   "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-08T20:24:58.913Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-s-line-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TDI Quattro 204 S line 5dr S Tronic",
-   "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
-   "engine": "2.0",
-   "powerHp": 204,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 48,
    "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 713.34,
-   "initialPaymentIncVat": 713.34,
+   "monthlyIncVat": 798.76,
+   "initialPaymentIncVat": 798.76,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5914,7 +5858,7 @@
    "note": null,
    "derivativeId": 25797,
    "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-08T20:24:59.257Z"
+   "fetchedAt": "2026-11-09T19:36:23.459Z"
   },
   {
    "source": "aa",
@@ -5942,7 +5886,35 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-08T20:24:59.258Z"
+   "fetchedAt": "2026-11-09T19:36:23.649Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-s-line-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TDI Quattro 204 S line 5dr S Tronic",
+   "trim": null,
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 36,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 756.72,
+   "initialPaymentIncVat": 2270.16,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 25797,
+   "capCode": "AUA5202LS5EDTA4",
+   "fetchedAt": "2026-11-09T19:36:23.795Z"
   },
   {
    "source": "aa",
@@ -5970,7 +5942,7 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-08T20:24:59.602Z"
+   "fetchedAt": "2026-11-09T19:36:23.989Z"
   },
   {
    "source": "aa",
@@ -5987,10 +5959,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 684.8,
-   "initialPaymentIncVat": 2054.41,
+   "monthlyIncVat": 713.34,
+   "initialPaymentIncVat": 713.34,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -5998,7 +5970,7 @@
    "note": null,
    "derivativeId": 25797,
    "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-08T20:24:59.603Z"
+   "fetchedAt": "2026-11-09T19:36:24.128Z"
   },
   {
    "source": "aa",
@@ -6026,35 +5998,35 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-08T20:24:59.947Z"
+   "fetchedAt": "2026-11-09T19:36:24.324Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-sport-5dr-s-tronic",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-s-line-5dr-s-tronic",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TFSI 299 e Quattro Sport 5dr S Tronic",
+   "derivative": "2.0 TDI Quattro 204 S line 5dr S Tronic",
    "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "phev",
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
    "engine": "2.0",
-   "powerHp": 299,
+   "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 946.57,
-   "initialPaymentIncVat": 946.57,
+   "monthlyIncVat": 684.8,
+   "initialPaymentIncVat": 2054.41,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
    "options": [],
    "note": null,
-   "derivativeId": 27024,
-   "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:00.100Z"
+   "derivativeId": 25797,
+   "capCode": "AUA5202LS5EDTA4",
+   "fetchedAt": "2026-11-09T19:36:24.461Z"
   },
   {
    "source": "aa",
@@ -6082,7 +6054,7 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-08T20:25:00.298Z"
+   "fetchedAt": "2026-11-09T19:36:24.662Z"
   },
   {
    "source": "aa",
@@ -6099,10 +6071,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 873.76,
-   "initialPaymentIncVat": 2621.27,
+   "monthlyIncVat": 946.57,
+   "initialPaymentIncVat": 946.57,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6110,7 +6082,7 @@
    "note": null,
    "derivativeId": 27024,
    "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:00.659Z"
+   "fetchedAt": "2026-11-09T19:36:24.801Z"
   },
   {
    "source": "aa",
@@ -6138,7 +6110,7 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:00.830Z"
+   "fetchedAt": "2026-11-09T19:36:25.007Z"
   },
   {
    "source": "aa",
@@ -6154,11 +6126,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 765.24,
-   "initialPaymentIncVat": 765.24,
+   "monthlyIncVat": 873.76,
+   "initialPaymentIncVat": 2621.27,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6166,7 +6138,7 @@
    "note": null,
    "derivativeId": 27024,
    "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:01.006Z"
+   "fetchedAt": "2026-11-09T19:36:25.167Z"
   },
   {
    "source": "aa",
@@ -6194,7 +6166,7 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:01.342Z"
+   "fetchedAt": "2026-11-09T19:36:25.353Z"
   },
   {
    "source": "aa",
@@ -6211,10 +6183,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 724.97,
-   "initialPaymentIncVat": 2174.9,
+   "monthlyIncVat": 765.24,
+   "initialPaymentIncVat": 765.24,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6222,7 +6194,7 @@
    "note": null,
    "derivativeId": 27024,
    "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:01.351Z"
+   "fetchedAt": "2026-11-09T19:36:25.507Z"
   },
   {
    "source": "aa",
@@ -6250,7 +6222,7 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:01.693Z"
+   "fetchedAt": "2026-11-09T19:36:25.696Z"
   },
   {
    "source": "aa",
@@ -6266,39 +6238,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 685.93,
-   "initialPaymentIncVat": 685.93,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 27024,
-   "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:01.696Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-sport-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 299 e Quattro Sport 5dr S Tronic",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "phev",
-   "engine": "2.0",
-   "powerHp": 299,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 658.49,
-   "initialPaymentIncVat": 1975.46,
+   "monthlyIncVat": 724.97,
+   "initialPaymentIncVat": 2174.9,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6306,7 +6250,7 @@
    "note": null,
    "derivativeId": 27024,
    "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:02.044Z"
+   "fetchedAt": "2026-11-09T19:36:25.841Z"
   },
   {
    "source": "aa",
@@ -6334,7 +6278,35 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:02.069Z"
+   "fetchedAt": "2026-11-09T19:36:26.032Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-sport-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TFSI 299 e Quattro Sport 5dr S Tronic",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "phev",
+   "engine": "2.0",
+   "powerHp": 299,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 685.93,
+   "initialPaymentIncVat": 685.93,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 27024,
+   "capCode": "AUA520S9 5EXTA4",
+   "fetchedAt": "2026-11-09T19:36:26.175Z"
   },
   {
    "source": "aa",
@@ -6362,7 +6334,63 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:02.424Z"
+   "fetchedAt": "2026-11-09T19:36:26.367Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-sport-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TFSI 299 e Quattro Sport 5dr S Tronic",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "phev",
+   "engine": "2.0",
+   "powerHp": 299,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 658.49,
+   "initialPaymentIncVat": 1975.46,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 27024,
+   "capCode": "AUA520S9 5EXTA4",
+   "fetchedAt": "2026-11-09T19:36:26.507Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-technik-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TFSI 299 e Quattro Technik 5dr S Tronic",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "phev",
+   "engine": "2.0",
+   "powerHp": 299,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 639.79,
+   "initialPaymentIncVat": 1919.38,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 27753,
+   "capCode": "AUA520E9 5EXTA4",
+   "fetchedAt": "2026-11-09T19:36:26.706Z"
   },
   {
    "source": "aa",
@@ -6392,65 +6420,7 @@
    "note": null,
    "derivativeId": 28375,
    "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-08T20:25:02.646Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-technik-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 299 e Quattro Technik 5dr S Tronic",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "phev",
-   "engine": "2.0",
-   "powerHp": 299,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 639.79,
-   "initialPaymentIncVat": 1919.38,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 27753,
-   "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:02.774Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-black-edition-5dr-s-tronic-tech",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 150 Black Edition 5dr S tronic [Tech]",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "petrol",
-   "engine": "2.0",
-   "powerHp": 150,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 24,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 939.04,
-   "initialPaymentIncVat": 2817.11,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [
-    "Tech"
-   ],
-   "note": null,
-   "derivativeId": 28375,
-   "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-08T20:25:03.236Z"
+   "fetchedAt": "2026-11-09T19:36:26.864Z"
   },
   {
    "source": "aa",
@@ -6480,7 +6450,7 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-08T20:25:03.351Z"
+   "fetchedAt": "2026-11-09T19:36:27.056Z"
   },
   {
    "source": "aa",
@@ -6496,11 +6466,11 @@
    "powerHp": 150,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 818.81,
-   "initialPaymentIncVat": 818.81,
+   "monthlyIncVat": 939.04,
+   "initialPaymentIncVat": 2817.11,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6510,7 +6480,7 @@
    "note": null,
    "derivativeId": 28375,
    "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-08T20:25:03.599Z"
+   "fetchedAt": "2026-11-09T19:36:27.208Z"
   },
   {
    "source": "aa",
@@ -6540,7 +6510,7 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-08T20:25:03.940Z"
+   "fetchedAt": "2026-11-09T19:36:27.403Z"
   },
   {
    "source": "aa",
@@ -6557,10 +6527,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 775.72,
-   "initialPaymentIncVat": 2327.15,
+   "monthlyIncVat": 818.81,
+   "initialPaymentIncVat": 818.81,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6570,7 +6540,7 @@
    "note": null,
    "derivativeId": 28375,
    "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-08T20:25:03.943Z"
+   "fetchedAt": "2026-11-09T19:36:27.543Z"
   },
   {
    "source": "aa",
@@ -6600,7 +6570,7 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-08T20:25:04.288Z"
+   "fetchedAt": "2026-11-09T19:36:27.738Z"
   },
   {
    "source": "aa",
@@ -6616,41 +6586,11 @@
    "powerHp": 150,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 729.76,
-   "initialPaymentIncVat": 729.76,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [
-    "Tech"
-   ],
-   "note": null,
-   "derivativeId": 28375,
-   "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-08T20:25:04.297Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-black-edition-5dr-s-tronic-tech",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 150 Black Edition 5dr S tronic [Tech]",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "petrol",
-   "engine": "2.0",
-   "powerHp": 150,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 700.56,
-   "initialPaymentIncVat": 2101.68,
+   "monthlyIncVat": 775.72,
+   "initialPaymentIncVat": 2327.15,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6660,7 +6600,7 @@
    "note": null,
    "derivativeId": 28375,
    "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-08T20:25:04.650Z"
+   "fetchedAt": "2026-11-09T19:36:27.876Z"
   },
   {
    "source": "aa",
@@ -6690,7 +6630,37 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-08T20:25:04.668Z"
+   "fetchedAt": "2026-11-09T19:36:28.069Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-black-edition-5dr-s-tronic-tech",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TFSI 150 Black Edition 5dr S tronic [Tech]",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "petrol",
+   "engine": "2.0",
+   "powerHp": 150,
+   "transmission": "auto",
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 729.76,
+   "initialPaymentIncVat": 729.76,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [
+    "Tech"
+   ],
+   "note": null,
+   "derivativeId": 28375,
+   "capCode": "AUA520B0T5EPTA",
+   "fetchedAt": "2026-11-09T19:36:28.210Z"
   },
   {
    "source": "aa",
@@ -6720,35 +6690,37 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-08T20:25:05.027Z"
+   "fetchedAt": "2026-11-09T19:36:28.411Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-black-ed-5dr-s-tronic",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-black-edition-5dr-s-tronic-tech",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TFSI 299 e Quattro Black Ed 5dr S tronic",
+   "derivative": "2.0 TFSI 150 Black Edition 5dr S tronic [Tech]",
    "trim": null,
    "siteModel": "A5 AVANT",
-   "fuel": "phev",
+   "fuel": "petrol",
    "engine": "2.0",
-   "powerHp": 299,
+   "powerHp": 150,
    "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1035.67,
-   "initialPaymentIncVat": 1035.67,
+   "monthlyIncVat": 700.56,
+   "initialPaymentIncVat": 2101.68,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
-   "options": [],
+   "options": [
+    "Tech"
+   ],
    "note": null,
-   "derivativeId": 28384,
-   "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:05.186Z"
+   "derivativeId": 28375,
+   "capCode": "AUA520B0T5EPTA",
+   "fetchedAt": "2026-11-09T19:36:28.543Z"
   },
   {
    "source": "aa",
@@ -6778,7 +6750,7 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-08T20:25:05.369Z"
+   "fetchedAt": "2026-11-09T19:36:28.745Z"
   },
   {
    "source": "aa",
@@ -6795,10 +6767,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 956,
-   "initialPaymentIncVat": 2868.01,
+   "monthlyIncVat": 1035.67,
+   "initialPaymentIncVat": 1035.67,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6806,7 +6778,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:05.713Z"
+   "fetchedAt": "2026-11-09T19:36:28.891Z"
   },
   {
    "source": "aa",
@@ -6834,7 +6806,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-08T20:25:05.872Z"
+   "fetchedAt": "2026-11-09T19:36:29.088Z"
   },
   {
    "source": "aa",
@@ -6850,11 +6822,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 836.9,
-   "initialPaymentIncVat": 836.9,
+   "monthlyIncVat": 956,
+   "initialPaymentIncVat": 2868.01,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6862,7 +6834,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:06.060Z"
+   "fetchedAt": "2026-11-09T19:36:29.235Z"
   },
   {
    "source": "aa",
@@ -6890,7 +6862,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-08T20:25:06.393Z"
+   "fetchedAt": "2026-11-09T19:36:29.428Z"
   },
   {
    "source": "aa",
@@ -6907,10 +6879,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 792.85,
-   "initialPaymentIncVat": 2378.56,
+   "monthlyIncVat": 836.9,
+   "initialPaymentIncVat": 836.9,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6918,7 +6890,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:06.401Z"
+   "fetchedAt": "2026-11-09T19:36:29.572Z"
   },
   {
    "source": "aa",
@@ -6946,7 +6918,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-08T20:25:06.746Z"
+   "fetchedAt": "2026-11-09T19:36:29.765Z"
   },
   {
    "source": "aa",
@@ -6962,11 +6934,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 750.14,
-   "initialPaymentIncVat": 750.14,
+   "monthlyIncVat": 792.85,
+   "initialPaymentIncVat": 2378.56,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -6974,7 +6946,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:06.749Z"
+   "fetchedAt": "2026-11-09T19:36:29.907Z"
   },
   {
    "source": "aa",
@@ -7002,7 +6974,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-08T20:25:07.092Z"
+   "fetchedAt": "2026-11-09T19:36:30.099Z"
   },
   {
    "source": "aa",
@@ -7019,10 +6991,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 720.13,
-   "initialPaymentIncVat": 2160.4,
+   "monthlyIncVat": 750.14,
+   "initialPaymentIncVat": 750.14,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7030,7 +7002,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:07.093Z"
+   "fetchedAt": "2026-11-09T19:36:30.245Z"
   },
   {
    "source": "aa",
@@ -7058,15 +7030,15 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-08T20:25:07.448Z"
+   "fetchedAt": "2026-11-09T19:36:30.442Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-qtro-black-ed-5dr-s-tronic-tech",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-black-ed-5dr-s-tronic",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TFSI 299 e Qtro Black Ed 5dr S tronic Tech",
+   "derivative": "2.0 TFSI 299 e Quattro Black Ed 5dr S tronic",
    "trim": null,
    "siteModel": "A5 AVANT",
    "fuel": "phev",
@@ -7074,19 +7046,19 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1093.73,
-   "initialPaymentIncVat": 1093.73,
+   "monthlyIncVat": 720.13,
+   "initialPaymentIncVat": 2160.4,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
    "options": [],
    "note": null,
-   "derivativeId": 28388,
-   "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:07.633Z"
+   "derivativeId": 28384,
+   "capCode": "AUA520Q9B5EXTA4",
+   "fetchedAt": "2026-11-09T19:36:30.581Z"
   },
   {
    "source": "aa",
@@ -7114,7 +7086,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-08T20:25:07.791Z"
+   "fetchedAt": "2026-11-09T19:36:30.786Z"
   },
   {
    "source": "aa",
@@ -7131,10 +7103,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1009.6,
-   "initialPaymentIncVat": 3028.79,
+   "monthlyIncVat": 1093.73,
+   "initialPaymentIncVat": 1093.73,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7142,7 +7114,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:08.168Z"
+   "fetchedAt": "2026-11-09T19:36:30.940Z"
   },
   {
    "source": "aa",
@@ -7170,7 +7142,7 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:08.305Z"
+   "fetchedAt": "2026-11-09T19:36:31.133Z"
   },
   {
    "source": "aa",
@@ -7186,11 +7158,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 879.44,
-   "initialPaymentIncVat": 879.44,
+   "monthlyIncVat": 1009.6,
+   "initialPaymentIncVat": 3028.79,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7198,7 +7170,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:08.516Z"
+   "fetchedAt": "2026-11-09T19:36:31.280Z"
   },
   {
    "source": "aa",
@@ -7226,7 +7198,7 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:08.841Z"
+   "fetchedAt": "2026-11-09T19:36:31.480Z"
   },
   {
    "source": "aa",
@@ -7243,10 +7215,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 833.16,
-   "initialPaymentIncVat": 2499.48,
+   "monthlyIncVat": 879.44,
+   "initialPaymentIncVat": 879.44,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7254,7 +7226,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:08.860Z"
+   "fetchedAt": "2026-11-09T19:36:31.622Z"
   },
   {
    "source": "aa",
@@ -7282,7 +7254,7 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:09.187Z"
+   "fetchedAt": "2026-11-09T19:36:31.818Z"
   },
   {
    "source": "aa",
@@ -7298,11 +7270,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 785.29,
-   "initialPaymentIncVat": 785.29,
+   "monthlyIncVat": 833.16,
+   "initialPaymentIncVat": 2499.48,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7310,7 +7282,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:09.209Z"
+   "fetchedAt": "2026-11-09T19:36:31.959Z"
   },
   {
    "source": "aa",
@@ -7338,7 +7310,7 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:09.551Z"
+   "fetchedAt": "2026-11-09T19:36:32.159Z"
   },
   {
    "source": "aa",
@@ -7355,10 +7327,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 753.88,
-   "initialPaymentIncVat": 2261.63,
+   "monthlyIncVat": 785.29,
+   "initialPaymentIncVat": 785.29,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7366,7 +7338,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:09.563Z"
+   "fetchedAt": "2026-11-09T19:36:32.298Z"
   },
   {
    "source": "aa",
@@ -7394,35 +7366,35 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:09.892Z"
+   "fetchedAt": "2026-11-09T19:36:32.504Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-black-edition-5dr-s-tronic",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-qtro-black-ed-5dr-s-tronic-tech",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TDI 204 Black Edition 5dr S tronic",
+   "derivative": "2.0 TFSI 299 e Qtro Black Ed 5dr S tronic Tech",
    "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
+   "siteModel": "A5 AVANT",
+   "fuel": "phev",
    "engine": "2.0",
-   "powerHp": 204,
+   "powerHp": 299,
    "transmission": "auto",
-   "drive": null,
-   "termMonths": 24,
-   "initialMonths": 1,
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1033.96,
-   "initialPaymentIncVat": 1033.96,
+   "monthlyIncVat": 753.88,
+   "initialPaymentIncVat": 2261.63,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
    "options": [],
    "note": null,
-   "derivativeId": 28398,
-   "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-08T20:25:10.060Z"
+   "derivativeId": 28388,
+   "capCode": "AUA520TBQ5EXTA4",
+   "fetchedAt": "2026-11-09T19:36:32.644Z"
   },
   {
    "source": "aa",
@@ -7450,7 +7422,7 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:10.249Z"
+   "fetchedAt": "2026-11-09T19:36:32.839Z"
   },
   {
    "source": "aa",
@@ -7467,10 +7439,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 939.94,
-   "initialPaymentIncVat": 2819.81,
+   "monthlyIncVat": 1033.96,
+   "initialPaymentIncVat": 1033.96,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7478,7 +7450,7 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-08T20:25:10.703Z"
+   "fetchedAt": "2026-11-09T19:36:33.000Z"
   },
   {
    "source": "aa",
@@ -7506,7 +7478,7 @@
    "note": null,
    "derivativeId": 28400,
    "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:10.817Z"
+   "fetchedAt": "2026-11-09T19:36:33.183Z"
   },
   {
    "source": "aa",
@@ -7522,11 +7494,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 827.98,
-   "initialPaymentIncVat": 827.98,
+   "monthlyIncVat": 939.94,
+   "initialPaymentIncVat": 2819.81,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7534,7 +7506,7 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-08T20:25:11.053Z"
+   "fetchedAt": "2026-11-09T19:36:33.351Z"
   },
   {
    "source": "aa",
@@ -7562,7 +7534,7 @@
    "note": null,
    "derivativeId": 28400,
    "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:11.322Z"
+   "fetchedAt": "2026-11-09T19:36:33.528Z"
   },
   {
    "source": "aa",
@@ -7579,10 +7551,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 784.4,
-   "initialPaymentIncVat": 2353.21,
+   "monthlyIncVat": 827.98,
+   "initialPaymentIncVat": 827.98,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7590,7 +7562,7 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-08T20:25:11.398Z"
+   "fetchedAt": "2026-11-09T19:36:33.701Z"
   },
   {
    "source": "aa",
@@ -7618,7 +7590,7 @@
    "note": null,
    "derivativeId": 28400,
    "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:11.672Z"
+   "fetchedAt": "2026-11-09T19:36:33.862Z"
   },
   {
    "source": "aa",
@@ -7634,11 +7606,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 737.56,
-   "initialPaymentIncVat": 737.56,
+   "monthlyIncVat": 784.4,
+   "initialPaymentIncVat": 2353.21,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7646,7 +7618,7 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-08T20:25:11.755Z"
+   "fetchedAt": "2026-11-09T19:36:34.043Z"
   },
   {
    "source": "aa",
@@ -7674,7 +7646,7 @@
    "note": null,
    "derivativeId": 28400,
    "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:12.014Z"
+   "fetchedAt": "2026-11-09T19:36:34.200Z"
   },
   {
    "source": "aa",
@@ -7691,10 +7663,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 708.06,
-   "initialPaymentIncVat": 2124.18,
+   "monthlyIncVat": 737.56,
+   "initialPaymentIncVat": 737.56,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7702,7 +7674,7 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-08T20:25:12.109Z"
+   "fetchedAt": "2026-11-09T19:36:34.376Z"
   },
   {
    "source": "aa",
@@ -7730,7 +7702,63 @@
    "note": null,
    "derivativeId": 28400,
    "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:12.442Z"
+   "fetchedAt": "2026-11-09T19:36:34.534Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-black-edition-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TDI 204 Black Edition 5dr S tronic",
+   "trim": null,
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 708.06,
+   "initialPaymentIncVat": 2124.18,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 28398,
+   "capCode": "AUA520BL25EDTA",
+   "fetchedAt": "2026-11-09T19:36:34.720Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-black-edition-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TDI Quattro 204 Black Edition 5dr S tronic",
+   "trim": null,
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 724.15,
+   "initialPaymentIncVat": 2172.46,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 28400,
+   "capCode": "AUA520Q2B5EDTA4",
+   "fetchedAt": "2026-11-09T19:36:34.869Z"
   },
   {
    "source": "aa",
@@ -7760,65 +7788,7 @@
    "note": null,
    "derivativeId": 28401,
    "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-08T20:25:12.608Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-black-edition-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TDI Quattro 204 Black Edition 5dr S tronic",
-   "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
-   "engine": "2.0",
-   "powerHp": 204,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 724.15,
-   "initialPaymentIncVat": 2172.46,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 28400,
-   "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:12.794Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-black-edition-5dr-s-tronic-tech",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TDI 204 Black Edition 5dr S tronic [Tech]",
-   "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
-   "engine": "2.0",
-   "powerHp": 204,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 24,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 1002.96,
-   "initialPaymentIncVat": 3008.88,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [
-    "Tech"
-   ],
-   "note": null,
-   "derivativeId": 28401,
-   "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-08T20:25:13.118Z"
+   "fetchedAt": "2026-11-09T19:36:35.060Z"
   },
   {
    "source": "aa",
@@ -7848,7 +7818,7 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:13.320Z"
+   "fetchedAt": "2026-11-09T19:36:35.207Z"
   },
   {
    "source": "aa",
@@ -7864,41 +7834,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 36,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 872.86,
-   "initialPaymentIncVat": 872.86,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [
-    "Tech"
-   ],
-   "note": null,
-   "derivativeId": 28401,
-   "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-08T20:25:13.465Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-black-edition-5dr-s-tronic-tech",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TDI 204 Black Edition 5dr S tronic [Tech]",
-   "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
-   "engine": "2.0",
-   "powerHp": 204,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 36,
+   "termMonths": 24,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 826.92,
-   "initialPaymentIncVat": 2480.76,
+   "monthlyIncVat": 1002.96,
+   "initialPaymentIncVat": 3008.88,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7908,7 +7848,7 @@
    "note": null,
    "derivativeId": 28401,
    "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-08T20:25:13.811Z"
+   "fetchedAt": "2026-11-09T19:36:35.415Z"
   },
   {
    "source": "aa",
@@ -7938,7 +7878,7 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:13.888Z"
+   "fetchedAt": "2026-11-09T19:36:35.564Z"
   },
   {
    "source": "aa",
@@ -7954,11 +7894,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 774.46,
-   "initialPaymentIncVat": 774.46,
+   "monthlyIncVat": 872.86,
+   "initialPaymentIncVat": 872.86,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7968,7 +7908,7 @@
    "note": null,
    "derivativeId": 28401,
    "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-08T20:25:14.168Z"
+   "fetchedAt": "2026-11-09T19:36:35.752Z"
   },
   {
    "source": "aa",
@@ -7998,7 +7938,7 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:14.230Z"
+   "fetchedAt": "2026-11-09T19:36:35.915Z"
   },
   {
    "source": "aa",
@@ -8014,11 +7954,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 743.48,
-   "initialPaymentIncVat": 2230.45,
+   "monthlyIncVat": 826.92,
+   "initialPaymentIncVat": 2480.76,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8028,7 +7968,7 @@
    "note": null,
    "derivativeId": 28401,
    "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-08T20:25:14.516Z"
+   "fetchedAt": "2026-11-09T19:36:36.095Z"
   },
   {
    "source": "aa",
@@ -8058,7 +7998,37 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:14.576Z"
+   "fetchedAt": "2026-11-09T19:36:36.247Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-black-edition-5dr-s-tronic-tech",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TDI 204 Black Edition 5dr S tronic [Tech]",
+   "trim": null,
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 774.46,
+   "initialPaymentIncVat": 774.46,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [
+    "Tech"
+   ],
+   "note": null,
+   "derivativeId": 28401,
+   "capCode": "AUA520TB25EDTA",
+   "fetchedAt": "2026-11-09T19:36:36.431Z"
   },
   {
    "source": "aa",
@@ -8088,35 +8058,37 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:14.929Z"
+   "fetchedAt": "2026-11-09T19:36:36.589Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-vorsprung-5dr-s-tronic",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-black-edition-5dr-s-tronic-tech",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TDI Quattro 204 Vorsprung 5dr S tronic",
+   "derivative": "2.0 TDI 204 Black Edition 5dr S tronic [Tech]",
    "trim": null,
    "siteModel": "A5 DIESEL AVANT",
    "fuel": "diesel",
    "engine": "2.0",
    "powerHp": 204,
    "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1139.46,
-   "initialPaymentIncVat": 1139.46,
+   "monthlyIncVat": 743.48,
+   "initialPaymentIncVat": 2230.45,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
-   "options": [],
+   "options": [
+    "Tech"
+   ],
    "note": null,
-   "derivativeId": 28406,
-   "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-08T20:25:15.037Z"
+   "derivativeId": 28401,
+   "capCode": "AUA520TB25EDTA",
+   "fetchedAt": "2026-11-09T19:36:36.770Z"
   },
   {
    "source": "aa",
@@ -8146,7 +8118,7 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:15.271Z"
+   "fetchedAt": "2026-11-09T19:36:36.926Z"
   },
   {
    "source": "aa",
@@ -8163,10 +8135,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1051.81,
-   "initialPaymentIncVat": 3155.44,
+   "monthlyIncVat": 1139.46,
+   "initialPaymentIncVat": 1139.46,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8174,7 +8146,7 @@
    "note": null,
    "derivativeId": 28406,
    "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-08T20:25:15.571Z"
+   "fetchedAt": "2026-11-09T19:36:37.127Z"
   },
   {
    "source": "aa",
@@ -8204,7 +8176,7 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-08T20:25:15.823Z"
+   "fetchedAt": "2026-11-09T19:36:37.274Z"
   },
   {
    "source": "aa",
@@ -8220,39 +8192,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 916.62,
-   "initialPaymentIncVat": 916.62,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 28406,
-   "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-08T20:25:15.946Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-vorsprung-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TDI Quattro 204 Vorsprung 5dr S tronic",
-   "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
-   "engine": "2.0",
-   "powerHp": 204,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 36,
+   "termMonths": 24,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 868.38,
-   "initialPaymentIncVat": 2605.14,
+   "monthlyIncVat": 1051.81,
+   "initialPaymentIncVat": 3155.44,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8260,7 +8204,7 @@
    "note": null,
    "derivativeId": 28406,
    "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-08T20:25:16.293Z"
+   "fetchedAt": "2026-11-09T19:36:37.473Z"
   },
   {
    "source": "aa",
@@ -8290,7 +8234,7 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-08T20:25:16.350Z"
+   "fetchedAt": "2026-11-09T19:36:37.618Z"
   },
   {
    "source": "aa",
@@ -8306,11 +8250,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 819.89,
-   "initialPaymentIncVat": 819.89,
+   "monthlyIncVat": 916.62,
+   "initialPaymentIncVat": 916.62,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8318,7 +8262,7 @@
    "note": null,
    "derivativeId": 28406,
    "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-08T20:25:16.641Z"
+   "fetchedAt": "2026-11-09T19:36:37.808Z"
   },
   {
    "source": "aa",
@@ -8348,7 +8292,7 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-08T20:25:16.700Z"
+   "fetchedAt": "2026-11-09T19:36:37.955Z"
   },
   {
    "source": "aa",
@@ -8364,11 +8308,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 787.09,
-   "initialPaymentIncVat": 2361.28,
+   "monthlyIncVat": 868.38,
+   "initialPaymentIncVat": 2605.14,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8376,7 +8320,7 @@
    "note": null,
    "derivativeId": 28406,
    "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-08T20:25:16.996Z"
+   "fetchedAt": "2026-11-09T19:36:38.147Z"
   },
   {
    "source": "aa",
@@ -8406,7 +8350,35 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-08T20:25:17.042Z"
+   "fetchedAt": "2026-11-09T19:36:38.286Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-vorsprung-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TDI Quattro 204 Vorsprung 5dr S tronic",
+   "trim": null,
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 819.89,
+   "initialPaymentIncVat": 819.89,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 28406,
+   "capCode": "AUA520QV25EDTA4",
+   "fetchedAt": "2026-11-09T19:36:38.486Z"
   },
   {
    "source": "aa",
@@ -8436,37 +8408,35 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-08T20:25:17.399Z"
+   "fetchedAt": "2026-11-09T19:36:38.617Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-s-line-5dr-s-tronic-tech",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-vorsprung-5dr-s-tronic",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TFSI 299 e Quattro S line 5dr S Tronic [Tech]",
+   "derivative": "2.0 TDI Quattro 204 Vorsprung 5dr S tronic",
    "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "phev",
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
    "engine": "2.0",
-   "powerHp": 299,
+   "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1035.64,
-   "initialPaymentIncVat": 1035.64,
+   "monthlyIncVat": 787.09,
+   "initialPaymentIncVat": 2361.28,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
-   "options": [
-    "Tech"
-   ],
+   "options": [],
    "note": null,
-   "derivativeId": 28685,
-   "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:17.522Z"
+   "derivativeId": 28406,
+   "capCode": "AUA520QV25EDTA4",
+   "fetchedAt": "2026-11-09T19:36:38.826Z"
   },
   {
    "source": "aa",
@@ -8496,7 +8466,7 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-08T20:25:17.745Z"
+   "fetchedAt": "2026-11-09T19:36:38.961Z"
   },
   {
    "source": "aa",
@@ -8513,10 +8483,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 955.97,
-   "initialPaymentIncVat": 2867.9,
+   "monthlyIncVat": 1035.64,
+   "initialPaymentIncVat": 1035.64,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8526,7 +8496,7 @@
    "note": null,
    "derivativeId": 28685,
    "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:18.058Z"
+   "fetchedAt": "2026-11-09T19:36:39.182Z"
   },
   {
    "source": "aa",
@@ -8556,7 +8526,7 @@
    "note": null,
    "derivativeId": 28686,
    "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-08T20:25:18.272Z"
+   "fetchedAt": "2026-11-09T19:36:39.362Z"
   },
   {
    "source": "aa",
@@ -8572,41 +8542,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 834.77,
-   "initialPaymentIncVat": 834.77,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [
-    "Tech"
-   ],
-   "note": null,
-   "derivativeId": 28685,
-   "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:18.407Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-s-line-5dr-s-tronic-tech",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 299 e Quattro S line 5dr S Tronic [Tech]",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "phev",
-   "engine": "2.0",
-   "powerHp": 299,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 36,
+   "termMonths": 24,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 790.84,
-   "initialPaymentIncVat": 2372.51,
+   "monthlyIncVat": 955.97,
+   "initialPaymentIncVat": 2867.9,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8616,7 +8556,7 @@
    "note": null,
    "derivativeId": 28685,
    "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:18.750Z"
+   "fetchedAt": "2026-11-09T19:36:39.523Z"
   },
   {
    "source": "aa",
@@ -8646,7 +8586,7 @@
    "note": null,
    "derivativeId": 28686,
    "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-08T20:25:18.840Z"
+   "fetchedAt": "2026-11-09T19:36:39.709Z"
   },
   {
    "source": "aa",
@@ -8662,11 +8602,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 746.74,
-   "initialPaymentIncVat": 746.74,
+   "monthlyIncVat": 834.77,
+   "initialPaymentIncVat": 834.77,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8676,7 +8616,7 @@
    "note": null,
    "derivativeId": 28685,
    "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:19.093Z"
+   "fetchedAt": "2026-11-09T19:36:39.863Z"
   },
   {
    "source": "aa",
@@ -8706,7 +8646,7 @@
    "note": null,
    "derivativeId": 28686,
    "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-08T20:25:19.203Z"
+   "fetchedAt": "2026-11-09T19:36:40.042Z"
   },
   {
    "source": "aa",
@@ -8722,11 +8662,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 716.86,
-   "initialPaymentIncVat": 2150.57,
+   "monthlyIncVat": 790.84,
+   "initialPaymentIncVat": 2372.51,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8736,7 +8676,7 @@
    "note": null,
    "derivativeId": 28685,
    "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-08T20:25:19.434Z"
+   "fetchedAt": "2026-11-09T19:36:40.201Z"
   },
   {
    "source": "aa",
@@ -8766,7 +8706,37 @@
    "note": null,
    "derivativeId": 28686,
    "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-08T20:25:19.557Z"
+   "fetchedAt": "2026-11-09T19:36:40.379Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-s-line-5dr-s-tronic-tech",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TFSI 299 e Quattro S line 5dr S Tronic [Tech]",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "phev",
+   "engine": "2.0",
+   "powerHp": 299,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 746.74,
+   "initialPaymentIncVat": 746.74,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [
+    "Tech"
+   ],
+   "note": null,
+   "derivativeId": 28685,
+   "capCode": "AUA5209LT5EXTA4",
+   "fetchedAt": "2026-11-09T19:36:40.542Z"
   },
   {
    "source": "aa",
@@ -8796,27 +8766,27 @@
    "note": null,
    "derivativeId": 28686,
    "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-08T20:25:19.906Z"
+   "fetchedAt": "2026-11-09T19:36:40.719Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-s-line-5dr-s-tronic-tech",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-s-line-5dr-s-tronic-tech",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TDI Quattro 204 S line 5dr S Tronic [Tech]",
+   "derivative": "2.0 TFSI 299 e Quattro S line 5dr S Tronic [Tech]",
    "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
+   "siteModel": "A5 AVANT",
+   "fuel": "phev",
    "engine": "2.0",
-   "powerHp": 204,
+   "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1055.64,
-   "initialPaymentIncVat": 1055.64,
+   "monthlyIncVat": 716.86,
+   "initialPaymentIncVat": 2150.57,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8824,9 +8794,9 @@
     "Tech"
    ],
    "note": null,
-   "derivativeId": 28691,
-   "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:20.019Z"
+   "derivativeId": 28685,
+   "capCode": "AUA5209LT5EXTA4",
+   "fetchedAt": "2026-11-09T19:36:40.875Z"
   },
   {
    "source": "aa",
@@ -8856,7 +8826,37 @@
    "note": null,
    "derivativeId": 28686,
    "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-08T20:25:20.260Z"
+   "fetchedAt": "2026-11-09T19:36:41.056Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-s-line-5dr-s-tronic-tech",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TDI Quattro 204 S line 5dr S Tronic [Tech]",
+   "trim": null,
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 24,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 1055.64,
+   "initialPaymentIncVat": 1055.64,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [
+    "Tech"
+   ],
+   "note": null,
+   "derivativeId": 28691,
+   "capCode": "AUA5202LT5EDTA4",
+   "fetchedAt": "2026-11-09T19:36:41.225Z"
   },
   {
    "source": "aa",
@@ -8886,7 +8886,7 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:20.558Z"
+   "fetchedAt": "2026-11-09T19:36:41.568Z"
   },
   {
    "source": "aa",
@@ -8916,7 +8916,7 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:20.911Z"
+   "fetchedAt": "2026-11-09T19:36:41.902Z"
   },
   {
    "source": "aa",
@@ -8946,7 +8946,7 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:21.252Z"
+   "fetchedAt": "2026-11-09T19:36:42.238Z"
   },
   {
    "source": "aa",
@@ -8976,7 +8976,7 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:21.601Z"
+   "fetchedAt": "2026-11-09T19:36:42.576Z"
   },
   {
    "source": "aa",
@@ -9006,7 +9006,7 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-08T20:25:21.954Z"
+   "fetchedAt": "2026-11-09T19:36:42.908Z"
   },
   {
    "source": "aa",
@@ -9034,7 +9034,7 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:22.580Z"
+   "fetchedAt": "2026-11-09T19:36:43.255Z"
   },
   {
    "source": "aa",
@@ -9062,35 +9062,7 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:22.585Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-s5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/s5-3-0-tfsi-quattro-367-vorsprung-5dr-s-tronic",
-   "make": "Audi",
-   "model": "S5 Avant",
-   "derivative": "S5 3.0 TFSI Quattro 367 Vorsprung 5dr S tronic",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "petrol",
-   "engine": "3.0",
-   "powerHp": 367,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 1605.67,
-   "initialPaymentIncVat": 4817.02,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 28394,
-   "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:23.263Z"
+   "fetchedAt": "2026-11-09T19:36:43.277Z"
   },
   {
    "source": "aa",
@@ -9118,7 +9090,7 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:23.265Z"
+   "fetchedAt": "2026-11-09T19:36:43.592Z"
   },
   {
    "source": "aa",
@@ -9134,11 +9106,11 @@
    "powerHp": 367,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1388.72,
-   "initialPaymentIncVat": 1388.72,
+   "monthlyIncVat": 1605.67,
+   "initialPaymentIncVat": 4817.02,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -9146,7 +9118,7 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:23.612Z"
+   "fetchedAt": "2026-11-09T19:36:43.624Z"
   },
   {
    "source": "aa",
@@ -9174,7 +9146,7 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:23.627Z"
+   "fetchedAt": "2026-11-09T19:36:43.928Z"
   },
   {
    "source": "aa",
@@ -9191,10 +9163,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1315.63,
-   "initialPaymentIncVat": 3946.9,
+   "monthlyIncVat": 1388.72,
+   "initialPaymentIncVat": 1388.72,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -9202,7 +9174,7 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:23.958Z"
+   "fetchedAt": "2026-11-09T19:36:43.958Z"
   },
   {
    "source": "aa",
@@ -9230,7 +9202,7 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:23.970Z"
+   "fetchedAt": "2026-11-09T19:36:44.263Z"
   },
   {
    "source": "aa",
@@ -9246,11 +9218,11 @@
    "powerHp": 367,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1228.6,
-   "initialPaymentIncVat": 1228.6,
+   "monthlyIncVat": 1315.63,
+   "initialPaymentIncVat": 3946.9,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -9258,7 +9230,7 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:24.304Z"
+   "fetchedAt": "2026-11-09T19:36:44.289Z"
   },
   {
    "source": "aa",
@@ -9286,7 +9258,35 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:24.315Z"
+   "fetchedAt": "2026-11-09T19:36:44.607Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-s5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/s5-3-0-tfsi-quattro-367-vorsprung-5dr-s-tronic",
+   "make": "Audi",
+   "model": "S5 Avant",
+   "derivative": "S5 3.0 TFSI Quattro 367 Vorsprung 5dr S tronic",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "petrol",
+   "engine": "3.0",
+   "powerHp": 367,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 1228.6,
+   "initialPaymentIncVat": 1228.6,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 28394,
+   "capCode": "AUA5303QV5EPTA4",
+   "fetchedAt": "2026-11-09T19:36:44.624Z"
   },
   {
    "source": "aa",
@@ -9314,7 +9314,7 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:24.660Z"
+   "fetchedAt": "2026-11-09T19:36:44.944Z"
   },
   {
    "source": "aa",
@@ -9342,7 +9342,7 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:24.664Z"
+   "fetchedAt": "2026-11-09T19:36:44.956Z"
   },
   {
    "source": "aa",
@@ -9370,7 +9370,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:25.202Z"
+   "fetchedAt": "2026-11-09T19:36:45.306Z"
   },
   {
    "source": "aa",
@@ -9398,7 +9398,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:25.756Z"
+   "fetchedAt": "2026-11-09T19:36:45.652Z"
   },
   {
    "source": "aa",
@@ -9426,7 +9426,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:26.105Z"
+   "fetchedAt": "2026-11-09T19:36:45.997Z"
   },
   {
    "source": "aa",
@@ -9454,7 +9454,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:26.452Z"
+   "fetchedAt": "2026-11-09T19:36:46.338Z"
   },
   {
    "source": "aa",
@@ -9482,7 +9482,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:26.805Z"
+   "fetchedAt": "2026-11-09T19:36:46.694Z"
   },
   {
    "source": "aa",
@@ -9510,7 +9510,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-08T20:25:27.151Z"
+   "fetchedAt": "2026-11-09T19:36:47.033Z"
   }
  ]
 }

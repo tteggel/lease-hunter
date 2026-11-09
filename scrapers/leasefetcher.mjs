@@ -28,6 +28,11 @@ const RANGES = {
   'audi-a5-avant':  [/^\/audi\/a5\/avant-deals$/, /^\/audi\/a4\/avant-deals$/],
   'audi-s5-avant':  [/^\/audi\/s5\/[a-z0-9-]*avant-deals$/, /^\/audi\/a5\/avant-deals$/, /^\/audi\/a4\/avant-deals$/],
   'audi-rs5-avant': [/^\/audi\/rs-?5\/[a-z0-9-]*avant-deals$/],
+  // Polestar 4 SUV (Sept 2026): CAP-style sites file it as "4 Estate" (the original car is "4 Coupe"), so take
+  // /polestar/4/estate-deals (in the sitemap, 0 trims as of Nov 2026) or a /suv-deals page; never a coupe page.
+  'polestar-4':     [/^\/polestar\/4\/(estate|suv)-deals$/],
+  // not listed as of Nov 2026 (/volvo/ex60/* 404, not in the sitemap)
+  'volvo-ex60':     [/^\/volvo\/ex60\/[a-z0-9-]*-deals$/],
 };
 // derivative filters for ranges shared between configured models
 const DERIV_FILTER = {

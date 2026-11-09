@@ -24,6 +24,9 @@ const RULES = {
   'audi-a5-avant':  { make: 'audi', ranges: /^a5-(diesel-)?avant(-special-edition)?$/, deriv: d => !/^S5\b/i.test(d) },
   'audi-s5-avant':  { make: 'audi', ranges: /^(a5|s5)-(diesel-)?avant(-special-edition)?$/, deriv: d => /^S5\b/i.test(d) },
   'audi-rs5-avant': { make: 'audi', ranges: /^rs-?5-avant$/ },
+  // Polestar 4 SUV (Sept 2026, MRP from £54,750) is the "4 ESTATE" range; the original car is "4-coupe"/"4-coupe_2" (excluded)
+  'polestar-4':     { make: 'polestar', ranges: /^4-estate(-special-edition)?$/ },
+  'volvo-ex60':     { make: 'volvo', ranges: /^ex60-estate(-special-edition)?$/ },
 };
 
 const decode = s => String(s || '').replace(/<[^>]+>/g, ' ').replace(/&pound;/g, '£').replace(/&amp;/g, '&')
@@ -103,7 +106,7 @@ function mapFuel(f, name) {
   if (/petrol/.test(s)) return /\bMHT\b|mild|MHEV/i.test(name) ? 'mhev' : 'petrol';
   return null;
 }
-const driveOf = (n, dt) => /xdrive|quattro|qtro|4matic|\bAWD\b/i.test(n) || dt === '3' ? 'awd' : /sdrive/i.test(n) ? 'rwd' : null;
+const driveOf = (n, dt) => /xdrive|quattro|qtro|4matic|\bAWD\b|dual motor/i.test(n) || dt === '3' ? 'awd' : /sdrive/i.test(n) ? 'rwd' : null;
 const TRIMS = ['M Sport Pro', 'M Sport', 'xLine', 'Sport', 'AMG Line Premium Plus', 'AMG Line Premium', 'AMG Line', 'Urban Edition',
   'Plus Pro', 'Plus', 'Ultra', 'Core', 'Ultimate', 'Dark', 'Black Edition', 'Edition 1', 'Launch Edition', 'Vorsprung', 'Carbon Black',
   'Competition', 'Performance', 'S line', 'Technik', 'Sport', 'R-Design', 'Inscription', 'Momentum'];

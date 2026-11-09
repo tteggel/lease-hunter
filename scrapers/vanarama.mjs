@@ -32,7 +32,14 @@ const MODEL_MAP = {
   'audi-a5-avant':  { makes: ['audi'], range: /^a5( avant)?$/i, model: /avant|estate/i },
   'audi-s5-avant':  { makes: ['audi'], range: /^s5( avant)?$/i, model: /avant|estate/i },
   'audi-rs5-avant': { makes: ['audi'], range: /^rs ?5( avant)?$/i, model: /avant|estate/i },
+  // range "Polestar 4" holds both bodies (all with modelName "Polestar 4 SUV"): the 4 Coupe has
+  // "Coupe" in derivativeName and url polestar/4-coupe/suv/..., the new 4 SUV (2026) is polestar/4/estate/...
+  'polestar-4':     { makes: ['polestar'], range: /^polestar 4$/i, exclude: /coupe/i },
+  'volvo-ex60':     { makes: ['volvo'], range: /^ex60$/i },
 };
+// Makes whose list query returns nothing with vehicleTypes:[CAR] (and only one vehicle with a rate
+// sort); without either filter the endpoint returns just that make's cars.
+const UNTYPED_MAKES = new Set(['polestar']);
 
 const LIST_Q = `query vehicleList($vehicleTypes:[VehicleTypeEnum!],$manufacturerSlug:String,$pagination:Pagination,$sort:[Sort!]){
   vehicleListV2(filter:{vehicleTypes:$vehicleTypes,manufacturerSlug:$manufacturerSlug},pagination:$pagination,sort:$sort){
@@ -104,7 +111,9 @@ async function listMake(slug) {
   const size = 50;
   let total = null;
   for (let from = 0, stale = 0; from < 3000 && stale < 2; from += size) {
-    const d = await gql(LIST_Q, { vehicleTypes: ['CAR'], manufacturerSlug: slug, pagination: { from, size }, sort: [{ field: 'rate', direction: 'ASC' }] });
+    const d = await gql(LIST_Q, UNTYPED_MAKES.has(slug)
+      ? { manufacturerSlug: slug, pagination: { from, size } }
+      : { vehicleTypes: ['CAR'], manufacturerSlug: slug, pagination: { from, size }, sort: [{ field: 'rate', direction: 'ASC' }] });
     const l = d?.vehicleListV2?.vehicleList || [];
     if (total == null) total = d?.vehicleListV2?.totalVehicles ?? 0;
     if (!l.length) break;
@@ -123,6 +132,7 @@ function matchesModel(m, v) {
   if (spec) {
     if (!spec.range.test(v.rangeName || '')) return false;
     if (spec.model && !spec.model.test(`${v.rangeName} ${v.modelName}`)) return false;
+    if (spec.exclude && spec.exclude.test(`${v.derivativeName} ${v.url}`)) return false;
     return true;
   }
   // generic fallback: model name (minus body suffix) or range equals one of the aliases

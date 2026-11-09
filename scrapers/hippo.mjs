@@ -25,6 +25,9 @@ const RULES = {
   'audi-a5-avant':  { make: 'audi', ranges: ['a5'], models: /^a5-(diesel-)?avant/, deriv: s => !/^s5-/.test(s) },
   'audi-s5-avant':  { make: 'audi', ranges: ['a5', 's5'], models: /^(a5|s5)-(diesel-)?avant/, deriv: s => /^s5-/.test(s) },
   'audi-rs5-avant': { make: 'audi', ranges: ['a5', 'rs5', 'rs-5'], models: /^(a5|rs-?5)-avant/, deriv: s => /^rs-?5-/.test(s) },
+  // range "4" has model "4-estate" (the new 2026 4 SUV) and "4-coupe" (original car, excluded)
+  'polestar-4':     { make: 'polestar', ranges: ['4'], models: /^4-estate/ },
+  'volvo-ex60':     { make: 'volvo', ranges: ['ex60'], models: /^ex60-estate/ },
 };
 
 // tiny cookie jar (the price endpoint needs the Laravel session that issued the CSRF token)

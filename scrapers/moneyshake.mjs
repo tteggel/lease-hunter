@@ -30,7 +30,12 @@ const RULES = {
   'audi-a5-avant':  { mid: 164,   range: /^A5$/i,           rid: 899,  body: 'Estate', deriv: d => !/^S\s?5\b/i.test(d) },
   'audi-s5-avant':  { mid: 164,   range: /^(A5|S5)$/i,      rid: 899,  body: 'Estate', deriv: d => /^S\s?5\b/i.test(d) },
   'audi-rs5-avant': { mid: 164,   range: /^RS\s?5$/i,       rid: 1054, body: 'Estate' },
+  // Range "4" lists the 4 Coupe and the new (2026) 4 SUV with identical derivative names and bodyType "SUV";
+  // vehicle ids are CAP ids, and CAP 110810-110814 are the Coupe (111293-111297 the SUV).
+  'polestar-4':     { mid: 97846, range: /^4$/,             rid: 1614, vehicle: v => !POLESTAR_4_COUPE_CAP.has(String(v.id)) },
+  'volvo-ex60':     { mid: 12764, range: /^EX60$/i,         rid: 1726 },
 };
+const POLESTAR_4_COUPE_CAP = new Set(['110810', '110811', '110812', '110813', '110814']);
 
 // --- minimal SvelteKit devalue decoder ---
 function unflatten(arr) {
@@ -150,7 +155,8 @@ export async function scrape(ctx) {
       const vehicles = listCache.get(lkey);
       const uniq = [...new Map(vehicles.map(v => [v.id, v])).values()]
         .filter(v => !rule.body || v.bodyType === rule.body)
-        .filter(v => !rule.deriv || rule.deriv(v.derivative || ''));
+        .filter(v => !rule.deriv || rule.deriv(v.derivative || ''))
+        .filter(v => !rule.vehicle || rule.vehicle(v));
       log(`${m.id}: range ${range?.label ?? rid} -> ${uniq.length} derivatives`);
 
       // 3. price every derivative x term x initial at the target mileage (concurrency 2)
