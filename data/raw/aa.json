@@ -6,7 +6,7 @@
   "method": "api",
   "homeIpRecommended": false
  },
- "fetchedAt": "2026-11-09T19:36:47.174Z",
+ "fetchedAt": "2026-11-13T21:19:15.636Z",
  "deals": [
   {
    "source": "aa",
@@ -34,7 +34,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-09T19:35:43.218Z"
+   "fetchedAt": "2026-11-13T21:18:11.576Z"
   },
   {
    "source": "aa",
@@ -62,7 +62,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-09T19:35:43.579Z"
+   "fetchedAt": "2026-11-13T21:18:11.921Z"
   },
   {
    "source": "aa",
@@ -90,7 +90,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-09T19:35:43.936Z"
+   "fetchedAt": "2026-11-13T21:18:12.257Z"
   },
   {
    "source": "aa",
@@ -118,7 +118,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-09T19:35:44.282Z"
+   "fetchedAt": "2026-11-13T21:18:12.605Z"
   },
   {
    "source": "aa",
@@ -146,7 +146,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-09T19:35:44.624Z"
+   "fetchedAt": "2026-11-13T21:18:12.955Z"
   },
   {
    "source": "aa",
@@ -174,7 +174,7 @@
    "note": null,
    "derivativeId": 25553,
    "capCode": "BMX320MS 5EXTA4 6",
-   "fetchedAt": "2026-11-09T19:35:44.972Z"
+   "fetchedAt": "2026-11-13T21:18:13.299Z"
   },
   {
    "source": "aa",
@@ -204,7 +204,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:46.282Z"
+   "fetchedAt": "2026-11-13T21:18:14.979Z"
   },
   {
    "source": "aa",
@@ -232,7 +232,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:46.570Z"
+   "fetchedAt": "2026-11-13T21:18:15.235Z"
   },
   {
    "source": "aa",
@@ -262,7 +262,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:46.625Z"
+   "fetchedAt": "2026-11-13T21:18:15.399Z"
   },
   {
    "source": "aa",
@@ -290,7 +290,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:46.960Z"
+   "fetchedAt": "2026-11-13T21:18:15.577Z"
   },
   {
    "source": "aa",
@@ -320,7 +320,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:47.026Z"
+   "fetchedAt": "2026-11-13T21:18:15.733Z"
   },
   {
    "source": "aa",
@@ -348,7 +348,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:47.298Z"
+   "fetchedAt": "2026-11-13T21:18:15.926Z"
   },
   {
    "source": "aa",
@@ -378,7 +378,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:47.375Z"
+   "fetchedAt": "2026-11-13T21:18:16.096Z"
   },
   {
    "source": "aa",
@@ -406,7 +406,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:47.632Z"
+   "fetchedAt": "2026-11-13T21:18:16.259Z"
   },
   {
    "source": "aa",
@@ -436,7 +436,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:47.721Z"
+   "fetchedAt": "2026-11-13T21:18:16.432Z"
   },
   {
    "source": "aa",
@@ -464,7 +464,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:47.990Z"
+   "fetchedAt": "2026-11-13T21:18:16.594Z"
   },
   {
    "source": "aa",
@@ -494,7 +494,7 @@
    "note": null,
    "derivativeId": 27434,
    "capCode": "VOX6203PD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:48.070Z"
+   "fetchedAt": "2026-11-13T21:18:16.767Z"
   },
   {
    "source": "aa",
@@ -522,7 +522,7 @@
    "note": null,
    "derivativeId": 26777,
    "capCode": "VOX620PBE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:48.324Z"
+   "fetchedAt": "2026-11-13T21:18:16.932Z"
   },
   {
    "source": "aa",
@@ -550,7 +550,7 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:48.425Z"
+   "fetchedAt": "2026-11-13T21:18:17.126Z"
   },
   {
    "source": "aa",
@@ -578,7 +578,7 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:48.671Z"
+   "fetchedAt": "2026-11-13T21:18:17.274Z"
   },
   {
    "source": "aa",
@@ -606,7 +606,7 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:48.766Z"
+   "fetchedAt": "2026-11-13T21:18:17.470Z"
   },
   {
    "source": "aa",
@@ -634,7 +634,7 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:49.019Z"
+   "fetchedAt": "2026-11-13T21:18:17.620Z"
   },
   {
    "source": "aa",
@@ -662,7 +662,7 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:49.102Z"
+   "fetchedAt": "2026-11-13T21:18:17.805Z"
   },
   {
    "source": "aa",
@@ -690,7 +690,7 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:49.352Z"
+   "fetchedAt": "2026-11-13T21:18:17.967Z"
   },
   {
    "source": "aa",
@@ -718,7 +718,7 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:49.440Z"
+   "fetchedAt": "2026-11-13T21:18:18.142Z"
   },
   {
    "source": "aa",
@@ -746,7 +746,7 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:49.691Z"
+   "fetchedAt": "2026-11-13T21:18:18.303Z"
   },
   {
    "source": "aa",
@@ -774,7 +774,7 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:49.849Z"
+   "fetchedAt": "2026-11-13T21:18:18.482Z"
   },
   {
    "source": "aa",
@@ -802,7 +802,7 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:50.026Z"
+   "fetchedAt": "2026-11-13T21:18:18.671Z"
   },
   {
    "source": "aa",
@@ -830,7 +830,7 @@
    "note": null,
    "derivativeId": 26795,
    "capCode": "VOX620PD 5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:50.187Z"
+   "fetchedAt": "2026-11-13T21:18:18.823Z"
   },
   {
    "source": "aa",
@@ -858,7 +858,7 @@
    "note": null,
    "derivativeId": 26878,
    "capCode": "VOX620UTD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:50.380Z"
+   "fetchedAt": "2026-11-13T21:18:19.008Z"
   },
   {
    "source": "aa",
@@ -886,7 +886,7 @@
    "note": null,
    "derivativeId": 26879,
    "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:50.533Z"
+   "fetchedAt": "2026-11-13T21:18:19.162Z"
   },
   {
    "source": "aa",
@@ -914,7 +914,7 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:50.723Z"
+   "fetchedAt": "2026-11-13T21:18:19.346Z"
   },
   {
    "source": "aa",
@@ -942,7 +942,7 @@
    "note": null,
    "derivativeId": 26879,
    "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:50.876Z"
+   "fetchedAt": "2026-11-13T21:18:19.499Z"
   },
   {
    "source": "aa",
@@ -970,7 +970,7 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:51.067Z"
+   "fetchedAt": "2026-11-13T21:18:19.690Z"
   },
   {
    "source": "aa",
@@ -998,7 +998,7 @@
    "note": null,
    "derivativeId": 26879,
    "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:51.210Z"
+   "fetchedAt": "2026-11-13T21:18:19.834Z"
   },
   {
    "source": "aa",
@@ -1026,35 +1026,7 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:51.402Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-core-5dr-awd-geartronic-107433",
-   "make": "Volvo",
-   "model": "XC60",
-   "derivative": "2.0 B5P Core 5dr AWD Geartronic",
-   "trim": null,
-   "siteModel": "Xc60 Estate",
-   "fuel": "mhev",
-   "engine": "2.0",
-   "powerHp": null,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 612.01,
-   "initialPaymentIncVat": 1836.04,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 26879,
-   "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:51.547Z"
+   "fetchedAt": "2026-11-13T21:18:20.036Z"
   },
   {
    "source": "aa",
@@ -1082,7 +1054,7 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:51.733Z"
+   "fetchedAt": "2026-11-13T21:18:20.371Z"
   },
   {
    "source": "aa",
@@ -1098,11 +1070,11 @@
    "powerHp": null,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 592.3,
-   "initialPaymentIncVat": 592.3,
+   "monthlyIncVat": 612.01,
+   "initialPaymentIncVat": 1836.04,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1110,7 +1082,7 @@
    "note": null,
    "derivativeId": 26879,
    "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:51.888Z"
+   "fetchedAt": "2026-11-13T21:18:20.451Z"
   },
   {
    "source": "aa",
@@ -1138,7 +1110,7 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:52.077Z"
+   "fetchedAt": "2026-11-13T21:18:20.706Z"
   },
   {
    "source": "aa",
@@ -1155,10 +1127,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 568.61,
-   "initialPaymentIncVat": 1705.82,
+   "monthlyIncVat": 592.3,
+   "initialPaymentIncVat": 592.3,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -1166,7 +1138,7 @@
    "note": null,
    "derivativeId": 26879,
    "capCode": "VOX620CRE5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:52.225Z"
+   "fetchedAt": "2026-11-13T21:18:20.795Z"
   },
   {
    "source": "aa",
@@ -1194,7 +1166,35 @@
    "note": null,
    "derivativeId": 26880,
    "capCode": "VOX620BEU5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:52.435Z"
+   "fetchedAt": "2026-11-13T21:18:21.039Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "volvo-xc60",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-b5p-core-5dr-awd-geartronic-107433",
+   "make": "Volvo",
+   "model": "XC60",
+   "derivative": "2.0 B5P Core 5dr AWD Geartronic",
+   "trim": null,
+   "siteModel": "Xc60 Estate",
+   "fuel": "mhev",
+   "engine": "2.0",
+   "powerHp": null,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 568.61,
+   "initialPaymentIncVat": 1705.82,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 26879,
+   "capCode": "VOX620CRE5EPTA4 4",
+   "fetchedAt": "2026-11-13T21:18:21.147Z"
   },
   {
    "source": "aa",
@@ -1222,7 +1222,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:52.565Z"
+   "fetchedAt": "2026-11-13T21:18:21.389Z"
   },
   {
    "source": "aa",
@@ -1252,7 +1252,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:52.798Z"
+   "fetchedAt": "2026-11-13T21:18:21.512Z"
   },
   {
    "source": "aa",
@@ -1280,7 +1280,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:52.923Z"
+   "fetchedAt": "2026-11-13T21:18:21.731Z"
   },
   {
    "source": "aa",
@@ -1310,7 +1310,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:53.140Z"
+   "fetchedAt": "2026-11-13T21:18:21.932Z"
   },
   {
    "source": "aa",
@@ -1338,7 +1338,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:53.258Z"
+   "fetchedAt": "2026-11-13T21:18:22.068Z"
   },
   {
    "source": "aa",
@@ -1368,7 +1368,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:53.474Z"
+   "fetchedAt": "2026-11-13T21:18:22.270Z"
   },
   {
    "source": "aa",
@@ -1396,7 +1396,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:53.595Z"
+   "fetchedAt": "2026-11-13T21:18:22.399Z"
   },
   {
    "source": "aa",
@@ -1426,7 +1426,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:53.806Z"
+   "fetchedAt": "2026-11-13T21:18:22.605Z"
   },
   {
    "source": "aa",
@@ -1454,7 +1454,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:53.948Z"
+   "fetchedAt": "2026-11-13T21:18:22.748Z"
   },
   {
    "source": "aa",
@@ -1484,7 +1484,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:54.145Z"
+   "fetchedAt": "2026-11-13T21:18:22.944Z"
   },
   {
    "source": "aa",
@@ -1512,7 +1512,7 @@
    "note": null,
    "derivativeId": 26881,
    "capCode": "VOX620UTB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:54.315Z"
+   "fetchedAt": "2026-11-13T21:18:23.081Z"
   },
   {
    "source": "aa",
@@ -1542,7 +1542,7 @@
    "note": null,
    "derivativeId": 26882,
    "capCode": "VOX620CRE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:54.487Z"
+   "fetchedAt": "2026-11-13T21:18:23.278Z"
   },
   {
    "source": "aa",
@@ -1572,7 +1572,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:54.663Z"
+   "fetchedAt": "2026-11-13T21:18:23.421Z"
   },
   {
    "source": "aa",
@@ -1602,7 +1602,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:54.875Z"
+   "fetchedAt": "2026-11-13T21:18:23.619Z"
   },
   {
    "source": "aa",
@@ -1632,7 +1632,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:55.007Z"
+   "fetchedAt": "2026-11-13T21:18:23.760Z"
   },
   {
    "source": "aa",
@@ -1662,7 +1662,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:55.232Z"
+   "fetchedAt": "2026-11-13T21:18:23.965Z"
   },
   {
    "source": "aa",
@@ -1692,7 +1692,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:55.352Z"
+   "fetchedAt": "2026-11-13T21:18:24.108Z"
   },
   {
    "source": "aa",
@@ -1722,7 +1722,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:55.574Z"
+   "fetchedAt": "2026-11-13T21:18:24.304Z"
   },
   {
    "source": "aa",
@@ -1752,7 +1752,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:55.695Z"
+   "fetchedAt": "2026-11-13T21:18:24.439Z"
   },
   {
    "source": "aa",
@@ -1782,7 +1782,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:55.913Z"
+   "fetchedAt": "2026-11-13T21:18:24.635Z"
   },
   {
    "source": "aa",
@@ -1812,7 +1812,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:56.039Z"
+   "fetchedAt": "2026-11-13T21:18:24.772Z"
   },
   {
    "source": "aa",
@@ -1842,7 +1842,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:56.267Z"
+   "fetchedAt": "2026-11-13T21:18:24.969Z"
   },
   {
    "source": "aa",
@@ -1872,7 +1872,7 @@
    "note": null,
    "derivativeId": 26883,
    "capCode": "VOX620PD 5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:56.373Z"
+   "fetchedAt": "2026-11-13T21:18:25.106Z"
   },
   {
    "source": "aa",
@@ -1902,7 +1902,7 @@
    "note": null,
    "derivativeId": 26884,
    "capCode": "VOX620PBE5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:56.614Z"
+   "fetchedAt": "2026-11-13T21:18:25.309Z"
   },
   {
    "source": "aa",
@@ -1932,7 +1932,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:56.715Z"
+   "fetchedAt": "2026-11-13T21:18:25.462Z"
   },
   {
    "source": "aa",
@@ -1962,7 +1962,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:56.953Z"
+   "fetchedAt": "2026-11-13T21:18:25.657Z"
   },
   {
    "source": "aa",
@@ -1992,7 +1992,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:57.056Z"
+   "fetchedAt": "2026-11-13T21:18:25.806Z"
   },
   {
    "source": "aa",
@@ -2022,7 +2022,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:57.307Z"
+   "fetchedAt": "2026-11-13T21:18:26.000Z"
   },
   {
    "source": "aa",
@@ -2052,7 +2052,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:57.391Z"
+   "fetchedAt": "2026-11-13T21:18:26.139Z"
   },
   {
    "source": "aa",
@@ -2082,7 +2082,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:57.665Z"
+   "fetchedAt": "2026-11-13T21:18:26.332Z"
   },
   {
    "source": "aa",
@@ -2112,7 +2112,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:57.732Z"
+   "fetchedAt": "2026-11-13T21:18:26.478Z"
   },
   {
    "source": "aa",
@@ -2142,7 +2142,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:58.009Z"
+   "fetchedAt": "2026-11-13T21:18:26.667Z"
   },
   {
    "source": "aa",
@@ -2172,7 +2172,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:58.084Z"
+   "fetchedAt": "2026-11-13T21:18:26.816Z"
   },
   {
    "source": "aa",
@@ -2202,7 +2202,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:58.344Z"
+   "fetchedAt": "2026-11-13T21:18:27.003Z"
   },
   {
    "source": "aa",
@@ -2232,7 +2232,7 @@
    "note": null,
    "derivativeId": 26885,
    "capCode": "VOX620UTD5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:58.419Z"
+   "fetchedAt": "2026-11-13T21:18:27.148Z"
   },
   {
    "source": "aa",
@@ -2262,7 +2262,7 @@
    "note": null,
    "derivativeId": 26886,
    "capCode": "VOX620UTB5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:58.685Z"
+   "fetchedAt": "2026-11-13T21:18:27.337Z"
   },
   {
    "source": "aa",
@@ -2290,7 +2290,7 @@
    "note": null,
    "derivativeId": 26887,
    "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:58.764Z"
+   "fetchedAt": "2026-11-13T21:18:27.496Z"
   },
   {
    "source": "aa",
@@ -2318,7 +2318,7 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:59.031Z"
+   "fetchedAt": "2026-11-13T21:18:27.676Z"
   },
   {
    "source": "aa",
@@ -2346,7 +2346,7 @@
    "note": null,
    "derivativeId": 26887,
    "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:59.112Z"
+   "fetchedAt": "2026-11-13T21:18:27.843Z"
   },
   {
    "source": "aa",
@@ -2374,7 +2374,7 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:59.377Z"
+   "fetchedAt": "2026-11-13T21:18:28.017Z"
   },
   {
    "source": "aa",
@@ -2402,7 +2402,7 @@
    "note": null,
    "derivativeId": 26887,
    "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:59.450Z"
+   "fetchedAt": "2026-11-13T21:18:28.176Z"
   },
   {
    "source": "aa",
@@ -2430,7 +2430,7 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:35:59.713Z"
+   "fetchedAt": "2026-11-13T21:18:28.358Z"
   },
   {
    "source": "aa",
@@ -2458,7 +2458,7 @@
    "note": null,
    "derivativeId": 26887,
    "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:35:59.782Z"
+   "fetchedAt": "2026-11-13T21:18:28.507Z"
   },
   {
    "source": "aa",
@@ -2486,35 +2486,7 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:36:00.045Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "volvo-xc60",
-   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t8-455-phev-ultra-black-ed-5dr-awd-geartronic-107442",
-   "make": "Volvo",
-   "model": "XC60",
-   "derivative": "2.0 T8 455 PHEV Ultra Black Ed 5dr AWD Geartronic",
-   "trim": null,
-   "siteModel": "Xc60 Estate",
-   "fuel": "phev",
-   "engine": "2.0",
-   "powerHp": null,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 1460.17,
-   "initialPaymentIncVat": 1460.17,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 26887,
-   "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:00.116Z"
+   "fetchedAt": "2026-11-13T21:18:28.690Z"
   },
   {
    "source": "aa",
@@ -2542,7 +2514,7 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:36:00.398Z"
+   "fetchedAt": "2026-11-13T21:18:29.034Z"
   },
   {
    "source": "aa",
@@ -2559,10 +2531,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1360.93,
-   "initialPaymentIncVat": 4082.8,
+   "monthlyIncVat": 1460.17,
+   "initialPaymentIncVat": 1460.17,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -2570,7 +2542,7 @@
    "note": null,
    "derivativeId": 26887,
    "capCode": "VOX620BEU5EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:00.451Z"
+   "fetchedAt": "2026-11-13T21:18:29.054Z"
   },
   {
    "source": "aa",
@@ -2598,7 +2570,35 @@
    "note": null,
    "derivativeId": 26982,
    "capCode": "VOX620PPB5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:36:00.739Z"
+   "fetchedAt": "2026-11-13T21:18:29.372Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "volvo-xc60",
+   "url": "https://www.theaa.com/leasing/cars/volvo/xc60/2-0-t8-455-phev-ultra-black-ed-5dr-awd-geartronic-107442",
+   "make": "Volvo",
+   "model": "XC60",
+   "derivative": "2.0 T8 455 PHEV Ultra Black Ed 5dr AWD Geartronic",
+   "trim": null,
+   "siteModel": "Xc60 Estate",
+   "fuel": "phev",
+   "engine": "2.0",
+   "powerHp": null,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 1360.93,
+   "initialPaymentIncVat": 4082.8,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 26887,
+   "capCode": "VOX620BEU5EXTA4 4",
+   "fetchedAt": "2026-11-13T21:18:29.392Z"
   },
   {
    "source": "aa",
@@ -2626,7 +2626,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:36:00.803Z"
+   "fetchedAt": "2026-11-13T21:18:29.711Z"
   },
   {
    "source": "aa",
@@ -2656,7 +2656,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:01.082Z"
+   "fetchedAt": "2026-11-13T21:18:29.732Z"
   },
   {
    "source": "aa",
@@ -2684,7 +2684,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:36:01.161Z"
+   "fetchedAt": "2026-11-13T21:18:30.053Z"
   },
   {
    "source": "aa",
@@ -2714,7 +2714,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:01.426Z"
+   "fetchedAt": "2026-11-13T21:18:30.085Z"
   },
   {
    "source": "aa",
@@ -2742,7 +2742,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:36:01.495Z"
+   "fetchedAt": "2026-11-13T21:18:30.386Z"
   },
   {
    "source": "aa",
@@ -2772,7 +2772,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:01.756Z"
+   "fetchedAt": "2026-11-13T21:18:30.431Z"
   },
   {
    "source": "aa",
@@ -2800,7 +2800,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:36:01.883Z"
+   "fetchedAt": "2026-11-13T21:18:30.721Z"
   },
   {
    "source": "aa",
@@ -2830,7 +2830,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:02.092Z"
+   "fetchedAt": "2026-11-13T21:18:30.766Z"
   },
   {
    "source": "aa",
@@ -2858,7 +2858,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:36:02.217Z"
+   "fetchedAt": "2026-11-13T21:18:31.055Z"
   },
   {
    "source": "aa",
@@ -2888,7 +2888,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:02.430Z"
+   "fetchedAt": "2026-11-13T21:18:31.131Z"
   },
   {
    "source": "aa",
@@ -2916,7 +2916,7 @@
    "note": null,
    "derivativeId": 26983,
    "capCode": "VOX620PPD5EPTA4 4",
-   "fetchedAt": "2026-11-09T19:36:02.549Z"
+   "fetchedAt": "2026-11-13T21:18:31.387Z"
   },
   {
    "source": "aa",
@@ -2946,7 +2946,7 @@
    "note": null,
    "derivativeId": 28751,
    "capCode": "VOX620CR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:02.762Z"
+   "fetchedAt": "2026-11-13T21:18:31.472Z"
   },
   {
    "source": "aa",
@@ -2976,7 +2976,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:02.892Z"
+   "fetchedAt": "2026-11-13T21:18:31.730Z"
   },
   {
    "source": "aa",
@@ -3006,7 +3006,7 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:03.110Z"
+   "fetchedAt": "2026-11-13T21:18:31.818Z"
   },
   {
    "source": "aa",
@@ -3036,7 +3036,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:03.236Z"
+   "fetchedAt": "2026-11-13T21:18:32.071Z"
   },
   {
    "source": "aa",
@@ -3066,7 +3066,7 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:03.454Z"
+   "fetchedAt": "2026-11-13T21:18:32.162Z"
   },
   {
    "source": "aa",
@@ -3096,7 +3096,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:03.576Z"
+   "fetchedAt": "2026-11-13T21:18:32.403Z"
   },
   {
    "source": "aa",
@@ -3126,7 +3126,7 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:03.793Z"
+   "fetchedAt": "2026-11-13T21:18:32.511Z"
   },
   {
    "source": "aa",
@@ -3156,7 +3156,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:03.913Z"
+   "fetchedAt": "2026-11-13T21:18:32.739Z"
   },
   {
    "source": "aa",
@@ -3186,7 +3186,7 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:04.127Z"
+   "fetchedAt": "2026-11-13T21:18:32.929Z"
   },
   {
    "source": "aa",
@@ -3216,7 +3216,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:04.259Z"
+   "fetchedAt": "2026-11-13T21:18:33.075Z"
   },
   {
    "source": "aa",
@@ -3246,7 +3246,7 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:04.467Z"
+   "fetchedAt": "2026-11-13T21:18:33.263Z"
   },
   {
    "source": "aa",
@@ -3276,7 +3276,7 @@
    "note": null,
    "derivativeId": 28752,
    "capCode": "VOX620PB35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:04.594Z"
+   "fetchedAt": "2026-11-13T21:18:33.421Z"
   },
   {
    "source": "aa",
@@ -3306,7 +3306,7 @@
    "note": null,
    "derivativeId": 28753,
    "capCode": "VOX620PP35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:04.816Z"
+   "fetchedAt": "2026-11-13T21:18:33.674Z"
   },
   {
    "source": "aa",
@@ -3336,7 +3336,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:04.937Z"
+   "fetchedAt": "2026-11-13T21:18:33.769Z"
   },
   {
    "source": "aa",
@@ -3364,7 +3364,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:05.161Z"
+   "fetchedAt": "2026-11-13T21:18:34.020Z"
   },
   {
    "source": "aa",
@@ -3394,7 +3394,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:05.278Z"
+   "fetchedAt": "2026-11-13T21:18:34.114Z"
   },
   {
    "source": "aa",
@@ -3422,7 +3422,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:05.504Z"
+   "fetchedAt": "2026-11-13T21:18:34.359Z"
   },
   {
    "source": "aa",
@@ -3452,7 +3452,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:05.616Z"
+   "fetchedAt": "2026-11-13T21:18:34.455Z"
   },
   {
    "source": "aa",
@@ -3480,7 +3480,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:05.834Z"
+   "fetchedAt": "2026-11-13T21:18:34.690Z"
   },
   {
    "source": "aa",
@@ -3510,7 +3510,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:05.950Z"
+   "fetchedAt": "2026-11-13T21:18:34.791Z"
   },
   {
    "source": "aa",
@@ -3538,7 +3538,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:06.175Z"
+   "fetchedAt": "2026-11-13T21:18:35.029Z"
   },
   {
    "source": "aa",
@@ -3568,7 +3568,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:06.293Z"
+   "fetchedAt": "2026-11-13T21:18:35.130Z"
   },
   {
    "source": "aa",
@@ -3596,7 +3596,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:06.515Z"
+   "fetchedAt": "2026-11-13T21:18:35.361Z"
   },
   {
    "source": "aa",
@@ -3626,7 +3626,7 @@
    "note": null,
    "derivativeId": 28754,
    "capCode": "VOX620PR35EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:06.633Z"
+   "fetchedAt": "2026-11-13T21:18:35.466Z"
   },
   {
    "source": "aa",
@@ -3654,7 +3654,7 @@
    "note": null,
    "derivativeId": 28755,
    "capCode": "VOX620UB65EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:06.845Z"
+   "fetchedAt": "2026-11-13T21:18:35.695Z"
   },
   {
    "source": "aa",
@@ -3684,7 +3684,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:06.977Z"
+   "fetchedAt": "2026-11-13T21:18:35.812Z"
   },
   {
    "source": "aa",
@@ -3714,7 +3714,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:07.180Z"
+   "fetchedAt": "2026-11-13T21:18:36.034Z"
   },
   {
    "source": "aa",
@@ -3744,7 +3744,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:07.330Z"
+   "fetchedAt": "2026-11-13T21:18:36.157Z"
   },
   {
    "source": "aa",
@@ -3774,7 +3774,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:07.525Z"
+   "fetchedAt": "2026-11-13T21:18:36.384Z"
   },
   {
    "source": "aa",
@@ -3804,7 +3804,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:07.665Z"
+   "fetchedAt": "2026-11-13T21:18:36.498Z"
   },
   {
    "source": "aa",
@@ -3834,7 +3834,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:07.857Z"
+   "fetchedAt": "2026-11-13T21:18:36.713Z"
   },
   {
    "source": "aa",
@@ -3864,7 +3864,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:07.998Z"
+   "fetchedAt": "2026-11-13T21:18:36.837Z"
   },
   {
    "source": "aa",
@@ -3894,7 +3894,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:08.191Z"
+   "fetchedAt": "2026-11-13T21:18:37.044Z"
   },
   {
    "source": "aa",
@@ -3924,7 +3924,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:08.335Z"
+   "fetchedAt": "2026-11-13T21:18:37.176Z"
   },
   {
    "source": "aa",
@@ -3954,7 +3954,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:08.527Z"
+   "fetchedAt": "2026-11-13T21:18:37.380Z"
   },
   {
    "source": "aa",
@@ -3984,7 +3984,7 @@
    "note": null,
    "derivativeId": 28757,
    "capCode": "VOX620UD45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:08.669Z"
+   "fetchedAt": "2026-11-13T21:18:37.514Z"
   },
   {
    "source": "aa",
@@ -4014,35 +4014,7 @@
    "note": null,
    "derivativeId": 28758,
    "capCode": "VOX620UT45EXTA4 4",
-   "fetchedAt": "2026-11-09T19:36:08.862Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-s-line-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 150 S line 5dr S Tronic",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "petrol",
-   "engine": "2.0",
-   "powerHp": 150,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 24,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 573.34,
-   "initialPaymentIncVat": 573.34,
-   "fees": 299,
-   "stock": "stock",
-   "delivery": "2-4 weeks delivery",
-   "options": [],
-   "note": null,
-   "derivativeId": 25790,
-   "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-09T19:36:12.351Z"
+   "fetchedAt": "2026-11-13T21:18:37.713Z"
   },
   {
    "source": "aa",
@@ -4070,7 +4042,7 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-09T19:36:12.676Z"
+   "fetchedAt": "2026-11-13T21:18:41.153Z"
   },
   {
    "source": "aa",
@@ -4087,10 +4059,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 526.48,
-   "initialPaymentIncVat": 1579.43,
+   "monthlyIncVat": 573.34,
+   "initialPaymentIncVat": 573.34,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4098,7 +4070,7 @@
    "note": null,
    "derivativeId": 25790,
    "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-09T19:36:12.695Z"
+   "fetchedAt": "2026-11-13T21:18:41.154Z"
   },
   {
    "source": "aa",
@@ -4126,7 +4098,7 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-09T19:36:13.016Z"
+   "fetchedAt": "2026-11-13T21:18:41.493Z"
   },
   {
    "source": "aa",
@@ -4142,11 +4114,11 @@
    "powerHp": 150,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 506.26,
-   "initialPaymentIncVat": 506.26,
+   "monthlyIncVat": 526.48,
+   "initialPaymentIncVat": 1579.43,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4154,7 +4126,7 @@
    "note": null,
    "derivativeId": 25790,
    "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-09T19:36:13.039Z"
+   "fetchedAt": "2026-11-13T21:18:41.498Z"
   },
   {
    "source": "aa",
@@ -4182,7 +4154,7 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-09T19:36:13.352Z"
+   "fetchedAt": "2026-11-13T21:18:41.825Z"
   },
   {
    "source": "aa",
@@ -4199,10 +4171,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 477.06,
-   "initialPaymentIncVat": 1431.18,
+   "monthlyIncVat": 506.26,
+   "initialPaymentIncVat": 506.26,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4210,7 +4182,7 @@
    "note": null,
    "derivativeId": 25790,
    "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-09T19:36:13.379Z"
+   "fetchedAt": "2026-11-13T21:18:41.836Z"
   },
   {
    "source": "aa",
@@ -4238,7 +4210,7 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-09T19:36:13.684Z"
+   "fetchedAt": "2026-11-13T21:18:42.158Z"
   },
   {
    "source": "aa",
@@ -4254,11 +4226,11 @@
    "powerHp": 150,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 481.91,
-   "initialPaymentIncVat": 481.91,
+   "monthlyIncVat": 477.06,
+   "initialPaymentIncVat": 1431.18,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4266,7 +4238,7 @@
    "note": null,
    "derivativeId": 25790,
    "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-09T19:36:13.756Z"
+   "fetchedAt": "2026-11-13T21:18:42.171Z"
   },
   {
    "source": "aa",
@@ -4294,7 +4266,7 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-09T19:36:14.027Z"
+   "fetchedAt": "2026-11-13T21:18:42.500Z"
   },
   {
    "source": "aa",
@@ -4311,10 +4283,10 @@
    "transmission": "auto",
    "drive": null,
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 460.13,
-   "initialPaymentIncVat": 1380.38,
+   "monthlyIncVat": 481.91,
+   "initialPaymentIncVat": 481.91,
    "fees": 299,
    "stock": "stock",
    "delivery": "2-4 weeks delivery",
@@ -4322,7 +4294,7 @@
    "note": null,
    "derivativeId": 25790,
    "capCode": "AUA5201SL5EPTA",
-   "fetchedAt": "2026-11-09T19:36:14.117Z"
+   "fetchedAt": "2026-11-13T21:18:42.511Z"
   },
   {
    "source": "aa",
@@ -4350,7 +4322,35 @@
    "note": null,
    "derivativeId": 28378,
    "capCode": "AUA520BE15EPTA",
-   "fetchedAt": "2026-11-09T19:36:14.362Z"
+   "fetchedAt": "2026-11-13T21:18:42.834Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-s-line-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TFSI 150 S line 5dr S Tronic",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "petrol",
+   "engine": "2.0",
+   "powerHp": 150,
+   "transmission": "auto",
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 460.13,
+   "initialPaymentIncVat": 1380.38,
+   "fees": 299,
+   "stock": "stock",
+   "delivery": "2-4 weeks delivery",
+   "options": [],
+   "note": null,
+   "derivativeId": 25790,
+   "capCode": "AUA5201SL5EPTA",
+   "fetchedAt": "2026-11-13T21:18:42.847Z"
   },
   {
    "source": "aa",
@@ -4378,7 +4378,7 @@
    "note": null,
    "derivativeId": 25783,
    "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-09T19:36:14.515Z"
+   "fetchedAt": "2026-11-13T21:18:43.173Z"
   },
   {
    "source": "aa",
@@ -4406,7 +4406,7 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-09T19:36:14.704Z"
+   "fetchedAt": "2026-11-13T21:18:43.190Z"
   },
   {
    "source": "aa",
@@ -4434,7 +4434,7 @@
    "note": null,
    "derivativeId": 25783,
    "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-09T19:36:14.857Z"
+   "fetchedAt": "2026-11-13T21:18:43.517Z"
   },
   {
    "source": "aa",
@@ -4462,7 +4462,7 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-09T19:36:15.059Z"
+   "fetchedAt": "2026-11-13T21:18:43.534Z"
   },
   {
    "source": "aa",
@@ -4490,7 +4490,7 @@
    "note": null,
    "derivativeId": 25783,
    "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-09T19:36:15.191Z"
+   "fetchedAt": "2026-11-13T21:18:43.855Z"
   },
   {
    "source": "aa",
@@ -4518,7 +4518,7 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-09T19:36:15.406Z"
+   "fetchedAt": "2026-11-13T21:18:43.879Z"
   },
   {
    "source": "aa",
@@ -4546,7 +4546,7 @@
    "note": null,
    "derivativeId": 25783,
    "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-09T19:36:15.556Z"
+   "fetchedAt": "2026-11-13T21:18:44.189Z"
   },
   {
    "source": "aa",
@@ -4574,7 +4574,7 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-09T19:36:15.741Z"
+   "fetchedAt": "2026-11-13T21:18:44.215Z"
   },
   {
    "source": "aa",
@@ -4602,7 +4602,7 @@
    "note": null,
    "derivativeId": 25783,
    "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-09T19:36:15.896Z"
+   "fetchedAt": "2026-11-13T21:18:44.530Z"
   },
   {
    "source": "aa",
@@ -4630,7 +4630,7 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-09T19:36:16.070Z"
+   "fetchedAt": "2026-11-13T21:18:44.550Z"
   },
   {
    "source": "aa",
@@ -4658,7 +4658,7 @@
    "note": null,
    "derivativeId": 25783,
    "capCode": "AUA5202LS5EPTA",
-   "fetchedAt": "2026-11-09T19:36:16.278Z"
+   "fetchedAt": "2026-11-13T21:18:44.863Z"
   },
   {
    "source": "aa",
@@ -4686,7 +4686,7 @@
    "note": null,
    "derivativeId": 28380,
    "capCode": "AUA520BL25EPTA",
-   "fetchedAt": "2026-11-09T19:36:16.406Z"
+   "fetchedAt": "2026-11-13T21:18:44.900Z"
   },
   {
    "source": "aa",
@@ -4716,7 +4716,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-09T19:36:16.625Z"
+   "fetchedAt": "2026-11-13T21:18:45.205Z"
   },
   {
    "source": "aa",
@@ -4744,7 +4744,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:16.774Z"
+   "fetchedAt": "2026-11-13T21:18:45.240Z"
   },
   {
    "source": "aa",
@@ -4774,7 +4774,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-09T19:36:16.972Z"
+   "fetchedAt": "2026-11-13T21:18:45.554Z"
   },
   {
    "source": "aa",
@@ -4802,7 +4802,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:17.115Z"
+   "fetchedAt": "2026-11-13T21:18:45.589Z"
   },
   {
    "source": "aa",
@@ -4832,7 +4832,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-09T19:36:17.304Z"
+   "fetchedAt": "2026-11-13T21:18:45.886Z"
   },
   {
    "source": "aa",
@@ -4860,7 +4860,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:17.451Z"
+   "fetchedAt": "2026-11-13T21:18:45.924Z"
   },
   {
    "source": "aa",
@@ -4890,7 +4890,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-09T19:36:17.636Z"
+   "fetchedAt": "2026-11-13T21:18:46.222Z"
   },
   {
    "source": "aa",
@@ -4918,7 +4918,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:17.781Z"
+   "fetchedAt": "2026-11-13T21:18:46.265Z"
   },
   {
    "source": "aa",
@@ -4948,7 +4948,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-09T19:36:17.973Z"
+   "fetchedAt": "2026-11-13T21:18:46.557Z"
   },
   {
    "source": "aa",
@@ -4976,7 +4976,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:18.115Z"
+   "fetchedAt": "2026-11-13T21:18:46.604Z"
   },
   {
    "source": "aa",
@@ -5006,7 +5006,7 @@
    "note": null,
    "derivativeId": 28683,
    "capCode": "AUA5202LT5EPTA",
-   "fetchedAt": "2026-11-09T19:36:18.311Z"
+   "fetchedAt": "2026-11-13T21:18:46.892Z"
   },
   {
    "source": "aa",
@@ -5034,7 +5034,7 @@
    "note": null,
    "derivativeId": 25782,
    "capCode": "AUA5202S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:18.447Z"
+   "fetchedAt": "2026-11-13T21:18:46.938Z"
   },
   {
    "source": "aa",
@@ -5064,7 +5064,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-09T19:36:18.658Z"
+   "fetchedAt": "2026-11-13T21:18:47.240Z"
   },
   {
    "source": "aa",
@@ -5092,7 +5092,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:18.870Z"
+   "fetchedAt": "2026-11-13T21:18:47.280Z"
   },
   {
    "source": "aa",
@@ -5122,7 +5122,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-09T19:36:19.003Z"
+   "fetchedAt": "2026-11-13T21:18:47.590Z"
   },
   {
    "source": "aa",
@@ -5150,7 +5150,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:19.211Z"
+   "fetchedAt": "2026-11-13T21:18:47.636Z"
   },
   {
    "source": "aa",
@@ -5180,7 +5180,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-09T19:36:19.340Z"
+   "fetchedAt": "2026-11-13T21:18:47.925Z"
   },
   {
    "source": "aa",
@@ -5208,7 +5208,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:19.547Z"
+   "fetchedAt": "2026-11-13T21:18:47.978Z"
   },
   {
    "source": "aa",
@@ -5238,7 +5238,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-09T19:36:19.679Z"
+   "fetchedAt": "2026-11-13T21:18:48.261Z"
   },
   {
    "source": "aa",
@@ -5266,7 +5266,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:19.884Z"
+   "fetchedAt": "2026-11-13T21:18:48.314Z"
   },
   {
    "source": "aa",
@@ -5296,7 +5296,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-09T19:36:20.023Z"
+   "fetchedAt": "2026-11-13T21:18:48.593Z"
   },
   {
    "source": "aa",
@@ -5324,7 +5324,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:20.222Z"
+   "fetchedAt": "2026-11-13T21:18:48.657Z"
   },
   {
    "source": "aa",
@@ -5354,7 +5354,7 @@
    "note": null,
    "derivativeId": 25785,
    "capCode": "AUA520E1P5EPTA",
-   "fetchedAt": "2026-11-09T19:36:20.358Z"
+   "fetchedAt": "2026-11-13T21:18:48.929Z"
   },
   {
    "source": "aa",
@@ -5382,7 +5382,7 @@
    "note": null,
    "derivativeId": 25788,
    "capCode": "AUA5201S 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:20.564Z"
+   "fetchedAt": "2026-11-13T21:18:48.993Z"
   },
   {
    "source": "aa",
@@ -5410,7 +5410,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-09T19:36:20.706Z"
+   "fetchedAt": "2026-11-13T21:18:49.273Z"
   },
   {
    "source": "aa",
@@ -5438,7 +5438,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-09T19:36:20.913Z"
+   "fetchedAt": "2026-11-13T21:18:49.348Z"
   },
   {
    "source": "aa",
@@ -5466,7 +5466,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-09T19:36:21.049Z"
+   "fetchedAt": "2026-11-13T21:18:49.618Z"
   },
   {
    "source": "aa",
@@ -5494,7 +5494,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-09T19:36:21.265Z"
+   "fetchedAt": "2026-11-13T21:18:49.691Z"
   },
   {
    "source": "aa",
@@ -5522,7 +5522,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-09T19:36:21.385Z"
+   "fetchedAt": "2026-11-13T21:18:49.954Z"
   },
   {
    "source": "aa",
@@ -5550,7 +5550,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-09T19:36:21.602Z"
+   "fetchedAt": "2026-11-13T21:18:50.023Z"
   },
   {
    "source": "aa",
@@ -5578,7 +5578,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-09T19:36:21.751Z"
+   "fetchedAt": "2026-11-13T21:18:50.286Z"
   },
   {
    "source": "aa",
@@ -5606,7 +5606,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-09T19:36:21.936Z"
+   "fetchedAt": "2026-11-13T21:18:50.370Z"
   },
   {
    "source": "aa",
@@ -5634,7 +5634,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-09T19:36:22.097Z"
+   "fetchedAt": "2026-11-13T21:18:50.619Z"
   },
   {
    "source": "aa",
@@ -5662,7 +5662,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-09T19:36:22.275Z"
+   "fetchedAt": "2026-11-13T21:18:50.705Z"
   },
   {
    "source": "aa",
@@ -5690,7 +5690,7 @@
    "note": null,
    "derivativeId": 25794,
    "capCode": "AUA5202S 5EDTA",
-   "fetchedAt": "2026-11-09T19:36:22.427Z"
+   "fetchedAt": "2026-11-13T21:18:50.955Z"
   },
   {
    "source": "aa",
@@ -5718,7 +5718,7 @@
    "note": null,
    "derivativeId": 25795,
    "capCode": "AUA5202LS5EDTA",
-   "fetchedAt": "2026-11-09T19:36:22.618Z"
+   "fetchedAt": "2026-11-13T21:18:51.041Z"
   },
   {
    "source": "aa",
@@ -5746,7 +5746,7 @@
    "note": null,
    "derivativeId": 25797,
    "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:22.774Z"
+   "fetchedAt": "2026-11-13T21:18:51.296Z"
   },
   {
    "source": "aa",
@@ -5774,7 +5774,7 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-09T19:36:22.969Z"
+   "fetchedAt": "2026-11-13T21:18:51.385Z"
   },
   {
    "source": "aa",
@@ -5802,7 +5802,7 @@
    "note": null,
    "derivativeId": 25797,
    "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:23.124Z"
+   "fetchedAt": "2026-11-13T21:18:51.642Z"
   },
   {
    "source": "aa",
@@ -5830,7 +5830,7 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-09T19:36:23.317Z"
+   "fetchedAt": "2026-11-13T21:18:51.732Z"
   },
   {
    "source": "aa",
@@ -5858,7 +5858,7 @@
    "note": null,
    "derivativeId": 25797,
    "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:23.459Z"
+   "fetchedAt": "2026-11-13T21:18:51.977Z"
   },
   {
    "source": "aa",
@@ -5886,7 +5886,7 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-09T19:36:23.649Z"
+   "fetchedAt": "2026-11-13T21:18:52.073Z"
   },
   {
    "source": "aa",
@@ -5914,7 +5914,7 @@
    "note": null,
    "derivativeId": 25797,
    "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:23.795Z"
+   "fetchedAt": "2026-11-13T21:18:52.308Z"
   },
   {
    "source": "aa",
@@ -5942,7 +5942,7 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-09T19:36:23.989Z"
+   "fetchedAt": "2026-11-13T21:18:52.410Z"
   },
   {
    "source": "aa",
@@ -5970,7 +5970,7 @@
    "note": null,
    "derivativeId": 25797,
    "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:24.128Z"
+   "fetchedAt": "2026-11-13T21:18:52.642Z"
   },
   {
    "source": "aa",
@@ -5998,7 +5998,7 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-09T19:36:24.324Z"
+   "fetchedAt": "2026-11-13T21:18:52.746Z"
   },
   {
    "source": "aa",
@@ -6026,7 +6026,7 @@
    "note": null,
    "derivativeId": 25797,
    "capCode": "AUA5202LS5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:24.461Z"
+   "fetchedAt": "2026-11-13T21:18:52.977Z"
   },
   {
    "source": "aa",
@@ -6054,7 +6054,7 @@
    "note": null,
    "derivativeId": 26776,
    "capCode": "AUA520SI95EXTA4",
-   "fetchedAt": "2026-11-09T19:36:24.662Z"
+   "fetchedAt": "2026-11-13T21:18:53.082Z"
   },
   {
    "source": "aa",
@@ -6082,7 +6082,7 @@
    "note": null,
    "derivativeId": 27024,
    "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:24.801Z"
+   "fetchedAt": "2026-11-13T21:18:53.318Z"
   },
   {
    "source": "aa",
@@ -6110,7 +6110,7 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:25.007Z"
+   "fetchedAt": "2026-11-13T21:18:53.424Z"
   },
   {
    "source": "aa",
@@ -6138,7 +6138,7 @@
    "note": null,
    "derivativeId": 27024,
    "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:25.167Z"
+   "fetchedAt": "2026-11-13T21:18:53.663Z"
   },
   {
    "source": "aa",
@@ -6166,7 +6166,7 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:25.353Z"
+   "fetchedAt": "2026-11-13T21:18:53.765Z"
   },
   {
    "source": "aa",
@@ -6194,7 +6194,7 @@
    "note": null,
    "derivativeId": 27024,
    "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:25.507Z"
+   "fetchedAt": "2026-11-13T21:18:53.995Z"
   },
   {
    "source": "aa",
@@ -6222,7 +6222,7 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:25.696Z"
+   "fetchedAt": "2026-11-13T21:18:54.119Z"
   },
   {
    "source": "aa",
@@ -6250,7 +6250,7 @@
    "note": null,
    "derivativeId": 27024,
    "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:25.841Z"
+   "fetchedAt": "2026-11-13T21:18:54.329Z"
   },
   {
    "source": "aa",
@@ -6278,7 +6278,7 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:26.032Z"
+   "fetchedAt": "2026-11-13T21:18:54.455Z"
   },
   {
    "source": "aa",
@@ -6306,7 +6306,7 @@
    "note": null,
    "derivativeId": 27024,
    "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:26.175Z"
+   "fetchedAt": "2026-11-13T21:18:54.659Z"
   },
   {
    "source": "aa",
@@ -6334,7 +6334,7 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:26.367Z"
+   "fetchedAt": "2026-11-13T21:18:54.792Z"
   },
   {
    "source": "aa",
@@ -6362,7 +6362,7 @@
    "note": null,
    "derivativeId": 27024,
    "capCode": "AUA520S9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:26.507Z"
+   "fetchedAt": "2026-11-13T21:18:54.993Z"
   },
   {
    "source": "aa",
@@ -6390,7 +6390,7 @@
    "note": null,
    "derivativeId": 27753,
    "capCode": "AUA520E9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:26.706Z"
+   "fetchedAt": "2026-11-13T21:18:55.128Z"
   },
   {
    "source": "aa",
@@ -6420,7 +6420,7 @@
    "note": null,
    "derivativeId": 28375,
    "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-09T19:36:26.864Z"
+   "fetchedAt": "2026-11-13T21:18:55.331Z"
   },
   {
    "source": "aa",
@@ -6450,7 +6450,7 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-09T19:36:27.056Z"
+   "fetchedAt": "2026-11-13T21:18:55.477Z"
   },
   {
    "source": "aa",
@@ -6480,7 +6480,7 @@
    "note": null,
    "derivativeId": 28375,
    "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-09T19:36:27.208Z"
+   "fetchedAt": "2026-11-13T21:18:55.670Z"
   },
   {
    "source": "aa",
@@ -6510,7 +6510,7 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-09T19:36:27.403Z"
+   "fetchedAt": "2026-11-13T21:18:55.817Z"
   },
   {
    "source": "aa",
@@ -6540,7 +6540,7 @@
    "note": null,
    "derivativeId": 28375,
    "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-09T19:36:27.543Z"
+   "fetchedAt": "2026-11-13T21:18:56.000Z"
   },
   {
    "source": "aa",
@@ -6570,7 +6570,7 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-09T19:36:27.738Z"
+   "fetchedAt": "2026-11-13T21:18:56.163Z"
   },
   {
    "source": "aa",
@@ -6600,7 +6600,7 @@
    "note": null,
    "derivativeId": 28375,
    "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-09T19:36:27.876Z"
+   "fetchedAt": "2026-11-13T21:18:56.334Z"
   },
   {
    "source": "aa",
@@ -6630,7 +6630,7 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-09T19:36:28.069Z"
+   "fetchedAt": "2026-11-13T21:18:56.504Z"
   },
   {
    "source": "aa",
@@ -6660,7 +6660,7 @@
    "note": null,
    "derivativeId": 28375,
    "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-09T19:36:28.210Z"
+   "fetchedAt": "2026-11-13T21:18:56.677Z"
   },
   {
    "source": "aa",
@@ -6690,7 +6690,7 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-09T19:36:28.411Z"
+   "fetchedAt": "2026-11-13T21:18:56.837Z"
   },
   {
    "source": "aa",
@@ -6720,7 +6720,7 @@
    "note": null,
    "derivativeId": 28375,
    "capCode": "AUA520B0T5EPTA",
-   "fetchedAt": "2026-11-09T19:36:28.543Z"
+   "fetchedAt": "2026-11-13T21:18:57.021Z"
   },
   {
    "source": "aa",
@@ -6750,7 +6750,7 @@
    "note": null,
    "derivativeId": 28377,
    "capCode": "AUA520TB25EPTA",
-   "fetchedAt": "2026-11-09T19:36:28.745Z"
+   "fetchedAt": "2026-11-13T21:18:57.168Z"
   },
   {
    "source": "aa",
@@ -6778,7 +6778,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:28.891Z"
+   "fetchedAt": "2026-11-13T21:18:57.365Z"
   },
   {
    "source": "aa",
@@ -6806,7 +6806,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:29.088Z"
+   "fetchedAt": "2026-11-13T21:18:57.507Z"
   },
   {
    "source": "aa",
@@ -6834,7 +6834,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:29.235Z"
+   "fetchedAt": "2026-11-13T21:18:57.705Z"
   },
   {
    "source": "aa",
@@ -6862,7 +6862,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:29.428Z"
+   "fetchedAt": "2026-11-13T21:18:57.849Z"
   },
   {
    "source": "aa",
@@ -6890,7 +6890,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:29.572Z"
+   "fetchedAt": "2026-11-13T21:18:58.038Z"
   },
   {
    "source": "aa",
@@ -6918,7 +6918,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:29.765Z"
+   "fetchedAt": "2026-11-13T21:18:58.190Z"
   },
   {
    "source": "aa",
@@ -6946,7 +6946,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:29.907Z"
+   "fetchedAt": "2026-11-13T21:18:58.381Z"
   },
   {
    "source": "aa",
@@ -6974,7 +6974,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:30.099Z"
+   "fetchedAt": "2026-11-13T21:18:58.526Z"
   },
   {
    "source": "aa",
@@ -7002,7 +7002,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:30.245Z"
+   "fetchedAt": "2026-11-13T21:18:58.717Z"
   },
   {
    "source": "aa",
@@ -7030,7 +7030,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:30.442Z"
+   "fetchedAt": "2026-11-13T21:18:58.859Z"
   },
   {
    "source": "aa",
@@ -7058,7 +7058,7 @@
    "note": null,
    "derivativeId": 28384,
    "capCode": "AUA520Q9B5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:30.581Z"
+   "fetchedAt": "2026-11-13T21:18:59.047Z"
   },
   {
    "source": "aa",
@@ -7086,7 +7086,7 @@
    "note": null,
    "derivativeId": 28385,
    "capCode": "AUA520V2 5EPTA",
-   "fetchedAt": "2026-11-09T19:36:30.786Z"
+   "fetchedAt": "2026-11-13T21:18:59.193Z"
   },
   {
    "source": "aa",
@@ -7114,7 +7114,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:30.940Z"
+   "fetchedAt": "2026-11-13T21:18:59.386Z"
   },
   {
    "source": "aa",
@@ -7142,7 +7142,7 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:31.133Z"
+   "fetchedAt": "2026-11-13T21:18:59.532Z"
   },
   {
    "source": "aa",
@@ -7170,35 +7170,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:31.280Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-vorsprung-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 299 e Quattro Vorsprung 5dr S tronic",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "phev",
-   "engine": "2.0",
-   "powerHp": 299,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 1020.5,
-   "initialPaymentIncVat": 3061.51,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 28389,
-   "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:31.480Z"
+   "fetchedAt": "2026-11-13T21:18:59.736Z"
   },
   {
    "source": "aa",
@@ -7226,7 +7198,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:31.622Z"
+   "fetchedAt": "2026-11-13T21:19:00.071Z"
   },
   {
    "source": "aa",
@@ -7242,11 +7214,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 899.05,
-   "initialPaymentIncVat": 899.05,
+   "monthlyIncVat": 1020.5,
+   "initialPaymentIncVat": 3061.51,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7254,7 +7226,7 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:31.818Z"
+   "fetchedAt": "2026-11-13T21:19:00.340Z"
   },
   {
    "source": "aa",
@@ -7282,7 +7254,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:31.959Z"
+   "fetchedAt": "2026-11-13T21:19:00.407Z"
   },
   {
    "source": "aa",
@@ -7299,10 +7271,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 851.74,
-   "initialPaymentIncVat": 2555.21,
+   "monthlyIncVat": 899.05,
+   "initialPaymentIncVat": 899.05,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7310,7 +7282,7 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:32.159Z"
+   "fetchedAt": "2026-11-13T21:19:00.675Z"
   },
   {
    "source": "aa",
@@ -7338,7 +7310,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:32.298Z"
+   "fetchedAt": "2026-11-13T21:19:00.751Z"
   },
   {
    "source": "aa",
@@ -7354,11 +7326,11 @@
    "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 810.16,
-   "initialPaymentIncVat": 810.16,
+   "monthlyIncVat": 851.74,
+   "initialPaymentIncVat": 2555.21,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7366,7 +7338,7 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:32.504Z"
+   "fetchedAt": "2026-11-13T21:19:01.012Z"
   },
   {
    "source": "aa",
@@ -7394,7 +7366,7 @@
    "note": null,
    "derivativeId": 28388,
    "capCode": "AUA520TBQ5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:32.644Z"
+   "fetchedAt": "2026-11-13T21:19:01.099Z"
   },
   {
    "source": "aa",
@@ -7411,10 +7383,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 777.76,
-   "initialPaymentIncVat": 2333.27,
+   "monthlyIncVat": 810.16,
+   "initialPaymentIncVat": 810.16,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7422,7 +7394,7 @@
    "note": null,
    "derivativeId": 28389,
    "capCode": "AUA520V9 5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:32.839Z"
+   "fetchedAt": "2026-11-13T21:19:01.353Z"
   },
   {
    "source": "aa",
@@ -7450,35 +7422,35 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-09T19:36:33.000Z"
+   "fetchedAt": "2026-11-13T21:19:01.457Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-black-edition-5dr-s-tronic",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-299-e-quattro-vorsprung-5dr-s-tronic",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TDI Quattro 204 Black Edition 5dr S tronic",
+   "derivative": "2.0 TFSI 299 e Quattro Vorsprung 5dr S tronic",
    "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
+   "siteModel": "A5 AVANT",
+   "fuel": "phev",
    "engine": "2.0",
-   "powerHp": 204,
+   "powerHp": 299,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1057.25,
-   "initialPaymentIncVat": 1057.25,
+   "monthlyIncVat": 777.76,
+   "initialPaymentIncVat": 2333.27,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
    "options": [],
    "note": null,
-   "derivativeId": 28400,
-   "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:33.183Z"
+   "derivativeId": 28389,
+   "capCode": "AUA520V9 5EXTA4",
+   "fetchedAt": "2026-11-13T21:19:01.687Z"
   },
   {
    "source": "aa",
@@ -7506,7 +7478,7 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-09T19:36:33.351Z"
+   "fetchedAt": "2026-11-13T21:19:01.810Z"
   },
   {
    "source": "aa",
@@ -7523,10 +7495,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 958.37,
-   "initialPaymentIncVat": 2875.1,
+   "monthlyIncVat": 1057.25,
+   "initialPaymentIncVat": 1057.25,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7534,7 +7506,7 @@
    "note": null,
    "derivativeId": 28400,
    "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:33.528Z"
+   "fetchedAt": "2026-11-13T21:19:02.027Z"
   },
   {
    "source": "aa",
@@ -7562,7 +7534,7 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-09T19:36:33.701Z"
+   "fetchedAt": "2026-11-13T21:19:02.151Z"
   },
   {
    "source": "aa",
@@ -7578,11 +7550,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 846.7,
-   "initialPaymentIncVat": 846.7,
+   "monthlyIncVat": 958.37,
+   "initialPaymentIncVat": 2875.1,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7590,7 +7562,7 @@
    "note": null,
    "derivativeId": 28400,
    "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:33.862Z"
+   "fetchedAt": "2026-11-13T21:19:02.365Z"
   },
   {
    "source": "aa",
@@ -7618,7 +7590,7 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-09T19:36:34.043Z"
+   "fetchedAt": "2026-11-13T21:19:02.513Z"
   },
   {
    "source": "aa",
@@ -7635,10 +7607,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 802.14,
-   "initialPaymentIncVat": 2406.42,
+   "monthlyIncVat": 846.7,
+   "initialPaymentIncVat": 846.7,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7646,7 +7618,7 @@
    "note": null,
    "derivativeId": 28400,
    "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:34.200Z"
+   "fetchedAt": "2026-11-13T21:19:02.699Z"
   },
   {
    "source": "aa",
@@ -7674,7 +7646,7 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-09T19:36:34.376Z"
+   "fetchedAt": "2026-11-13T21:19:02.844Z"
   },
   {
    "source": "aa",
@@ -7690,11 +7662,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 754.33,
-   "initialPaymentIncVat": 754.33,
+   "monthlyIncVat": 802.14,
+   "initialPaymentIncVat": 2406.42,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7702,7 +7674,7 @@
    "note": null,
    "derivativeId": 28400,
    "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:34.534Z"
+   "fetchedAt": "2026-11-13T21:19:03.045Z"
   },
   {
    "source": "aa",
@@ -7730,7 +7702,7 @@
    "note": null,
    "derivativeId": 28398,
    "capCode": "AUA520BL25EDTA",
-   "fetchedAt": "2026-11-09T19:36:34.720Z"
+   "fetchedAt": "2026-11-13T21:19:03.180Z"
   },
   {
    "source": "aa",
@@ -7747,10 +7719,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 724.15,
-   "initialPaymentIncVat": 2172.46,
+   "monthlyIncVat": 754.33,
+   "initialPaymentIncVat": 754.33,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7758,7 +7730,7 @@
    "note": null,
    "derivativeId": 28400,
    "capCode": "AUA520Q2B5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:34.869Z"
+   "fetchedAt": "2026-11-13T21:19:03.378Z"
   },
   {
    "source": "aa",
@@ -7788,15 +7760,15 @@
    "note": null,
    "derivativeId": 28401,
    "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-09T19:36:35.060Z"
+   "fetchedAt": "2026-11-13T21:19:03.523Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-black-ed-5dr-s-tronic-tech",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-black-edition-5dr-s-tronic",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TDI Quattro 204 Black Ed 5dr S tronic [Tech]",
+   "derivative": "2.0 TDI Quattro 204 Black Edition 5dr S tronic",
    "trim": null,
    "siteModel": "A5 DIESEL AVANT",
    "fuel": "diesel",
@@ -7804,21 +7776,19 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 1,
+   "termMonths": 48,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1118.7,
-   "initialPaymentIncVat": 1118.7,
+   "monthlyIncVat": 724.15,
+   "initialPaymentIncVat": 2172.46,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
-   "options": [
-    "Tech"
-   ],
+   "options": [],
    "note": null,
-   "derivativeId": 28403,
-   "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:35.207Z"
+   "derivativeId": 28400,
+   "capCode": "AUA520Q2B5EDTA4",
+   "fetchedAt": "2026-11-13T21:19:03.713Z"
   },
   {
    "source": "aa",
@@ -7848,7 +7818,7 @@
    "note": null,
    "derivativeId": 28401,
    "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-09T19:36:35.415Z"
+   "fetchedAt": "2026-11-13T21:19:03.873Z"
   },
   {
    "source": "aa",
@@ -7865,10 +7835,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1022.28,
-   "initialPaymentIncVat": 3066.84,
+   "monthlyIncVat": 1118.7,
+   "initialPaymentIncVat": 1118.7,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7878,7 +7848,7 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:35.564Z"
+   "fetchedAt": "2026-11-13T21:19:04.054Z"
   },
   {
    "source": "aa",
@@ -7908,7 +7878,7 @@
    "note": null,
    "derivativeId": 28401,
    "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-09T19:36:35.752Z"
+   "fetchedAt": "2026-11-13T21:19:04.213Z"
   },
   {
    "source": "aa",
@@ -7924,11 +7894,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 891.55,
-   "initialPaymentIncVat": 891.55,
+   "monthlyIncVat": 1022.28,
+   "initialPaymentIncVat": 3066.84,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7938,7 +7908,7 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:35.915Z"
+   "fetchedAt": "2026-11-13T21:19:04.395Z"
   },
   {
    "source": "aa",
@@ -7968,7 +7938,7 @@
    "note": null,
    "derivativeId": 28401,
    "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-09T19:36:36.095Z"
+   "fetchedAt": "2026-11-13T21:19:04.548Z"
   },
   {
    "source": "aa",
@@ -7985,10 +7955,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 844.63,
-   "initialPaymentIncVat": 2533.9,
+   "monthlyIncVat": 891.55,
+   "initialPaymentIncVat": 891.55,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -7998,7 +7968,7 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:36.247Z"
+   "fetchedAt": "2026-11-13T21:19:04.727Z"
   },
   {
    "source": "aa",
@@ -8028,7 +7998,7 @@
    "note": null,
    "derivativeId": 28401,
    "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-09T19:36:36.431Z"
+   "fetchedAt": "2026-11-13T21:19:04.887Z"
   },
   {
    "source": "aa",
@@ -8044,11 +8014,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 791.26,
-   "initialPaymentIncVat": 791.26,
+   "monthlyIncVat": 844.63,
+   "initialPaymentIncVat": 2533.9,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8058,7 +8028,7 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:36.589Z"
+   "fetchedAt": "2026-11-13T21:19:05.067Z"
   },
   {
    "source": "aa",
@@ -8088,7 +8058,65 @@
    "note": null,
    "derivativeId": 28401,
    "capCode": "AUA520TB25EDTA",
-   "fetchedAt": "2026-11-09T19:36:36.770Z"
+   "fetchedAt": "2026-11-13T21:19:05.221Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-black-ed-5dr-s-tronic-tech",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TDI Quattro 204 Black Ed 5dr S tronic [Tech]",
+   "trim": null,
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 791.26,
+   "initialPaymentIncVat": 791.26,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [
+    "Tech"
+   ],
+   "note": null,
+   "derivativeId": 28403,
+   "capCode": "AUA520BQT5EDTA4",
+   "fetchedAt": "2026-11-13T21:19:05.406Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-vorsprung-5dr-s-tronic",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TDI Quattro 204 Vorsprung 5dr S tronic",
+   "trim": null,
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 24,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 1139.46,
+   "initialPaymentIncVat": 1139.46,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 28406,
+   "capCode": "AUA520QV25EDTA4",
+   "fetchedAt": "2026-11-13T21:19:05.561Z"
   },
   {
    "source": "aa",
@@ -8118,7 +8146,7 @@
    "note": null,
    "derivativeId": 28403,
    "capCode": "AUA520BQT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:36.926Z"
+   "fetchedAt": "2026-11-13T21:19:05.741Z"
   },
   {
    "source": "aa",
@@ -8135,10 +8163,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 24,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1139.46,
-   "initialPaymentIncVat": 1139.46,
+   "monthlyIncVat": 1051.81,
+   "initialPaymentIncVat": 3155.44,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8146,7 +8174,7 @@
    "note": null,
    "derivativeId": 28406,
    "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-09T19:36:37.127Z"
+   "fetchedAt": "2026-11-13T21:19:05.910Z"
   },
   {
    "source": "aa",
@@ -8176,7 +8204,7 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-09T19:36:37.274Z"
+   "fetchedAt": "2026-11-13T21:19:06.092Z"
   },
   {
    "source": "aa",
@@ -8192,11 +8220,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 3,
+   "termMonths": 36,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1051.81,
-   "initialPaymentIncVat": 3155.44,
+   "monthlyIncVat": 916.62,
+   "initialPaymentIncVat": 916.62,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8204,7 +8232,7 @@
    "note": null,
    "derivativeId": 28406,
    "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-09T19:36:37.473Z"
+   "fetchedAt": "2026-11-13T21:19:06.241Z"
   },
   {
    "source": "aa",
@@ -8234,7 +8262,7 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-09T19:36:37.618Z"
+   "fetchedAt": "2026-11-13T21:19:06.435Z"
   },
   {
    "source": "aa",
@@ -8251,10 +8279,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 916.62,
-   "initialPaymentIncVat": 916.62,
+   "monthlyIncVat": 868.38,
+   "initialPaymentIncVat": 2605.14,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8262,7 +8290,7 @@
    "note": null,
    "derivativeId": 28406,
    "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-09T19:36:37.808Z"
+   "fetchedAt": "2026-11-13T21:19:06.593Z"
   },
   {
    "source": "aa",
@@ -8292,7 +8320,7 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-09T19:36:37.955Z"
+   "fetchedAt": "2026-11-13T21:19:06.766Z"
   },
   {
    "source": "aa",
@@ -8308,11 +8336,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 3,
+   "termMonths": 48,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 868.38,
-   "initialPaymentIncVat": 2605.14,
+   "monthlyIncVat": 819.89,
+   "initialPaymentIncVat": 819.89,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8320,7 +8348,7 @@
    "note": null,
    "derivativeId": 28406,
    "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-09T19:36:38.147Z"
+   "fetchedAt": "2026-11-13T21:19:06.928Z"
   },
   {
    "source": "aa",
@@ -8350,7 +8378,7 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-09T19:36:38.286Z"
+   "fetchedAt": "2026-11-13T21:19:07.101Z"
   },
   {
    "source": "aa",
@@ -8367,10 +8395,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 1,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 819.89,
-   "initialPaymentIncVat": 819.89,
+   "monthlyIncVat": 787.09,
+   "initialPaymentIncVat": 2361.28,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8378,7 +8406,7 @@
    "note": null,
    "derivativeId": 28406,
    "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-09T19:36:38.486Z"
+   "fetchedAt": "2026-11-13T21:19:07.261Z"
   },
   {
    "source": "aa",
@@ -8408,65 +8436,7 @@
    "note": null,
    "derivativeId": 28675,
    "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-09T19:36:38.617Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-quattro-204-vorsprung-5dr-s-tronic",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TDI Quattro 204 Vorsprung 5dr S tronic",
-   "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
-   "engine": "2.0",
-   "powerHp": 204,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 787.09,
-   "initialPaymentIncVat": 2361.28,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 28406,
-   "capCode": "AUA520QV25EDTA4",
-   "fetchedAt": "2026-11-09T19:36:38.826Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-s-line-5dr-s-tronic-tech-pack",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TFSI 150 S line 5dr S Tronic [Tech Pack]",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "petrol",
-   "engine": "2.0",
-   "powerHp": 150,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 48,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 661.6,
-   "initialPaymentIncVat": 1984.79,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [
-    "Tech Pack"
-   ],
-   "note": null,
-   "derivativeId": 28675,
-   "capCode": "AUA520ST55EPTA",
-   "fetchedAt": "2026-11-09T19:36:38.961Z"
+   "fetchedAt": "2026-11-13T21:19:07.440Z"
   },
   {
    "source": "aa",
@@ -8496,37 +8466,7 @@
    "note": null,
    "derivativeId": 28685,
    "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:39.182Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-s-line-5dr-s-tronic-tech-pack",
-   "make": "Audi",
-   "model": "A5 Avant",
-   "derivative": "2.0 TDI 204 S line 5dr S Tronic [Tech Pack]",
-   "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
-   "engine": "2.0",
-   "powerHp": 204,
-   "transmission": "auto",
-   "drive": null,
-   "termMonths": 24,
-   "initialMonths": 1,
-   "annualMileage": 10000,
-   "monthlyIncVat": 1032.36,
-   "initialPaymentIncVat": 1032.36,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [
-    "Tech Pack"
-   ],
-   "note": null,
-   "derivativeId": 28686,
-   "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-09T19:36:39.362Z"
+   "fetchedAt": "2026-11-13T21:19:07.669Z"
   },
   {
    "source": "aa",
@@ -8556,27 +8496,27 @@
    "note": null,
    "derivativeId": 28685,
    "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:39.523Z"
+   "fetchedAt": "2026-11-13T21:19:08.022Z"
   },
   {
    "source": "aa",
    "modelId": "audi-a5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-s-line-5dr-s-tronic-tech-pack",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tfsi-150-s-line-5dr-s-tronic-tech-pack",
    "make": "Audi",
    "model": "A5 Avant",
-   "derivative": "2.0 TDI 204 S line 5dr S Tronic [Tech Pack]",
+   "derivative": "2.0 TFSI 150 S line 5dr S Tronic [Tech Pack]",
    "trim": null,
-   "siteModel": "A5 DIESEL AVANT",
-   "fuel": "diesel",
+   "siteModel": "A5 AVANT",
+   "fuel": "petrol",
    "engine": "2.0",
-   "powerHp": 204,
+   "powerHp": 150,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 24,
+   "termMonths": 48,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 952.51,
-   "initialPaymentIncVat": 2857.54,
+   "monthlyIncVat": 661.6,
+   "initialPaymentIncVat": 1984.79,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8584,9 +8524,9 @@
     "Tech Pack"
    ],
    "note": null,
-   "derivativeId": 28686,
-   "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-09T19:36:39.709Z"
+   "derivativeId": 28675,
+   "capCode": "AUA520ST55EPTA",
+   "fetchedAt": "2026-11-13T21:19:08.068Z"
   },
   {
    "source": "aa",
@@ -8616,7 +8556,7 @@
    "note": null,
    "derivativeId": 28685,
    "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:39.863Z"
+   "fetchedAt": "2026-11-13T21:19:08.358Z"
   },
   {
    "source": "aa",
@@ -8632,11 +8572,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 36,
+   "termMonths": 24,
    "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 824.9,
-   "initialPaymentIncVat": 824.9,
+   "monthlyIncVat": 1032.36,
+   "initialPaymentIncVat": 1032.36,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8646,7 +8586,7 @@
    "note": null,
    "derivativeId": 28686,
    "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-09T19:36:40.042Z"
+   "fetchedAt": "2026-11-13T21:19:08.408Z"
   },
   {
    "source": "aa",
@@ -8676,7 +8616,7 @@
    "note": null,
    "derivativeId": 28685,
    "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:40.201Z"
+   "fetchedAt": "2026-11-13T21:19:08.690Z"
   },
   {
    "source": "aa",
@@ -8692,11 +8632,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 36,
+   "termMonths": 24,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 781.49,
-   "initialPaymentIncVat": 2344.46,
+   "monthlyIncVat": 952.51,
+   "initialPaymentIncVat": 2857.54,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8706,7 +8646,7 @@
    "note": null,
    "derivativeId": 28686,
    "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-09T19:36:40.379Z"
+   "fetchedAt": "2026-11-13T21:19:08.758Z"
   },
   {
    "source": "aa",
@@ -8736,7 +8676,7 @@
    "note": null,
    "derivativeId": 28685,
    "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:40.542Z"
+   "fetchedAt": "2026-11-13T21:19:09.023Z"
   },
   {
    "source": "aa",
@@ -8752,11 +8692,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 733.46,
-   "initialPaymentIncVat": 733.46,
+   "monthlyIncVat": 824.9,
+   "initialPaymentIncVat": 824.9,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8766,7 +8706,7 @@
    "note": null,
    "derivativeId": 28686,
    "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-09T19:36:40.719Z"
+   "fetchedAt": "2026-11-13T21:19:09.161Z"
   },
   {
    "source": "aa",
@@ -8796,7 +8736,7 @@
    "note": null,
    "derivativeId": 28685,
    "capCode": "AUA5209LT5EXTA4",
-   "fetchedAt": "2026-11-09T19:36:40.875Z"
+   "fetchedAt": "2026-11-13T21:19:09.362Z"
   },
   {
    "source": "aa",
@@ -8812,11 +8752,11 @@
    "powerHp": 204,
    "transmission": "auto",
    "drive": null,
-   "termMonths": 48,
+   "termMonths": 36,
    "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 704.12,
-   "initialPaymentIncVat": 2112.37,
+   "monthlyIncVat": 781.49,
+   "initialPaymentIncVat": 2344.46,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -8826,7 +8766,7 @@
    "note": null,
    "derivativeId": 28686,
    "capCode": "AUA5202LT5EDTA",
-   "fetchedAt": "2026-11-09T19:36:41.056Z"
+   "fetchedAt": "2026-11-13T21:19:09.493Z"
   },
   {
    "source": "aa",
@@ -8856,7 +8796,37 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:41.225Z"
+   "fetchedAt": "2026-11-13T21:19:09.718Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-s-line-5dr-s-tronic-tech-pack",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TDI 204 S line 5dr S Tronic [Tech Pack]",
+   "trim": null,
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 1,
+   "annualMileage": 10000,
+   "monthlyIncVat": 733.46,
+   "initialPaymentIncVat": 733.46,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [
+    "Tech Pack"
+   ],
+   "note": null,
+   "derivativeId": 28686,
+   "capCode": "AUA5202LT5EDTA",
+   "fetchedAt": "2026-11-13T21:19:09.868Z"
   },
   {
    "source": "aa",
@@ -8886,7 +8856,37 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:41.568Z"
+   "fetchedAt": "2026-11-13T21:19:10.064Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-a5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/2-0-tdi-204-s-line-5dr-s-tronic-tech-pack",
+   "make": "Audi",
+   "model": "A5 Avant",
+   "derivative": "2.0 TDI 204 S line 5dr S Tronic [Tech Pack]",
+   "trim": null,
+   "siteModel": "A5 DIESEL AVANT",
+   "fuel": "diesel",
+   "engine": "2.0",
+   "powerHp": 204,
+   "transmission": "auto",
+   "drive": null,
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 704.12,
+   "initialPaymentIncVat": 2112.37,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [
+    "Tech Pack"
+   ],
+   "note": null,
+   "derivativeId": 28686,
+   "capCode": "AUA5202LT5EDTA",
+   "fetchedAt": "2026-11-13T21:19:10.199Z"
   },
   {
    "source": "aa",
@@ -8916,7 +8916,7 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:41.902Z"
+   "fetchedAt": "2026-11-13T21:19:10.409Z"
   },
   {
    "source": "aa",
@@ -8946,7 +8946,7 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:42.238Z"
+   "fetchedAt": "2026-11-13T21:19:10.741Z"
   },
   {
    "source": "aa",
@@ -8976,7 +8976,7 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:42.576Z"
+   "fetchedAt": "2026-11-13T21:19:11.073Z"
   },
   {
    "source": "aa",
@@ -9006,7 +9006,7 @@
    "note": null,
    "derivativeId": 28691,
    "capCode": "AUA5202LT5EDTA4",
-   "fetchedAt": "2026-11-09T19:36:42.908Z"
+   "fetchedAt": "2026-11-13T21:19:11.413Z"
   },
   {
    "source": "aa",
@@ -9034,7 +9034,7 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:43.255Z"
+   "fetchedAt": "2026-11-13T21:19:11.761Z"
   },
   {
    "source": "aa",
@@ -9062,35 +9062,7 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:43.277Z"
-  },
-  {
-   "source": "aa",
-   "modelId": "audi-s5-avant",
-   "url": "https://www.theaa.com/leasing/cars/audi/a5/s5-3-0-tfsi-quattro-367-black-edition-5dr-s-tronic",
-   "make": "Audi",
-   "model": "S5 Avant",
-   "derivative": "S5 3.0 TFSI Quattro 367 Black Edition 5dr S tronic",
-   "trim": null,
-   "siteModel": "A5 AVANT",
-   "fuel": "petrol",
-   "engine": "3.0",
-   "powerHp": 367,
-   "transmission": "auto",
-   "drive": "awd",
-   "termMonths": 24,
-   "initialMonths": 3,
-   "annualMileage": 10000,
-   "monthlyIncVat": 1476.89,
-   "initialPaymentIncVat": 4430.66,
-   "fees": 299,
-   "stock": "factory",
-   "delivery": null,
-   "options": [],
-   "note": null,
-   "derivativeId": 28393,
-   "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:43.592Z"
+   "fetchedAt": "2026-11-13T21:19:11.764Z"
   },
   {
    "source": "aa",
@@ -9118,7 +9090,7 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:43.624Z"
+   "fetchedAt": "2026-11-13T21:19:12.107Z"
   },
   {
    "source": "aa",
@@ -9134,11 +9106,11 @@
    "powerHp": 367,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 36,
-   "initialMonths": 1,
+   "termMonths": 24,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1273.61,
-   "initialPaymentIncVat": 1273.61,
+   "monthlyIncVat": 1476.89,
+   "initialPaymentIncVat": 4430.66,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -9146,7 +9118,7 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:43.928Z"
+   "fetchedAt": "2026-11-13T21:19:12.108Z"
   },
   {
    "source": "aa",
@@ -9174,7 +9146,7 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:43.958Z"
+   "fetchedAt": "2026-11-13T21:19:12.446Z"
   },
   {
    "source": "aa",
@@ -9191,10 +9163,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 36,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1206.58,
-   "initialPaymentIncVat": 3619.73,
+   "monthlyIncVat": 1273.61,
+   "initialPaymentIncVat": 1273.61,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -9202,7 +9174,7 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:44.263Z"
+   "fetchedAt": "2026-11-13T21:19:12.467Z"
   },
   {
    "source": "aa",
@@ -9230,7 +9202,7 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:44.289Z"
+   "fetchedAt": "2026-11-13T21:19:12.780Z"
   },
   {
    "source": "aa",
@@ -9246,11 +9218,11 @@
    "powerHp": 367,
    "transmission": "auto",
    "drive": "awd",
-   "termMonths": 48,
-   "initialMonths": 1,
+   "termMonths": 36,
+   "initialMonths": 3,
    "annualMileage": 10000,
-   "monthlyIncVat": 1123.9,
-   "initialPaymentIncVat": 1123.9,
+   "monthlyIncVat": 1206.58,
+   "initialPaymentIncVat": 3619.73,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -9258,7 +9230,7 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:44.607Z"
+   "fetchedAt": "2026-11-13T21:19:12.798Z"
   },
   {
    "source": "aa",
@@ -9286,7 +9258,7 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:44.624Z"
+   "fetchedAt": "2026-11-13T21:19:13.116Z"
   },
   {
    "source": "aa",
@@ -9303,10 +9275,10 @@
    "transmission": "auto",
    "drive": "awd",
    "termMonths": 48,
-   "initialMonths": 3,
+   "initialMonths": 1,
    "annualMileage": 10000,
-   "monthlyIncVat": 1078.94,
-   "initialPaymentIncVat": 3236.83,
+   "monthlyIncVat": 1123.9,
+   "initialPaymentIncVat": 1123.9,
    "fees": 299,
    "stock": "factory",
    "delivery": null,
@@ -9314,7 +9286,7 @@
    "note": null,
    "derivativeId": 28393,
    "capCode": "AUA5303QB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:44.944Z"
+   "fetchedAt": "2026-11-13T21:19:13.128Z"
   },
   {
    "source": "aa",
@@ -9342,7 +9314,35 @@
    "note": null,
    "derivativeId": 28394,
    "capCode": "AUA5303QV5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:44.956Z"
+   "fetchedAt": "2026-11-13T21:19:13.447Z"
+  },
+  {
+   "source": "aa",
+   "modelId": "audi-s5-avant",
+   "url": "https://www.theaa.com/leasing/cars/audi/a5/s5-3-0-tfsi-quattro-367-black-edition-5dr-s-tronic",
+   "make": "Audi",
+   "model": "S5 Avant",
+   "derivative": "S5 3.0 TFSI Quattro 367 Black Edition 5dr S tronic",
+   "trim": null,
+   "siteModel": "A5 AVANT",
+   "fuel": "petrol",
+   "engine": "3.0",
+   "powerHp": 367,
+   "transmission": "auto",
+   "drive": "awd",
+   "termMonths": 48,
+   "initialMonths": 3,
+   "annualMileage": 10000,
+   "monthlyIncVat": 1078.94,
+   "initialPaymentIncVat": 3236.83,
+   "fees": 299,
+   "stock": "factory",
+   "delivery": null,
+   "options": [],
+   "note": null,
+   "derivativeId": 28393,
+   "capCode": "AUA5303QB5EPTA4",
+   "fetchedAt": "2026-11-13T21:19:13.468Z"
   },
   {
    "source": "aa",
@@ -9370,7 +9370,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:45.306Z"
+   "fetchedAt": "2026-11-13T21:19:13.791Z"
   },
   {
    "source": "aa",
@@ -9398,7 +9398,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:45.652Z"
+   "fetchedAt": "2026-11-13T21:19:14.142Z"
   },
   {
    "source": "aa",
@@ -9426,7 +9426,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:45.997Z"
+   "fetchedAt": "2026-11-13T21:19:14.480Z"
   },
   {
    "source": "aa",
@@ -9454,7 +9454,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:46.338Z"
+   "fetchedAt": "2026-11-13T21:19:14.815Z"
   },
   {
    "source": "aa",
@@ -9482,7 +9482,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:46.694Z"
+   "fetchedAt": "2026-11-13T21:19:15.147Z"
   },
   {
    "source": "aa",
@@ -9510,7 +9510,7 @@
    "note": null,
    "derivativeId": 28395,
    "capCode": "AUA5303TB5EPTA4",
-   "fetchedAt": "2026-11-09T19:36:47.033Z"
+   "fetchedAt": "2026-11-13T21:19:15.479Z"
   }
  ]
 }
