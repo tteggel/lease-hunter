@@ -275,7 +275,8 @@ const pool = () => DATA.deals.filter(d => stockOk(d) && upOk(d));
 async function boot() {
   try { DATA = await (await fetch('data.json', { cache: 'no-store' })).json(); }
   catch { $('#stamp').textContent = 'No data.json found next to this page. Run npm run scrape then npm run build.'; return; }
-  SPECS = store.get('lh.specs', null) || structuredClone(DATA.specs);
+  // Browser-saved edits may name models that are no longer tracked: drop those.
+  SPECS = (store.get('lh.specs', null) || structuredClone(DATA.specs)).filter(sp => DATA.models.some(m => m.id === sp.modelId));
   state.ladderModel = DATA.models[0]?.id; state.spec = SPECS[0]?.id;
   state.ups = new Set(store.get('lh.ups', null) || DATA.settings.upfront);
   wire(); render();
