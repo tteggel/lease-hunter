@@ -53,7 +53,7 @@ Run one source, or a subset of models: `node run.mjs vanarama --models=bmw-x3,vo
 | Vanarama | broker | anywhere | the site's own JSON/GraphQL API | ✅ no 3 Series Touring or C-Class listed |
 | Carwow | marketplace (many dealers and brokers) | anywhere | server-rendered deal cards, one offer per dealer | ✅ broker fees included; only C-Class source |
 | Leasing Options | broker | anywhere | the site's own JSON API | ✅ £399.99 processing fee |
-| Moneyshake | aggregator | anywhere | the site's own SvelteKit data + pricing endpoint | ⚠️ catalogue shrank in Nov 2026 (no X3, A5/S5/RS5, EX60 listed); best offer per derivative only |
+| Moneyshake | aggregator | — | — | ⛔ disabled: closed its consumer comparison site in Nov 2026 (now white-label software for brokers) |
 | LeaseLoco | aggregator | laptop | API is behind AWS WAF; from a datacenter only featured deals load | ⛔ disabled: price API behind a bot firewall |
 | Rivervale | broker | anywhere | the site's public Algolia index + its own deal endpoint | ✅ £262.80 processing fee; big C-Class Estate range |
 | LeaseCar.UK | broker | anywhere | the site's own JSON API | ✅ £348 sourcing fee; C-Class Estate included |
